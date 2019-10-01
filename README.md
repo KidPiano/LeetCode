@@ -1,4 +1,4 @@
-# Leetcode Solutions and Explanations (Java)
+# Leetcode
 
 LaTeX test
 https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github
