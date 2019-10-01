@@ -13,7 +13,3 @@ https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-git
 
 LC code test
 <iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300">
-
-  <h3>
-    <a href="https://yangshun.github.io/tech-interview-handbook/">Read on the website</a>
-  </h3>
