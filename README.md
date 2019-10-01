@@ -2,7 +2,7 @@
 
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
-|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](./algorithms/cpp/compareStringsByFrequencyOfTheSmallestCharacter/CompareStringsByFrequencyOfTheSmallestCharacter.cpp) | [Explanation]() | Easy |
+|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001. Two Sum/Solution.java) | [Explanation]() | Easy |
 | 2 | | | |
 
 
