@@ -2,7 +2,8 @@
 
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
-|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001.%20Two%20Sum/Solution.java) | [Explanation](0001.%20Two%20Sum/Explanation.md) | Easy |
+|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001.%20Two%20Sum/Solution.java) | 
+    [Explanation](0001.%20Two%20Sum/Explanation.md) | Easy |
 | 2 | | | |
 
 
