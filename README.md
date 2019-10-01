@@ -1,6 +1,6 @@
 # Leetcode
 
-| # | Title | Solution | Difficulty |
+| # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ---------- |
 |1| [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/two-sum/) | [Solution](./algorithms/cpp/compareStringsByFrequencyOfTheSmallestCharacter/CompareStringsByFrequencyOfTheSmallestCharacter.cpp)|Easy|
 
