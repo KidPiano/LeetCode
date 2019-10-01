@@ -3,7 +3,7 @@
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
 |1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001.%20Two%20Sum/Solution.java) | [Explanation](0001.%20Two%20Sum/Explanation.md) | Easy |
-| 2 | | | |
+|2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java]() | [Explanation]() | Medium |
 
 
 <br><br><br>
