@@ -1,4 +1,4 @@
-# Leetcode
+# Leetcode Solutions
 
 [Test](test.md)
 
