@@ -2,7 +2,7 @@
 
 [Test](test.md)
 
-| # | Title | Solution | Explanation | Difficulty |
+| a | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
 |[ ] 1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001_Two-Sum/Solution.java) | [Explanation](0001_Two-Sum/Explanation.md) | Easy|
 |2| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](0002_Add-Two-Numbers/Solution.java) | [Explanation](0002_Add-Two-Numbers/Explanation.md) | Medium|
