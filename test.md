@@ -11,5 +11,35 @@ LC code test
 <iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300"></iframe>
 
 <br><br>
-- [ ] test1  
-- [x] test2  
+* [ ] unchecked # [checkbox:unchecked]
+* [x] checked   # [checkbox:checked]
+* [X] checked   # [checkbox:checked]
+* .
+- [ ]          # [checkbox:unchecked]
+- [-]          # '[-]'
+- [o]          # '[o]'
+- [O]          # '[O]'
+- .
+- \[ ]         # [checkbox:unchecked]
+- /[ ]         # '/[ ]'
+- \\[ ]        # '\[ ]'
+- \[-]         # '\[-]' 
+- \[o]         # `\[o]'
+- \[x]         # [checkbox:checked]
+- \[X]         # [checkbox:checked]
+- .
+- \\[ ]        # '\[ ]'
+- \\[x]        # '\[x]'
+- .
+- [[ ]]        # ''
+- [[x]]        # [link]
+- [[o]]        # [link]
+- .
+- ][ ]         # '][ ]'
+- ][x]         # '][x]'
+- .
+- ] [          #  '] ['
+- ]x[          #  ']x['
+- .
+- .[ ]         #  '.[ ]'
+- .[x]         #  '.[x]'
