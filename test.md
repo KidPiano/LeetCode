@@ -7,7 +7,7 @@ https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-git
 - [x] test2  
 
 LC code test
-<iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300">
+<iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300"></iframe>
 
 <br><br>
 - [ ] test1  
