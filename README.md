@@ -4,7 +4,7 @@
 
 |   | # | Title | Solution | Explanation | Difficulty |
 | - |---| ----- | -------- | ----------- | ---------- |
-|<li>- [ ] a</li>|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001_Two-Sum/Solution.java) | [Explanation](0001_Two-Sum/Explanation.md) | Easy|
+|<li>- [ ] a</li>|* [ ] 1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001_Two-Sum/Solution.java) | [Explanation](0001_Two-Sum/Explanation.md) | Easy|
 |2| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](0002_Add-Two-Numbers/Solution.java) | [Explanation](0002_Add-Two-Numbers/Explanation.md) | Medium|
 |3| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](0003_Longest-Substring-Without-Repeating-Characters/Solution.java) | [Explanation](0003_Longest-Substring-Without-Repeating-Characters/Explanation.md) | Medium|
 |4| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](0004_Median-of-Two-Sorted-Arrays/Solution.java) | [Explanation](0004_Median-of-Two-Sorted-Arrays/Explanation.md) | Hard|
