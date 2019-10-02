@@ -1,10 +1,5 @@
 # Leetcode
 
-[Test](/test.md)
-[Test2](test/test.md)
-[Testtest](test test/test.md)
-[asdf](test_test/test.md)
-
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
 |1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001_Two-Sum/Solution.java) | [Explanation](0001_Two-Sum/Explanation.md) | Easy|
