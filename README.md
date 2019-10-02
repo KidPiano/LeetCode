@@ -5,7 +5,7 @@
 
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
-|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001.%20Two%20Sum/Solution.java) | [Explanation](0001.%20Two%20Sum/Explanation.md) | Easy|
+|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001. Two Sum/Solution.java) | [Explanation](0001. Two Sum/Explanation.md) | Easy|
 |2| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](0002.%20Add%20Two%20Numbers/Solution.java) | [Explanation](0002.%20Add%20Two%20Numbers/Explanation.md) | Medium|
 |3| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](0003.%20Longest%20Substring%20Without%20Repeating%20Characters/Solution.java) | [Explanation](0003.%20Longest%20Substring%20Without%20Repeating%20Characters/Explanation.md) | Medium|
 |4| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](0004.%20Median%20of%20Two%20Sorted%20Arrays/Solution.java) | [Explanation](0004.%20Median%20of%20Two%20Sorted%20Arrays/Explanation.md) | Hard|
