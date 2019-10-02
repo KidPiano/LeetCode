@@ -1,5 +1,7 @@
 # Leetcode
 
+[Test](test.md)
+
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
 |1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001_Two-Sum/Solution.java) | [Explanation](0001_Two-Sum/Explanation.md) | Easy|
