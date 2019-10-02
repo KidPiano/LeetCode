@@ -6,5 +6,5 @@ LC code test
 <iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300">
 
 <br><br>
-[] test1  
+[ ] test1  
 [x] test2  
