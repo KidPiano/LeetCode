@@ -1,6 +1,6 @@
 # Leetcode
 
-[Test](test.md)
+[Test](/test.md)
 
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
