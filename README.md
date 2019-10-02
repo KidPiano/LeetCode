@@ -3,7 +3,7 @@
 [Test](test.md)
 
 |   | #  | Title | Solution | Explanation | Difficulty |
-| - | :- | :----- | -------- | :----------- | :---------- |
+| - | :- | :---- | :------- | :---------- | :--------- |
 | &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001_Two-Sum/Solution.java) | [Explanation](0001_Two-Sum/Explanation.md) | Easy|
 | &#9744; | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](0002_Add-Two-Numbers/Solution.java) | [Explanation](0002_Add-Two-Numbers/Explanation.md) | Medium|
 | &#9744; | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](0003_Longest-Substring-Without-Repeating-Characters/Solution.java) | [Explanation](0003_Longest-Substring-Without-Repeating-Characters/Explanation.md) | Medium|
@@ -435,7 +435,7 @@
 | &#9744; | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Java](0429_N-ary-Tree-Level-Order-Traversal/Solution.java) | [Explanation](0429_N-ary-Tree-Level-Order-Traversal/Explanation.md) | Easy|
 | &#9744; | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](0430_Flatten-a-Multilevel-Doubly-Linked-List/Solution.java) | [Explanation](0430_Flatten-a-Multilevel-Doubly-Linked-List/Explanation.md) | Medium|
 | &#9744; | 431 | [Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/) | [Java](0431_Encode-N-ary-Tree-to-Binary-Tree/Solution.java) | [Explanation](0431_Encode-N-ary-Tree-to-Binary-Tree/Explanation.md) | Hard|
-| &#9744; | 432 | [All O`one Data Structure](https://leetcode.com/problems/all-o`one-data-structure/) | [Java](0432_All-O`one-Data-Structure/Solution.java) | [Explanation](0432_All-O`one-Data-Structure/Explanation.md) | Hard|
+| &#9744; | 432 | [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Java](0432_All-Oone-Data-Structure/Solution.java) | [Explanation](0432_All-Oone-Data-Structure/Explanation.md) | Hard|
 | &#9744; | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Java](0433_Minimum-Genetic-Mutation/Solution.java) | [Explanation](0433_Minimum-Genetic-Mutation/Explanation.md) | Medium|
 | &#9744; | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [Java](0434_Number-of-Segments-in-a-String/Solution.java) | [Explanation](0434_Number-of-Segments-in-a-String/Explanation.md) | Easy|
 | &#9744; | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Java](0435_Non-overlapping-Intervals/Solution.java) | [Explanation](0435_Non-overlapping-Intervals/Explanation.md) | Medium|
