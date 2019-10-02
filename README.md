@@ -1214,18 +1214,3 @@
 |1208| [Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | [Java](1208_Get-Equal-Substrings-Within-Budget/Solution.java) | [Explanation](1208_Get-Equal-Substrings-Within-Budget/Explanation.md) | Medium|
 |1209| [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Java](1209_Remove-All-Adjacent-Duplicates-in-String-II/Solution.java) | [Explanation](1209_Remove-All-Adjacent-Duplicates-in-String-II/Explanation.md) | Medium|
 |1210| [Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | [Java](1210_Minimum-Moves-to-Reach-Target-with-Rotations/Solution.java) | [Explanation](1210_Minimum-Moves-to-Reach-Target-with-Rotations/Explanation.md) | Hard|
-
-
-
-
-
-
-
-<br><br><br>
-
-LaTeX test
-https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github
-![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
-
-LC code test
-<iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300">
