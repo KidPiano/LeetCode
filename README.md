@@ -2,7 +2,7 @@
 
 [Test](/test.md)
 [Test2](test/test.md)
-[Testtest](test%20test/test.md)
+[Testtest](test test/test.md)
 
 | # | Title | Solution | Explanation | Difficulty |
 |---| ----- | -------- | ----------- | ---------- |
