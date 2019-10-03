@@ -5,7 +5,9 @@
 <mark>Highlight test</mark>
 
 <span style="color:blue">some *This is Blue italic.* text</span>
+<br>
 <span style="background-color:blue">some *This is Blue italic.* text</span>
+<br>
 
 
 ```
