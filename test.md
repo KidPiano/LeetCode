@@ -2,6 +2,9 @@
 | --------- | ------- |
 | &#9744;   | &#9745; |
 
+[:smile:](http://github.com)
+[&#9745;](http://github.com)
+
 <mark>Highlight test</mark>
 
 <span style="color:blue">some *This is Blue italic.* text</span>
