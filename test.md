@@ -4,15 +4,9 @@
 
 <mark>Highlight test</mark>
 
-```
-test1
-test2
-```
-
-```
-<mark>test1</mark>
-test2
-```
+<span style="color:blue">some *This is Blue italic.* text</span>
+<span style="color:blue">```test```</span>
+<span style="color:blue">`test`</span>
 
 <mark>```test1test2```</mark>
  
