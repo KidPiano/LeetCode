@@ -1,5 +1,5 @@
 ### Two Sum
 
-<iframe src="https://leetcode.com/playground/cVHZDrwr/shared" frameBorder="0" width="440" height="260"></iframe>
+<iframe></iframe>
 
-Click [here]() for an explanation.
+Click [here](0001_Two-Sum/Explanation.md) for an explanation.
