@@ -14,12 +14,7 @@ test2
 test2
 ```
 
-<mark>
-  ```
-  test1
-  test2
-  ```
- </mark>
+<mark>```test1test2```</mark>
  
  
  `test`
