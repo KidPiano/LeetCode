@@ -13,6 +13,7 @@
 
 
 <span style="color:blue">`test`</span>
+<span style="background-color:blue">`test`</span>
 
 <mark>`test1test2`</mark>
  
