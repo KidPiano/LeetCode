@@ -12,8 +12,12 @@
 
 
 
-<span style="color:blue">`test`</span>
-<span style="background-color:blue">`test`</span>
+<span style="color:cyan">`test`</span>
+<span style="background-color:cyan">`test`</span>
+
+<br>
+`test`
+`test`
 
 <mark>`test1test2`</mark>
  
