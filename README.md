@@ -1127,4 +1127,6 @@
 | &#9744; | 1210 | [Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | [Java](Algorithms/1210_Minimum-Moves-to-Reach-Target-with-Rotations/Solution.md) | [Explanation](Algorithms/1210_Minimum-Moves-to-Reach-Target-with-Rotations/Explanation.md) | Hard |
 
 Do you have a better solution? Do you have a better explanation? Can you write the code cleaner?    
-Please email me at geoffhuang.cs@gmail.com!
+If so, please email me at geoffhuang.cs@gmail.com!
+If not, feel free to still email me &#57430;
+
