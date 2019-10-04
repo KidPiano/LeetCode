@@ -1126,5 +1126,5 @@
 | &#9744; | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Java](Algorithms/1209_Remove-All-Adjacent-Duplicates-in-String-II/Solution.md) | [Explanation](Algorithms/1209_Remove-All-Adjacent-Duplicates-in-String-II/Explanation.md) | Medium |
 | &#9744; | 1210 | [Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | [Java](Algorithms/1210_Minimum-Moves-to-Reach-Target-with-Rotations/Solution.md) | [Explanation](Algorithms/1210_Minimum-Moves-to-Reach-Target-with-Rotations/Explanation.md) | Hard |
 
-Think you have a better solution? Think you have a better explanation? Think you can write the code cleaner?  
+Do you have a better solution? Do you have a better explanation? Can you write the code cleaner?    
 Please email me at geoffhuang.cs@gmail.com!
