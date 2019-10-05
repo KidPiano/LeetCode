@@ -21,9 +21,6 @@
 
 </details>
 
-<details>
-   	<summary>Backtracking</summary>
-
 | Unchecked | Checked |
 | --------- | ------- |
 | &#9744;   | &#9745; |
