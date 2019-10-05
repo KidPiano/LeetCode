@@ -26,4 +26,12 @@ blah
 
 to do:
 - early termination
-- edge case (low + high) over int max
+
+edge cases to consider:
+    - (low + high) over int max
+    - array length 0 or null
+    
+follow up:
+- what if duplicates allowed?
+then O(n) unavoidable for worst case, but can still do better than brute force linear check
+best? and average? case can still be logn?
