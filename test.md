@@ -1,3 +1,29 @@
+<details>
+   	<summary>Arrays</summary>
+
+#### Easy:
+
+1. Contains Duplicate: https://leetcode.com/problems/contains-duplicate/
+1. Missing Number: https://leetcode.com/problems/missing-number/
+1. Find All Numbers Disappeared in an Array: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+1. Single Number: https://leetcode.com/problems/single-number/
+
+#### Medium:
+
+1. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
+1. Find the Duplicate Number: https://leetcode.com/problems/find-the-duplicate-number/
+1. Find All Duplicates in an Array: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+#### Hard:
+
+1. First Missing Positive: https://leetcode.com/problems/first-missing-positive/
+1. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence/
+
+</details>
+
+<details>
+   	<summary>Backtracking</summary>
+
 | Unchecked | Checked |
 | --------- | ------- |
 | &#9744;   | &#9745; |
