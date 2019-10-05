@@ -35,3 +35,5 @@ follow up:
 - what if duplicates allowed?
 then O(n) unavoidable for worst case, but can still do better than brute force linear check
 best? and average? case can still be logn?
+
+- what if already sorted? can we switch the if else to check for first half of array first?
