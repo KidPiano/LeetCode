@@ -1,3 +1,8 @@
+<details open>
+   test1  
+   test2
+</details>
+
 <details>
    	<summary>Arrays</summary>
 
