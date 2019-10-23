@@ -14,7 +14,8 @@ Description for rule 1.
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
-}
+}  
+
 </code></pre>
     </div>
 </div>
