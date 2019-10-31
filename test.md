@@ -1,3 +1,15 @@
+asdf
+</code></pre>
+    </div>
+    <div style="display: inline-block;">
+        <h2>Bad</h2>
+        <pre><code class="language-c">int foo (void) {
+    int i;
+}  
+<span style="background-color:cyan">test</span>
+</code></pre>
+
+
 # Rule 1
 Description for rule 1.
 
