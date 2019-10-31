@@ -4,16 +4,10 @@
 <span style="background-color:cyan">test</span>
 </code></pre>
 
-<pre><code class="language-html">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-
 <pre><code>int foo (void) {
     int i;
 }  
-<span style="background-color:cyan">test</span>
+<span style="background-color:cyan">foo</span>
 </code></pre>
 
 
