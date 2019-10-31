@@ -1,8 +1,9 @@
-asdf  
-<code>
-test1  
-test2  
-</code>
+<pre><code class="language-c">
+int foo (void) {
+    int i;
+}  
+<span style="background-color:cyan">test</span>
+</code></pre>
 
 
 # Rule 1
