@@ -15,7 +15,7 @@ Description for rule 1.
         <pre><code class="language-c">int foo (void) {
     int i;
 }  
-
+<span style="background-color:cyan">`test`</span>
 </code></pre>
     </div>
 </div>
