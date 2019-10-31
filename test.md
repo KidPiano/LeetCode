@@ -1,13 +1,8 @@
 asdf
-</code></pre>
-    </div>
-    <div style="display: inline-block;">
-        <h2>Bad</h2>
-        <pre><code class="language-c">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
+<code>
+test1
+test2
+</code>
 
 
 # Rule 1
