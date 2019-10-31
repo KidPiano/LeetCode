@@ -1,4 +1,5 @@
-<pre><code class="language-c">int foo (void) {
+<pre><code class="language-c">
+int foo (void) {
     int i;
 }  
 <span style="background-color:cyan">test</span>
