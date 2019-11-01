@@ -1,5 +1,5 @@
 
-<div style="margin:0auto"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="780" height="485" allowfullscreen> </iframe></div>
+<div style="margin:0auto"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="800" height="485" allowfullscreen> </iframe></div>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="775" height="485" allowfullscreen> </iframe>
 
 
@@ -26,6 +26,7 @@
     int i;
 }
 </code></pre>
+<br>
 <h2>Bad</h2>
 <pre><code class="language-c">int foo (void) {
     int i;
