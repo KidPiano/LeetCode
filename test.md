@@ -1,7 +1,7 @@
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:cyan">test</span>
+<span style="background-color:yellow">test</span>
 </code></pre>
 
 <pre><code>int foo (void) {
