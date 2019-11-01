@@ -23,12 +23,12 @@ Description for rule 1.
 }
 </code></pre>
     </div>
-    <div style="display: inline-block;">
+    <div width="50%">
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:green">test</span>
+<span style="background-color:grass">test</span>
 </code></pre>
     </div>
 </div>
