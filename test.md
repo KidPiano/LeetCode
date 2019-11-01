@@ -15,7 +15,7 @@
 Description for rule 1.
 
 <div style="column-count: 2; column-rule: 1px dotted #e0e0e0;">
-    <div style="display: inline-block; width=50%">
+    <div width="50%">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
@@ -23,7 +23,7 @@ Description for rule 1.
 }
 </code></pre>
     </div>
-    <div style="display: inline-block; width=10px">
+    <div width="10%">
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
