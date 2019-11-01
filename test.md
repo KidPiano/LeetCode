@@ -1,8 +1,8 @@
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="595" height="485" allowfullscreen> </iframe>
 
-<iframe src="TEST.ppsx" width="595" height="485" allowfullscreen> </iframe>
+<iframe src="./TEST.ppsx" width="595" height="485" allowfullscreen> </iframe>
 
-<iframe src="TEST.pptx" width="595" height="485" allowfullscreen> </iframe>
+<iframe src="./TEST.pptx" width="595" height="485" allowfullscreen> </iframe>
 
 <pre><code class="language-c">int foo (void) {
     int i;
