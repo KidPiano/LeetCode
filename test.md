@@ -1,7 +1,7 @@
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:yellow">test</span>
+<span style="background-color:red">test</span>
 </code></pre>
 
 <pre><code>int foo (void) {
@@ -15,14 +15,14 @@
 Description for rule 1.
 
 <div style="column-count: 2; column-rule: 1px dotted #e0e0e0;">
-    <div>
+    <div style="display: inline;">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
     int i;
 }
 </code></pre>
-    </div>
+    </div style="display: inline;">
     <div>
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
