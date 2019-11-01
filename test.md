@@ -1,4 +1,4 @@
-<iframe src='https://www.slideshare.net/NVIDIA/top-5-deep-learning-and-ai-stories-october-6-2017-80543540/1' width="100%", height="300px"></iframe>
+<iframe src="https://www.slideshare.net/GeoffHuang2/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
 
 <pre><code class="language-c">int foo (void) {
