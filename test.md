@@ -1,3 +1,12 @@
+<div class="row">
+  <div class="col-md-8" markdown="1">
+  Some text.
+  </div>
+  <div class="col-md-4" markdown="1">
+  asdf
+  </div>
+</div>
+
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
