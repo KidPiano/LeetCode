@@ -1,4 +1,5 @@
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="100%" height="485" allowfullscreen> </iframe>
+
+<div style="margin: 0 auto"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="770" height="485" allowfullscreen> </iframe></div>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="770" height="485" allowfullscreen> </iframe>
 
 
