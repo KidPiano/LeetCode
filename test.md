@@ -1,12 +1,3 @@
-<div class="row">
-  <div class="col-md-8" markdown="1">
-  Some text.
-  </div>
-  <div class="col-md-4" markdown="1">
-  asdf
-  </div>
-</div>
-
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
@@ -24,7 +15,7 @@
 Description for rule 1.
 
 <div style="column-count: 2; column-rule: 1px dotted #e0e0e0;">
-    <div style="display: inline-block;" width="50%">
+    <div width="50%">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
@@ -37,7 +28,7 @@ Description for rule 1.
         <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:cyan">test</span>
+<span style="background-color:green">test</span>
 </code></pre>
     </div>
 </div>
