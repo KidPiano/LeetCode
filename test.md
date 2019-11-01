@@ -4,6 +4,8 @@
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc4pXh6BKHwDfricPT7sJyKBSluM1DZL6mdFU-wUtlov9OGKy8bqDxnMZQKiXHj1cy7W0mcy_pxyw0/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc4pXh6BKHwDfricPT7sJyKBSluM1DZL6mdFU-wUtlov9OGKy8bqDxnMZQKiXHj1cy7W0mcy_pxyw0/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
