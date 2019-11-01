@@ -28,7 +28,7 @@ Description for rule 1.
         <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:grass">test</span>
+<span style="background-color:red">test</span>
 </code></pre>
     </div>
 </div>
