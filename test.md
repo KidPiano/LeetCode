@@ -15,14 +15,14 @@
 Description for rule 1.
 
 <div style="column-count: 2; column-rule: 1px dotted #e0e0e0;">
-    <div style="display: inline;">
+    <div style="display: inline-block;">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
     int i;
 }
 </code></pre>
-    </div style="display: inline;">
+    </div style="display: inline-block;">
     <div>
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
