@@ -10,7 +10,7 @@
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:yellow">test</span>
+<span style="background-color:pink">test</span>
 </code></pre>
 
 <pre><code>int foo (void) {
@@ -28,7 +28,7 @@
 }
         </code></pre>
     </div>
-    <div style="width:50%">
+    <div>
 <h2>Bad</h2>
 <pre><code class="language-c">int foo (void) {
     int i;
