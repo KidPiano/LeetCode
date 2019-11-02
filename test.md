@@ -21,7 +21,7 @@
 
 
 
-<div style="column-count: 2; column-width: 50%">
+<div style="column-count: 2; column-width: initial">
     <div style="display: inline-block">
         <div style="text-align:center"><h2>Good</h2></div>
         <pre><code class="language-c">int foo (void)aaaaa    
