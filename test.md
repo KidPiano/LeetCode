@@ -20,8 +20,6 @@
 </code></pre>
 
 
-# Rule 1111111
-Description for rule 1111111.111111111111111111111111111111111111111111111111111111
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2">
     <div>
