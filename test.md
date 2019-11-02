@@ -21,7 +21,7 @@
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2">
     <div>
-        <h2>Good</h2>
+        <div style="text-align:center"><h2>Good</h2></div>
         <pre><code class="language-c">int foo (void)aaaaa    
 {
     int i;
@@ -29,7 +29,7 @@
         </code></pre>
     </div>
     <div>
-<h2>Bad</h2>
+<div style="text-align:center"><h2>Bad</h2></div>
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
