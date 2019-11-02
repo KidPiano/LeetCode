@@ -10,7 +10,7 @@
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:blue">test</span>
+<span style="background-color:yellow">test</span>
 </code></pre>
 
 <pre><code>int foo (void) {
@@ -47,7 +47,7 @@
 Description for rule 1.
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-    <div style="display: inline-block;">
+    <div style="display: inline-block; width: 90%">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void)aaaaa                
 {
@@ -55,7 +55,7 @@ Description for rule 1.
 }
 </code></pre>
     </div>
-    <div style="display: inline-block;">
+    <div style="display: inline-block; width: 90%">
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
