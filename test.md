@@ -21,18 +21,18 @@
 
 
 
-<div style="column-count: 2">
-    <div style="display: inline-block; width: 80%;">
+<div style="column-count: 2; column-width: 50%">
+    <div style="display: inline-block">
         <div style="text-align:center"><h2>Good</h2></div>
-        <pre style="display: inline-block"><code class="language-c">int foo (void)aaaaa    
+        <pre><code class="language-c">int foo (void)aaaaa    
 {
     int i;
 }
 </code></pre>
     </div>
-    <div style="display: inline-block; width: 80%;">
+    <div style="display: inline-block">
 <div style="text-align:center"><h2>Bad</h2></div>
-<pre style="display: inline-block"><code class="language-c">int foo (void) {
+<pre><code class="language-c">int foo (void) {
     int i;
 }  
 <span style="background-color:cyan">test</span>
