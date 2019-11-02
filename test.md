@@ -30,7 +30,7 @@ Description for rule 1111111.
 {
     int i;
 }
-        </code></pre>
+</code></pre>
     </div>
     <div>
 <div style="text-align:center"><h2>Bad</h2></div>
