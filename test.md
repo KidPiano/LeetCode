@@ -21,8 +21,8 @@
 
 
 
-<div style="column-count: 3">
-    <div>
+<div style="column-count: 2">
+    <div style="display: inline-block; width: 100%">
         <div style="text-align:center"><h2>Good</h2></div>
         <pre><code class="language-c">int foo (void)aaaaa    
 {
@@ -30,7 +30,7 @@
 }
 </code></pre>
     </div>
-    <div>
+    <div style="display: inline-block; width: 100%">
 <div style="text-align:center"><h2>Bad</h2></div>
 <pre><code class="language-c">int foo (void) {
     int i;
