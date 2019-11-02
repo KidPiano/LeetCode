@@ -10,18 +10,18 @@
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
-<span style="background-color:magenta">test</span>
+<span style="background-color:neon">test</span>
 </code></pre>
 
 <pre><code>int foo (void) {
     int i;
 }  
-<span style="background-color:cyan">foo</span>
+<span style="background-color:purple">foo</span>
 </code></pre>
 
 
 # Rule 1111111
-Description for rule 1111111.
+Description for rule 1111111.111111111111111111111111111111111111111111111111111111
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2">
     <div>
