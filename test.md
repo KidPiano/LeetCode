@@ -1,26 +1,24 @@
-<details>
-   	<summary>Arrays</summary>
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
 
-#### Easy:
+<div style="display:inline-block">
+<h2 style="text-align:center">Good</h2>
+<pre><code class="language-c">int foo (void)    
+{
+    int i;
+}
+</code></pre>
+</div>
 
-1. Contains Duplicate: https://leetcode.com/problems/contains-duplicate/
-1. Missing Number: https://leetcode.com/problems/missing-number/
-1. Find All Numbers Disappeared in an Array: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
-1. Single Number: https://leetcode.com/problems/single-number/
+<div style="display:inline-block">
+<h2 style="text-align:center">Bad</h2>
+<pre><code class="language-c">int foo (void) {
+    int i;
+}  
+<span style="background-color:cyan">test</span>
+</code></pre>
+</div>
 
-#### Medium:
-
-1. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
-1. Find the Duplicate Number: https://leetcode.com/problems/find-the-duplicate-number/
-1. Find All Duplicates in an Array: https://leetcode.com/problems/find-all-duplicates-in-an-array/
-
-#### Hard:
-
-1. First Missing Positive: https://leetcode.com/problems/first-missing-positive/
-1. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence/
-
-</details>
-
+</div>
 
 <div style="text-align:center"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="483" allowfullscreen> </iframe></div>
 <iframe style="text-align:center" src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="485" allowfullscreen> </iframe>
@@ -44,16 +42,16 @@
 
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-    <div style="inline-block; width:50%">
-        <div style="text-align:center"><h2>Good</h2></div>
+    <div>
+        <h2 style="text-align:center">Good</h2>
         <pre><code class="language-c">int foo (void)aaaaa    
 {
     int i;
 }
 </code></pre>
     </div>
-    <div style="inline-block; width:50%">
-<div style="text-align:center"><h2>Bad</h2></div>
+    <div>
+<h2 style="text-align:center">Bad</h2>
 <pre><code class="language-c">int foo (void) {
     int i;
 }  
@@ -63,9 +61,10 @@
 </div>
 
 
-<div style="column-count: 2; column-width: 50px;">
+
+<div style="column-count: 2; column-width: 5000px;">
     <div style="display: inline-block">
-        <div style="text-align:center"><h2>Good</h2></div>
+        <h2 style="text-align:center">Good</h2>
         <pre><code class="language-c">int foo (void)aaaaa    
 {
     int i;
