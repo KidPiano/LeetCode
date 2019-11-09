@@ -25,6 +25,32 @@ asdfasdf
 </div>
 </div>
 
+
+<div style="margin-left:25%">
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+
+<div style="display:inline-block">
+<h2 style="text-align:center">Good</h2>
+<pre><code class="language-c">int foo (void)    
+{
+    int i;
+}
+</code></pre>
+</div>
+
+<div style="display:inline-block">
+<h2 style="text-align:center">Bad</h2>
+<pre><code class="language-c">int foo (void) {
+    int i;
+}  
+<span style="background-color:cyan">test</span>
+</code></pre>
+</div>
+
+</div>
+</div>
+
+
 <div style="text-align:center"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="483" allowfullscreen> </iframe></div>
 <iframe style="text-align:center" src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="485" allowfullscreen> </iframe>
 
