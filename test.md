@@ -80,7 +80,7 @@ test2
   
   
 <details>
-   	<summary>##Arrays</summary>
+    <summary><h2>Arrays</h2></summary>
 </details>
 
 <!--------------------------------------------------------------------->
