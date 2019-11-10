@@ -1,19 +1,14 @@
-<span style="background-color:yellow">foo</span>  
-<span style="background-color:cyan">foo</span>  
-<span style="background-color:purple">foo</span>  
-<span style="background-color:orange">foo</span>  
-<span style="background-color:limegreen">foo</span>  
-<span style="background-color:lime">foo</span>  
+<!-- COLORS -->
 <span style="background-color:red">foo</span>  
 <span style="background-color:tomato">foo</span>  
+<span style="background-color:orange">foo</span>   
+<span style="background-color:yellow">foo</span>  
+<span style="background-color:limegreen">foo</span>  
+<span style="background-color:lime">foo</span>  
+<span style="background-color:cyan">foo</span>  
 
 [//]: # (Test comment)
-
 <!-- Test comment -->
-
-## test2
-### test3
-#### test4
 
 asdfasdf
 {: style="text-align: center"}
@@ -21,29 +16,8 @@ asdfasdf
 ## asdfasdf
 {: style="text-align: center"}
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
 
-<div style="display:inline-block">
-<h2>Good</h2>
-<pre><code class="language-c">int foo (void)    
-{
-    int i;
-}
-</code></pre>
-</div>
-
-<div style="display:inline-block">
-<h2 style="text-align:center">Bad</h2>
-<pre><code class="language-c">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-</div>
-
-</div>
-
-
+<!-- Two Column -->
 <div style="text-align:center">
 
 <div style="display:inline-block; text-align:left">
@@ -65,6 +39,7 @@ asdfasdf
 </div>
 
 </div>
+
 
 
 <div style="text-align:center"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="483" allowfullscreen> </iframe></div>
