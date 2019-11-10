@@ -34,7 +34,7 @@ asdfasdf
 <div style="text-align:center">
 
 <div style="display:inline-block">
-<h2 style="text-align:center">Good</h2>
+<h2>Good</h2>
 <pre style="text-align:left"><code class="language-c">int foo (void)    
 {
     int i;
@@ -43,7 +43,7 @@ asdfasdf
 </div>
 
 <div style="display:inline-block">
-<h2 style="text-align:center">Bad</h2>
+<h2>Bad</h2>
 <pre style="text-align:left"><code class="language-c">int foo (void) {
     int i;
 }  
