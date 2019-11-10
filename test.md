@@ -1,3 +1,11 @@
+<span style="background-color:yellow">foo</span>
+<span style="background-color:cyan">foo</span>
+<span style="background-color:purple">foo</span>
+<span style="background-color:orange">foo</span>
+<span style="background-color:limegreen">foo</span>
+<span style="background-color:lime">foo</span>
+
+
 [//]: # (Test comment)
 
 <!-- Test comment -->
@@ -79,70 +87,8 @@ asdfasdf
 </code></pre>
 
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-    <div>
-        <h2 style="text-align:center">Good</h2>
-        <pre><code class="language-c">int foo (void)aaaaa    
-{
-    int i;
-}
-</code></pre>
-    </div>
-    <div>
-<h2 style="text-align:center">Bad</h2>
-<pre><code class="language-c">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-        </div>
-</div>
 
 
-
-<div style="column-count: 2; column-width: 5000px;">
-    <div style="display: inline-block">
-        <h2 style="text-align:center">Good</h2>
-        <pre><code class="language-c">int foo (void)aaaaa    
-{
-    int i;
-}
-</code></pre>
-    </div>
-    <div style="display: inline-block">
-<div style="text-align:center"><h2>Bad</h2></div>
-<pre><code class="language-c">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-        </div>
-</div>
-
-
-
-
-# Rule 1
-Description for rule 1.
-
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-    <div style="display: inline-block">
-        <h2>Good</h2>
-        <pre><code class="language-c">int foo (void)aaaaa                
-{
-    int i;
-}
-</code></pre>
-    </div>
-    <div style="display: inline-block">
-        <h2>Bad</h2>
-        <pre><code class="language-c">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-    </div>
-</div>
 
 <details open>
    test1  
