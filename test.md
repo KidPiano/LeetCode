@@ -4,10 +4,7 @@
 <!-- Test comment -->
 
 <!-- Divider Line -->
-
 ---
-
---
 
 <!--------------------------------------------------------------------->
 
@@ -54,16 +51,16 @@
 <div style="text-align:center">
 
 <div style="display:inline-block; text-align:left">
-<h2>Good</h2>
-<pre>int foo (void)    
+<h2 style="text-align:center">Good</h2>
+<pre><code>int foo (void)    
 {
     int i;
 }
-</pre>
+</code></pre>
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h2>Bad</h2>
+<h2 style="text-align:center">Bad</h2>
 <pre><code>int foo (void) {
     int i;
 }  
