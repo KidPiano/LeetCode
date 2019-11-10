@@ -60,10 +60,12 @@
 
 <!--------------------------------------------------------------------->
   
+  
 <details open>
-<div>    test1</div> <br>
+<pre>    test1</pre> <br>
 test2
 </details>  
+  
   
 <details>
    	<summary>Arrays</summary>
@@ -75,6 +77,7 @@ test2
 1. Find All Numbers Disappeared in an Array: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/  
 1. Single Number: https://leetcode.com/problems/single-number/  
 </details>
+  
   
 <details>
    	<summary>##Arrays</summary>
@@ -109,6 +112,7 @@ https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-git
   
 - test1
 - test2  
+  
 - [ ] test1  
 - [x] test2  
 
