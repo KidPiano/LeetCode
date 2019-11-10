@@ -1,3 +1,7 @@
+[//]: # (Test comment)
+
+<!-- Test comment -->
+
 ## test2
 ### test3
 #### test4
