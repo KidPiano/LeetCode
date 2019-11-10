@@ -1,10 +1,11 @@
-<span style="background-color:yellow">foo</span>
-<span style="background-color:cyan">foo</span>
-<span style="background-color:purple">foo</span>
-<span style="background-color:orange">foo</span>
-<span style="background-color:limegreen">foo</span>
-<span style="background-color:lime">foo</span>
-
+<span style="background-color:yellow">foo</span>  
+<span style="background-color:cyan">foo</span>  
+<span style="background-color:purple">foo</span>  
+<span style="background-color:orange">foo</span>  
+<span style="background-color:limegreen">foo</span>  
+<span style="background-color:lime">foo</span>  
+<span style="background-color:red">foo</span>  
+<span style="background-color:tomato">foo</span>  
 
 [//]: # (Test comment)
 
