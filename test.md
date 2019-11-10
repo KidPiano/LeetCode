@@ -56,12 +56,12 @@
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc4pXh6BKHwDfricPT7sJyKBSluM1DZL6mdFU-wUtlov9OGKy8bqDxnMZQKiXHj1cy7W0mcy_pxyw0/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <!--------------------------------------------------------------------->
-
+  
 <details open>
-test1 <br>
-    test2
+<div>    test1<div> <br>
+test2
 </details>  
-
+  
 <details>
    	<summary>Arrays</summary>
   
@@ -71,27 +71,14 @@ test1 <br>
 1. Missing Number: https://leetcode.com/problems/missing-number/  
 1. Find All Numbers Disappeared in an Array: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/  
 1. Single Number: https://leetcode.com/problems/single-number/  
-
-#### Medium:  
-
-1. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/  
-1. Find the Duplicate Number: https://leetcode.com/problems/find-the-duplicate-number/  
-1. Find All Duplicates in an Array: https://leetcode.com/problems/find-all-duplicates-in-an-array/  
-
-#### Hard:
-
-1. First Missing Positive: https://leetcode.com/problems/first-missing-positive/
-1. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence/
-
 </details>
-
+  
 <details>
    	<summary>##Arrays</summary>
 </details>
 
-
 <!--------------------------------------------------------------------->
-
+  
 | Unchecked | Checked |
 | --------- | ------- |
 | &#9744;   | &#9745; |
@@ -114,14 +101,13 @@ test1 <br>
 <!--------------------------------------------------------------------->
 
 LaTeX test
-https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github
-![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
-
-<br><br>
+https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github  
+![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)  
+  
 - test1
-- test2
-[ ] test1  
-[x] test2  
+- test2  
+- [ ] test1  
+- [x] test2  
 
 <!--------------------------------------------------------------------->
 
