@@ -29,7 +29,7 @@
 
 <div style="display:inline-block; text-align:left">
 <h2>Good</h2>
-<pre><code class="language-c">int foo (void)    
+<pre><code class="language-c">int foo (void)
 {
     int i;
 }
@@ -52,7 +52,7 @@
 
 <div style="display:inline-block; text-align:left">
 <h2 style="text-align:center">Good</h2>
-<pre><code>int foo (void)    
+<pre><code>int foo (void)
 {
     int i;
 }
