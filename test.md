@@ -37,18 +37,18 @@ asdfasdf
 
 <div style="text-align:center">
 
-<div style="display:inline-block">
+<div style="display:inline-block; text-align:left">
 <h2>Good</h2>
-<pre style="text-align:left"><code class="language-c">int foo (void)    
+<pre><code class="language-c">int foo (void)    
 {
     int i;
 }
 </code></pre>
 </div>
 
-<div style="display:inline-block">
+<div style="display:inline-block; text-align:left">
 <h2>Bad</h2>
-<pre style="text-align:left"><code class="language-c">int foo (void) {
+<pre><code class="language-c">int foo (void) {
     int i;
 }  
 <span style="background-color:cyan">test</span>
