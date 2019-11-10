@@ -25,8 +25,6 @@
 <!--------------------------------------------------------------------->
 
 <!-- Two Column -->
-<div style="text-align:center">
-
 <div style="display:inline-block; text-align:left">
 <h2>Good</h2>
 <pre><code class="language-c">int foo (void)
@@ -43,8 +41,6 @@
 }  
 <span style="background-color:cyan">test</span>
 </code></pre>
-</div>
-
 </div>
 
   
