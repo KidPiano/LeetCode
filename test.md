@@ -50,6 +50,29 @@
 
 </div>
 
+  
+<div style="text-align:center">
+
+<div style="display:inline-block; text-align:left">
+<h2>Good</h2>
+<pre>int foo (void)    
+{
+    int i;
+}
+</pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h2>Bad</h2>
+<pre><code>int foo (void) {
+    int i;
+}  
+<span style="background-color:cyan">test</span>
+</code></pre>
+</div>
+
+</div>
+
 <!--------------------------------------------------------------------->
 
 <div style="text-align:center"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="483" allowfullscreen> </iframe></div>
