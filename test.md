@@ -5,7 +5,7 @@
 <iframe src="https://imgur.com/hyeHmdC" width="785" height="483"> </iframe>
 
 ## HEADER
-{::options auto_ids="false" /}
+{::options auto_ids="false"}
 
 
 <!-- Divider Line -->
