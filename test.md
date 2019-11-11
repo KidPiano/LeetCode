@@ -2,6 +2,8 @@
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="hyeHmdC"><a href="//imgur.com/hyeHmdC">7:33 round 3</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
+<iframe src="https://imgur.com/hyeHmdC" width="785" height="483"> </iframe>
+
 ## HEADER
 {::options auto_ids="false" /}
 
