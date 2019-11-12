@@ -92,7 +92,6 @@ boolean DFS() {
     return true;
 }
 
-
 // now returns true if a cycle is found, false otherwise
 boolean visit(int u) {
     color[u] = 'g';
@@ -102,5 +101,6 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
+
 </code></pre>
 </div>
