@@ -20,7 +20,16 @@ int foo (void) {
     int i;
 }
 </code></pre>
+{: .language-java}
 
+----
+
+<pre class="language-java">><code>
+int foo (void) {
+    int i;
+}
+</code></pre>
+{: .language-java}
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
 
