@@ -1,8 +1,6 @@
 <a href="https://imgur.com/hyeHmdC" target="_blank">TEST</a>  
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="hyeHmdC"><a href="//imgur.com/hyeHmdC">7:33 round 3</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
-<iframe src="https://imgur.com/hyeHmdC" width="785" height="483"> </iframe>
+<img src="https://photos.app.goo.gl/EQLX7jCE18U4Ww8E6"/>
 
 <img src='https://lh3.googleusercontent.com/YG533BrjxkSaHVUvMkUpW7IkiuuylvGPP8wKUHRm-hk6jOFhLk6U7gauwwDDxA1ChYI-9pobwRhONANP5tIrBGHri2RmDQoU75UW7Y4oAagC5SnDBvy5SIXcDRNY2YWRCm42vWayEQ=w2400'/>
 
