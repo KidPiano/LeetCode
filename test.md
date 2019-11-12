@@ -7,7 +7,7 @@
 <a href='https://photos.google.com/share/AF1QipM6LVBJhG7-MswRcvrIKSYMkpkGoJGZdeF6ttRzHPC5ZY54RAi374q2_mMlFhLcbw?key=RjRSa1BxWGJMc1o2Zzk3RzZ2THVnd1NkQjNzcmhR&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/YG533BrjxkSaHVUvMkUpW7IkiuuylvGPP8wKUHRm-hk6jOFhLk6U7gauwwDDxA1ChYI-9pobwRhONANP5tIrBGHri2RmDQoU75UW7Y4oAagC5SnDBvy5SIXcDRNY2YWRCm42vWayEQ=w2400' /></a>
 
 ## HEADER
-{::options auto_ids="false"}
+{::options auto_ids="false" /}
 
 
 <!-- Divider Line -->
