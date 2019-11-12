@@ -7,6 +7,14 @@ int foo (void) {
 
 ---
 
+```java
+int foo (void) {
+    int i;
+}
+```
+
+---
+
 <code class="language-java">
 int foo (void) {
     int i;
