@@ -1,7 +1,7 @@
 hello world asdfasdf
 
 ```
-<span markdown="1">int foo (void) {</span>
+int foo (void) {
     int i;
 }
 ```
