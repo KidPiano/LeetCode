@@ -40,7 +40,7 @@ This is a very long sentence.
 
 <!-- Two Column -->
 <div style="display:inline-block; text-align:left">
-<h2>Good</h2>
+<h2>ASDLAKSJDLAKSJDLAKJSDLADSASDASD</h2>
 <pre><code class="language-c">int foo (void)
 {
     int i;
