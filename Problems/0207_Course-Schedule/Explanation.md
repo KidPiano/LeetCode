@@ -42,9 +42,9 @@ void visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
         <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
-            <mark>eturn true;</mark>
+            <mark>return true;</mark>
     color[u] = 'b';
-    <nark>return false;</mark>
+    <mark>return false;</mark>
 }</code></pre>
 </div>
 
