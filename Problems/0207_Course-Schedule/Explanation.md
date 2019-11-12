@@ -10,7 +10,7 @@ Our algorithm consists of two parts:
   - if we encounter a gray vertex during DFS, we have found a cycle (return false)
   - if we do not encounter a gray vertex during DFS, there is no cycle (return true)
 
-Below, I highlight the changes we need to make to DFS:
+Below, I have highlighted the changes we need to make to DFS to determine if a graph has no cycles:
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
@@ -45,5 +45,22 @@ void visit(int u) {
             <mark>eturn true;</mark>
     color[u] = 'b';
     <nark>return false;<mark>
+}</code></pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (original)</h4>
+<pre><code>void DFS() {
+    for (int u = 0; u < numCourses; u++)
+        if (color[u] == 'w')
+            visit(u);
+}
+
+void visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w')
+            visit(v);
+    color[u] = 'b';
 }</code></pre>
 </div>
