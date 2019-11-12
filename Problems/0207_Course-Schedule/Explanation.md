@@ -31,6 +31,7 @@ void visit(int u) {
 
 
 
+
 </code></pre>
 </div>
 
@@ -51,6 +52,7 @@ void visit(int u) {
         if (color[v] == 'w') {
             <span style="background-color:orange">if (visit(v)) return true;</span>
         }
+        // found back edge
         <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
 }</code></pre>
@@ -77,6 +79,7 @@ asdf
         if (color[v] == 'w') {
             <span style="background-color:orange">if (visit(v)) return true;</span>
         }
+        // found back edge
         <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
 }</code></pre>
@@ -101,6 +104,7 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
+
 
 </code></pre>
 </div>
