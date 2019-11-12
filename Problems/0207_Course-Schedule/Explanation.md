@@ -20,6 +20,9 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
             visit(u);
 }
 
+
+
+
 void visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
@@ -98,6 +101,7 @@ boolean isAcyclic() {
     return true;
 }
 
+
 // now returns true if a cycle is found, false otherwise
 boolean visit(int u) {
     color[u] = 'g';
@@ -107,7 +111,6 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
-
 
 
 
