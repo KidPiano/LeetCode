@@ -1,4 +1,11 @@
-hello world
+hello world asdfasdf
+
+```
+<span markdown="1">int foo (void) {</span>
+    int i;
+}
+```
+{: .language-java}
 
 <div markdown="1">
 ```java
@@ -39,6 +46,11 @@ int foo (void) {
 </div>
 
 ---
+
+<pre><code class="language-java">int foo (void) {
+    int i;
+}</code></pre>
+
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
 
