@@ -16,3 +16,73 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 
 Here is the full commented solution:
 <iframe src="https://leetcode.com/playground/x7ZQiFoi/shared" frameBorder="0" width="100%" height="750"></iframe>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (original)</h4>
+<pre style="font-size:small"><code>void DFS() {
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w')
+            visit(u);
+}
+
+void visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w')
+            visit(v);
+    color[u] = 'b';
+}
+
+
+
+
+
+
+</code></pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (modified)</h4>
+<pre style="font-size:20px"><code>// now returns true if the graph is acyclic, false otherwise
+<span style="background-color:orange">boolean</span> DFS() {
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w')
+            <span style="background-color:orange">if (visit(u)) return false;</span>
+    <span style="background-color:orange">return true;</span>
+}
+
+// now returns true if a cycle is found, false otherwise
+<span style="background-color:orange">boolean</span> visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w') {
+            <span style="background-color:orange">if (visit(v)) return true;</span>
+        }
+        // found back edge
+        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
+    color[u] = 'b';
+}</code></pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (modified)</h4>
+<pre style="font-size:50%"><code>// now returns true if the graph is acyclic, false otherwise
+<span style="background-color:orange">boolean</span> DFS() {
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w')
+            <span style="background-color:orange">if (visit(u)) return false;</span>
+    <span style="background-color:orange">return true;</span>
+}
+
+// now returns true if a cycle is found, false otherwise
+<span style="background-color:orange">boolean</span> visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w') {
+            <span style="background-color:orange">if (visit(v)) return true;</span>
+        }
+        // found back edge
+        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
+    color[u] = 'b';
+}</code></pre>
+</div>
