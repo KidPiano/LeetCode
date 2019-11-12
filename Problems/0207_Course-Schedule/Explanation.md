@@ -6,7 +6,7 @@ In other words, this problem is equivalent to determining whether or not the cou
 ## Approach 1: Use DFS to Detect Back Edges
 Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
-2. Use a modified version of [DFS]() to determine if a graph is acyclic.
+2. Use a modified version of [DFS]() to determine if the graph is acyclic.
   - if we encounter a gray vertex during DFS, we have found a cycle (return false)
   - if we do not encounter a gray vertex during DFS, there is no cycle (return true)
 
@@ -86,7 +86,7 @@ Here is the full commented solution:
 
 Below, I have highlighted the changes we need to make to DFS to determine if a graph is acyclic:
 
-<div style="display:inline-block; text-align:left">
+<div style="display:inline-block; text-align:left; margin-top:0">
 <h4>DFS (original)</h4>
 <pre style="font-size:10.9px"><code>void DFS() {
     for (int u = 0; u < numVertices; u++)
@@ -109,7 +109,7 @@ void visit(int u) {
 </code></pre>
 </div>
 
-<div style="display:inline-block; text-align:left">
+<div style="display:inline-block; text-align:left; margin-top:0">
 <h4>DFS (modified)</h4>
 <pre style="font-size:10.9px"><code>// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
@@ -131,7 +131,7 @@ void visit(int u) {
 }</code></pre>
 </div>
 
-<div style="display:inline-block; text-align:left">
+<div style="display:inline-block; text-align:left; margin-top:0">
 <h4>DFS (modified, rewritten)</h4>
 <pre style="font-size:10.9px"><code>// returns true if the graph is acyclic
 boolean DFS() {
