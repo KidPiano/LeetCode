@@ -44,7 +44,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:9.5px"><code>// now returns true if the graph is acyclic, false otherwise
+<pre style="font-size:9px"><code>// now returns true if the graph is acyclic, false otherwise
 <span style="background-color:orange">boolean</span> DFS() {
     for (int i = 0; i < color.length; i++) color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
