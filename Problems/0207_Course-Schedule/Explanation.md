@@ -14,8 +14,7 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
-<pre><code>
-void DFS() {
+<pre><code>void DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             visit(u);
@@ -32,13 +31,14 @@ void visit(int u) {
 
 
 
+
 </code></pre>
 </div>
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
 <pre><code>// now returns true if the graph is acyclic, false otherwise
-<span style="background-color:orange">boolean isAcyclic()</span> {
+<span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u)) return false;</span>
@@ -64,7 +64,7 @@ asdf
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
 <pre><code>// now returns true if the graph is acyclic, false otherwise
-<span style="background-color:orange">boolean isAcyclic()</span> {
+<span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u)) return false;</span>
