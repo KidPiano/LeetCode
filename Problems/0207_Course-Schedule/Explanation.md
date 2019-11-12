@@ -13,7 +13,7 @@ Our algorithm consists of two parts:
 Below, I highlight the changes we need to make to DFS:
 
 <div style="display:inline-block; text-align:left">
-<h2>DFS (original)</h2>
+<h4>DFS (original)</h4>
 <pre><code>
 void DFS() {
     for (int i = 0; i < color.length; i++) color[i] = 'w';
@@ -35,7 +35,7 @@ void visit(int u) {
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h2>DFS (modified)</h2>
+<h4>DFS (modified)</h4>
 <pre><code>
 
 boolean modified_DFS() {
