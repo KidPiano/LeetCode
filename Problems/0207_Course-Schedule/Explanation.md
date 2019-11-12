@@ -85,7 +85,7 @@ asdf
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified, rewritten)</h4>
 <pre><code>// now returns true if the graph is acyclic, false otherwise
-boolean isAcyclic() {
+boolean DFS() {
     for (int u = 0; u < numVertices; u++)
         <mark>if (color[u] == 'w' && visit(u))</mark>
             <mark>return false;</mark>
