@@ -29,12 +29,15 @@ void visit(int u) {
 }
 
 
+
+
 </code></pre>
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h4>DFS (original)</h4>
-<pre><code><span style="background-color:orange">boolean isAcyclic()</span> {
+<h4>DFS (modified)</h4>
+<pre><code>// now returns true if the graph is acyclic, false otherwise
+<span style="background-color:orange">boolean isAcyclic()</span> {
     for (int u = 0; u < numCourses; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u))</span>
@@ -42,6 +45,7 @@ void visit(int u) {
     <span style="background-color:orange">return true;</span>
 }
 
+// now returns true if a cycle is found, false otherwise
 <span style="background-color:orange">boolean</span> visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
@@ -60,8 +64,9 @@ asdf
 asdf
 
 <div style="display:inline-block; text-align:left">
-<h4>DFS (original)</h4>
-<pre><code><span style="background-color:orange">boolean isAcyclic()</span> {
+<h4>DFS (modified)</h4>
+<pre><code>// now returns true if the graph is acyclic, false otherwise
+<span style="background-color:orange">boolean isAcyclic()</span> {
     for (int u = 0; u < numCourses; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u))</span>
@@ -69,6 +74,7 @@ asdf
     <span style="background-color:orange">return true;</span>
 }
 
+// now returns true if a cycle is found, false otherwise
 <span style="background-color:orange">boolean</span> visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
@@ -83,20 +89,27 @@ asdf
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h4>DFS (modified)</h4>
-<pre><code><mark>boolean hasCycle()</mark> {
+<h4>DFS (modified, rewritten)</h4>
+<pre><code>// now returns true if the graph is acyclic, false otherwise
+boolean isAcyclic() {
     for (int u = 0; u < numCourses; u++)
         <mark>if (color[u] == 'w' && visit(u))</mark>
             <mark>return false;</mark>
-    <mark>return true;</mark>
+    return true;
 }
 
-<mark>boolean</mark> visit(int u) {
+// now returns true if a cycle is found, false otherwise
+boolean visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
         <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
             <mark>return true;</mark>
     color[u] = 'b';
-    <mark>return false;</mark>
-}</code></pre>
+    return false;
+}
+
+
+
+
+</code></pre>
 </div>
