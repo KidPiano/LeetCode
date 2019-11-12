@@ -1,15 +1,24 @@
-ooga booga
+hello world
 
-<div>
-```
-int foo (void) {
+<div markdown="1">
+```java
+<span>int foo (void) {</span>
     int i;
 }
 ```
-{: .language-java}
-<div>
+</div>
 
 ---
+
+<div markdown="1">
+```java
+<span style="background-color:cyan">int foo (void) {</span>
+    int i;
+}
+```
+</div>
+
+--- 
 
 <div markdown="1">
 ```java
@@ -20,30 +29,6 @@ int foo (void) {
 </div>
 
 ---
-
-<code class="language-java">
-int foo (void) {
-    int i;
-}
-</code>
-
-----
-
-<pre><code class="language-java">
-int foo (void) {
-    int i;
-}
-</code></pre>
-{: .language-java}
-
-----
-
-<pre class="language-java">><code>
-int foo (void) {
-    int i;
-}
-</code></pre>
-{: .language-java}
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
 
