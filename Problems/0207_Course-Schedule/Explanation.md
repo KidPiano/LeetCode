@@ -15,7 +15,6 @@ Below, I highlight the changes we need to make to DFS:
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
 <pre><code>void DFS() {
-    for (int i = 0; i < color.length; i++) color[i] = 'w';
     for (int u = 0; u < numCourses; u++) {
         if (color[u] == 'w') {
             visit(u);
@@ -40,11 +39,9 @@ void visit(int u) {
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
 <pre><code><span style="background-color:yellow">boolean hasCycle() {</span>
-    for (int i = 0; i < color.length; i++) color[i] = 'w';
     for (int u = 0; u < numCourses; u++)
-        if (color[u] == 'w')
-            <span style="background-color:yellow">if (visit(u))</span>
-                <span style="background-color:yellow">return false;</span>
+        <mark>if (color[u] == 'w' && visit(u))</mark>
+            <mark>return false;</mark>
     <span style="background-color:yellow">return true;</span>
 }
 
