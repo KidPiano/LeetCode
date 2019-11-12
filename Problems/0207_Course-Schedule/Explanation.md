@@ -44,9 +44,13 @@ void visit(int u) {
         <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
             <mark>eturn true;</mark>
     color[u] = 'b';
-    <nark>return false;<mark>
+    <nark>return false;</mark>
 }</code></pre>
 </div>
+
+asdfasdf
+asdf
+asdf
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
