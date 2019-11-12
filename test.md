@@ -11,6 +11,12 @@ int foo (void) {
 }
 </code>
 
+<pre><code class="language-java">
+int foo (void) {
+    int i;
+}
+</code></pre>
+
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
 
