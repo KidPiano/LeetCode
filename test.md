@@ -5,11 +5,15 @@ int foo (void) {
 ```
 {: .language-java}
 
+---
+
 <code class="language-java">
 int foo (void) {
     int i;
 }
 </code>
+
+----
 
 <pre><code class="language-java">
 int foo (void) {
