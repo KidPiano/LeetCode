@@ -26,6 +26,59 @@ void visit(int u) {
         if (color[v] == 'w')
             visit(v);
     color[u] = 'b';
+}
+
+
+</code></pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (original)</h4>
+<pre><code><span style="background-color:orange">boolean isAcyclic()</span> {
+    for (int u = 0; u < numCourses; u++)
+        if (color[u] == 'w')
+            <span style="background-color:orange">if (visit(u))</span>
+                <span style="background-color:orange">return false;</span>
+    <span style="background-color:orange">return true;</span>
+}
+
+<span style="background-color:orange">boolean</span> visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w') {
+            <span style="background-color:orange">if (visit(v))</span>
+                <span style="background-color:orange">return true;</span>
+        }
+        <span style="background-color:orange">else if (color[v] == 'g')</span>
+            <span style="background-color:orange">return true;</span>
+    color[u] = 'b';
+}</code></pre>
+</div>
+
+asdfasdf  
+asdf  
+asdf
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (original)</h4>
+<pre><code><span style="background-color:orange">boolean isAcyclic()</span> {
+    for (int u = 0; u < numCourses; u++)
+        if (color[u] == 'w')
+            <span style="background-color:orange">if (visit(u))</span>
+                <span style="background-color:orange">return false;</span>
+    <span style="background-color:orange">return true;</span>
+}
+
+<span style="background-color:orange">boolean</span> visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w') {
+            <span style="background-color:orange">if (visit(v))</span>
+                <span style="background-color:orange">return true;</span>
+        }
+        <span style="background-color:orange">else if (color[v] == 'g')</span>
+            <span style="background-color:orange">return true;</span>
+    color[u] = 'b';
 }</code></pre>
 </div>
 
@@ -45,26 +98,5 @@ void visit(int u) {
             <mark>return true;</mark>
     color[u] = 'b';
     <mark>return false;</mark>
-}</code></pre>
-</div>
-
-asdfasdf
-asdf
-asdf
-
-<div style="display:inline-block; text-align:left">
-<h4>DFS (original)</h4>
-<pre><code>void DFS() {
-    for (int u = 0; u < numCourses; u++)
-        if (color[u] == 'w')
-            visit(u);
-}
-
-void visit(int u) {
-    color[u] = 'g';
-    for (int v : adjlist[u])
-        if (color[v] == 'w')
-            visit(v);
-    color[u] = 'b';
 }</code></pre>
 </div>
