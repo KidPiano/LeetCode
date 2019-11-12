@@ -1,7 +1,5 @@
 <a href="https://imgur.com/hyeHmdC" target="_blank">TEST</a>  
 
-<img src="https://photos.app.goo.gl/EQLX7jCE18U4Ww8E6"/>
-
 <img src='https://lh3.googleusercontent.com/YG533BrjxkSaHVUvMkUpW7IkiuuylvGPP8wKUHRm-hk6jOFhLk6U7gauwwDDxA1ChYI-9pobwRhONANP5tIrBGHri2RmDQoU75UW7Y4oAagC5SnDBvy5SIXcDRNY2YWRCm42vWayEQ=w2400'/>
 
 ## HEADER
