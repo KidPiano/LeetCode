@@ -14,12 +14,12 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
-<pre><code>void DFS() {
+<pre><code>
+void DFS() {
     for (int u = 0; u < numCourses; u++)
         if (color[u] == 'w')
             visit(u);
 }
-
 
 
 
