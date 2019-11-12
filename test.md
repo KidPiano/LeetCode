@@ -5,12 +5,11 @@ int foo (void) {
 ```
 {: .language-java}
 
-~~~
+<code class="language-java">
 int foo (void) {
     int i;
 }
-~~~
-{: .language-java}
+</code>
 
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
