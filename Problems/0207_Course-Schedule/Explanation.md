@@ -16,7 +16,7 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 <h4>DFS (original)</h4>
 <pre><code>
 void DFS() {
-    for (int u = 0; u < numCourses; u++)
+    for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             visit(u);
 }
@@ -42,7 +42,7 @@ void visit(int u) {
 <h4>DFS (modified)</h4>
 <pre><code>// now returns true if the graph is acyclic, false otherwise
 <span style="background-color:orange">boolean isAcyclic()</span> {
-    for (int u = 0; u < numCourses; u++)
+    for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u))</span>
                 <span style="background-color:orange">return false;</span>
@@ -71,7 +71,7 @@ asdf
 <h4>DFS (modified)</h4>
 <pre><code>// now returns true if the graph is acyclic, false otherwise
 <span style="background-color:orange">boolean isAcyclic()</span> {
-    for (int u = 0; u < numCourses; u++)
+    for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u))</span>
                 <span style="background-color:orange">return false;</span>
@@ -96,7 +96,7 @@ asdf
 <h4>DFS (modified, rewritten)</h4>
 <pre><code>// now returns true if the graph is acyclic, false otherwise
 boolean isAcyclic() {
-    for (int u = 0; u < numCourses; u++)
+    for (int u = 0; u < numVertices; u++)
         <mark>if (color[u] == 'w' && visit(u))</mark>
             <mark>return false;</mark>
     return true;
