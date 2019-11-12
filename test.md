@@ -19,6 +19,7 @@
 <!--------------------------------------------------------------------->
 
 <!-- COLORS -->
+<span style="background-color:crimson">foo</span>  
 <span style="background-color:red">foo</span>  
 <span style="background-color:tomato">foo</span>  
 <span style="background-color:orange">foo</span>   
