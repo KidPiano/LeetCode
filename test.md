@@ -2,7 +2,7 @@ hello world
 
 <div markdown="1">
 ```java
-<span>int foo (void) {</span>
+<span markdown="1">int foo (void) {</span>
     int i;
 }
 ```
@@ -12,7 +12,7 @@ hello world
 
 <div markdown="1">
 ```java
-<span style="background-color:cyan">int foo (void) {</span>
+<span markdown="1" style="background-color:cyan">int foo (void) {</span>
     int i;
 }
 ```
