@@ -21,9 +21,6 @@ void DFS() {
             visit(u);
 }
 
-
-
-
 void visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
@@ -44,8 +41,7 @@ void visit(int u) {
 <span style="background-color:orange">boolean isAcyclic()</span> {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
-            <span style="background-color:orange">if (visit(u))</span>
-                <span style="background-color:orange">return false;</span>
+            <span style="background-color:orange">if (visit(u)) return false;</span>
     <span style="background-color:orange">return true;</span>
 }
 
@@ -54,11 +50,9 @@ void visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
         if (color[v] == 'w') {
-            <span style="background-color:orange">if (visit(v))</span>
-                <span style="background-color:orange">return true;</span>
+            <span style="background-color:orange">if (visit(v)) return true;</span>
         }
-        <span style="background-color:orange">else if (color[v] == 'g')</span>
-            <span style="background-color:orange">return true;</span>
+        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
 }</code></pre>
 </div>
@@ -73,8 +67,7 @@ asdf
 <span style="background-color:orange">boolean isAcyclic()</span> {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
-            <span style="background-color:orange">if (visit(u))</span>
-                <span style="background-color:orange">return false;</span>
+            <span style="background-color:orange">if (visit(u)) return false;</span>
     <span style="background-color:orange">return true;</span>
 }
 
@@ -83,11 +76,9 @@ asdf
     color[u] = 'g';
     for (int v : adjlist[u])
         if (color[v] == 'w') {
-            <span style="background-color:orange">if (visit(v))</span>
-                <span style="background-color:orange">return true;</span>
+            <span style="background-color:orange">if (visit(v)) return true;</span>
         }
-        <span style="background-color:orange">else if (color[v] == 'g')</span>
-            <span style="background-color:orange">return true;</span>
+        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
 }</code></pre>
 </div>
@@ -112,8 +103,5 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
-
-
-
 </code></pre>
 </div>
