@@ -1,6 +1,6 @@
 # Course Schedule 
 
-Observation: It is possible to finish all courses if and only if the graph does not contain a cycle.
+Observation: it is possible to finish all courses if and only if the graph does not contain a cycle.  
 In other words, this problem is equivalent to determining whether or not the course schedule graph is acyclic.
 
 ## Approach 1: Use DFS to Detect Back Edges
