@@ -3,6 +3,14 @@ int foo (void) {
     int i;
 }
 ```
+{: .language-java}
+
+~~~
+int foo (void) {
+    int i;
+}
+~~~
+{: .language-java}
 
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
