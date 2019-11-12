@@ -11,7 +11,6 @@ Our algorithm consists of two parts:
   - if we do not encounter a gray vertex during DFS, there is no cycle (return true)
 
 Below, I have highlighted the changes we need to make to DFS to determine if a graph is acyclic:
-
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
 <pre style="font-size:10.9px"><code>void DFS() {
