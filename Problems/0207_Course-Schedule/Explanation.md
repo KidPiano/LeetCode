@@ -15,7 +15,7 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 <img src='https://lh3.googleusercontent.com/S1rId_OBDGRVXWMkIWSBbyf38GXxjygVMzbB2L7B4-h8AEO0-Zgy3lyeS4JzOc9k7eNNmWCr4n95mSbwy8ik4SUhdHEKPfy-d71qKzmfvdHmMvoJ7E74usT9pFaIE0oySsg91vPe=w2400' />
 
 Here is the full commented solution:
-<iframe src="https://leetcode.com/playground/x7ZQiFoi/shared" frameBorder="0" width="100%" height="750"></iframe>
+<iframe src="https://leetcode.com/playground/x7ZQiFoi/shared" frameBorder="0" width="100%" height="730"></iframe>
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
