@@ -19,7 +19,7 @@ Here is the full commented solution:
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
-<pre style="font-size:small"><code>void DFS() {
+<pre style="font-size:x-small"><code>void DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             visit(u);
@@ -43,7 +43,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:small"><code>// now returns true if the graph is acyclic, false otherwise
+<pre style="font-size:x-small"><code>// now returns true if the graph is acyclic, false otherwise
 <span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
@@ -66,7 +66,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:50%"><code>// now returns true if the graph is acyclic, false otherwise
+<pre style="font-size:x-small"><code>// now returns true if the graph is acyclic, false otherwise
 <span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
