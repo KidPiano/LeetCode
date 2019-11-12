@@ -1,19 +1,3 @@
-<ol>
-    <li>test1</li>
-    <li>test2
-        <ul>
-            <li>asdf1</li>
-            <li>asdf2</li>
-        </ul>
-    </li>
-</ol>
-
-1. test1
-2. test2
-    - asdf1
-    - asdf2
-            
-
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
 
 <img src='https://lh3.googleusercontent.com/YG533BrjxkSaHVUvMkUpW7IkiuuylvGPP8wKUHRm-hk6jOFhLk6U7gauwwDDxA1ChYI-9pobwRhONANP5tIrBGHri2RmDQoU75UW7Y4oAagC5SnDBvy5SIXcDRNY2YWRCm42vWayEQ=w2400' height="42" width="42" />
