@@ -5,7 +5,7 @@ In other words, this problem is equivalent to determining whether or not the cou
 
 ## Approach 1: Use DFS to Detect Back Edges
 Our algorithm consists of two parts:
-1. Store the graph as an adjacency list (each prerequisite pair is a directed edge). This will improve runtime.
+1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
 2. Use a modified version of [DFS]() to determine if a graph is acyclic.
   - if we encounter a gray vertex during DFS, we have found a cycle (return false)
   - if we do not encounter a gray vertex during DFS, there is no cycle (return true)
