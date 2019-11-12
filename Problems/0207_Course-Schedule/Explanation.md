@@ -15,11 +15,9 @@ Below, I highlight the changes we need to make to DFS:
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
 <pre><code>void DFS() {
-    for (int u = 0; u < numCourses; u++) {
-        if (color[u] == 'w') {
+    for (int u = 0; u < numCourses; u++)
+        if (color[u] == 'w')
             visit(u);
-        }
-    }
 }
 
 void visit(int u) {
@@ -28,33 +26,24 @@ void visit(int u) {
         if (color[v] == 'w')
             visit(v);
     color[u] = 'b';
-}
-
-
-
-
-</code></pre>
+}</code></pre>
 </div>
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre><code><span style="background-color:yellow">boolean hasCycle() {</span>
+<pre><code><mark>boolean hasCycle()</mark> {
     for (int u = 0; u < numCourses; u++)
         <mark>if (color[u] == 'w' && visit(u))</mark>
             <mark>return false;</mark>
-    <span style="background-color:yellow">return true;</span>
+    <mark>return true;</mark>
 }
 
-boolean visit(int u) {
+<mark>boolean</mark> visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
-        if (color[v] == 'w' && visit(v) || color[v] == 'g')
-            return true;
+        <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
+            <mark>eturn true;</mark>
     color[u] = 'b';
-    return false;
-}
-
-
-
-</code></pre>
+    <nark>return false;<mark>
+}</code></pre>
 </div>
