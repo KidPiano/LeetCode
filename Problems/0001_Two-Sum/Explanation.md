@@ -1,7 +1,6 @@
 ## Two Sum 
 
 ### Approach 1
-----------------------
 test test  
 test test  
 
