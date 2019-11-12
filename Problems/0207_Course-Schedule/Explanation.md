@@ -65,24 +65,25 @@ void visit(int u) {
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h4>DFS (modified)</h4>
+<h4>DFS (modified, rewritten)</h4>
 <pre style="font-size:10px"><code>// now returns true if the graph is acyclic, false otherwise
-<span style="background-color:orange">boolean</span> DFS() {
+boolean DFS() {
     for (int u = 0; u < numVertices; u++)
-        if (color[u] == 'w')
-            <span style="background-color:orange">if (visit(u)) return false;</span>
-    <span style="background-color:orange">return true;</span>
+        <mark>if (color[u] == 'w' && visit(u))</mark>
+            <mark>return false;</mark>
+    return true;
 }
 
 // now returns true if a cycle is found, false otherwise
-<span style="background-color:orange">boolean</span> visit(int u) {
+boolean visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
-        if (color[v] == 'w') {
-            <span style="background-color:orange">if (visit(v)) return true;</span>
-        }
-        // found back edge
-        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
+        <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
+            <mark>return true;</mark>
     color[u] = 'b';
-}</code></pre>
+    return false;
+}
+
+
+</code></pre>
 </div>
