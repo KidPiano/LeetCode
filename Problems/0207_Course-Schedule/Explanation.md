@@ -19,7 +19,7 @@ Here is the full commented solution:
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
-<pre style="font-size:10px"><code>void DFS() {
+<pre style="font-size:10.5px"><code>void DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
@@ -44,7 +44,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:10px"><code>// returns true if the graph is acyclic
+<pre style="font-size:10.5px"><code>// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
@@ -68,7 +68,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified, rewritten)</h4>
-<pre style="font-size:10px"><code>// returns true if the graph is acyclic
+<pre style="font-size:10.5px"><code>// returns true if the graph is acyclic
 boolean DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
@@ -91,4 +91,80 @@ boolean visit(int u) {
 </code></pre>
 </div>
 
-asdasd  asd
+ASDASDA  
+ASDASDADSDSAD  
+ASDASDASD  
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (original)</h4>
+<pre style="font-size:11px"><code>void DFS() {
+    for (int i = 0; i < color.length; i++)
+        color[i] = 'w';
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w')
+            visit(u);
+}
+
+void visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w')
+            visit(v);
+    color[u] = 'b';
+}
+
+
+
+
+
+</code></pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (modified)</h4>
+<pre style="font-size:11px"><code>// returns true if the graph is acyclic
+<span style="background-color:orange">boolean</span> DFS() {
+    for (int i = 0; i < color.length; i++)
+        color[i] = 'w';
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w')
+            <span style="background-color:orange">if (visit(u)) return false;</span>
+    <span style="background-color:orange">return true;</span>
+}
+
+// returns true if a cycle is found
+<span style="background-color:orange">boolean</span> visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w') {
+            <span style="background-color:orange">if (visit(v)) return true;</span> }
+        // found back edge
+        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
+    color[u] = 'b';
+}</code></pre>
+</div>
+
+<div style="display:inline-block; text-align:left">
+<h4>DFS (modified, rewritten)</h4>
+<pre style="font-size:11px"><code>// returns true if the graph is acyclic
+boolean DFS() {
+    for (int i = 0; i < color.length; i++)
+        color[i] = 'w';
+    for (int u = 0; u < numVertices; u++)
+        <mark>if (color[u] == 'w' && visit(u))</mark>
+            <mark>return false;</mark>
+    return true;
+}
+
+// returns true if a cycle is found
+boolean visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
+            <mark>return true;</mark>
+    color[u] = 'b';
+    return false;
+}
+
+</code></pre>
+</div>
