@@ -20,7 +20,8 @@ Here is the full commented solution:
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
 <pre style="font-size:9px"><code>void DFS() {
-    for (int i = 0; i < color.length; i++) color[i] = 'w';
+    for (int i = 0; i < color.length; i++)
+        color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             visit(u);
@@ -44,16 +45,17 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:9px"><code>// now returns true if the graph is acyclic, false otherwise
+<pre style="font-size:9px"><code>// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
-    for (int i = 0; i < color.length; i++) color[i] = 'w';
+    for (int i = 0; i < color.length; i++)
+        color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             <span style="background-color:orange">if (visit(u)) return false;</span>
     <span style="background-color:orange">return true;</span>
 }
 
-// now returns true if a cycle is found, false otherwise
+// returns true if a cycle is found
 <span style="background-color:orange">boolean</span> visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
@@ -68,16 +70,17 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified, rewritten)</h4>
-<pre style="font-size:9px"><code>// now returns true if the graph is acyclic, false otherwise
+<pre style="font-size:9px"><code>// returns true if the graph is acyclic
 boolean DFS() {
-    for (int i = 0; i < color.length; i++) color[i] = 'w';
+    for (int i = 0; i < color.length; i++)
+        color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
         <mark>if (color[u] == 'w' && visit(u))</mark>
             <mark>return false;</mark>
     return true;
 }
 
-// now returns true if a cycle is found, false otherwise
+// returns true if a cycle is found
 boolean visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
@@ -90,3 +93,5 @@ boolean visit(int u) {
 
 </code></pre>
 </div>
+
+asdasd  asd
