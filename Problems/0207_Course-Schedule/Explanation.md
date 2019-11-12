@@ -1,14 +1,22 @@
 # Course Schedule 
 
-Observation: it is possible to finish all courses if and only if the graph does not contain a cycle.  
+Observation: it is possible to finish all courses if and only if the course schedule dependency graph does not contain a cycle.  
 In other words, this problem is equivalent to determining whether or not the course schedule graph is acyclic.
 
 ## Approach 1: Use DFS to Detect Back Edges
+Our algorithm consists of two parts:
+1. Store the graph as an adjacency list (each prerequisite pair is a directed edge). This will improve runtime.
+2. Use a modified version of DFS to detect cycles
+  - test
+  - test
+
+One of the simplest ways to determine whether or not a graph contains a cycle is by making a small modification to DFS.
+
 One of the simplest ways to determine whether or not a graph contains a cycle is by using a small modification of DFS to find back edges.
 - If the graph contains a back edge, it contains a cycle (return false)
 - If the graph does not contain a back edge, it does not contain a cycle (return true)
 
-So how do we modify DFS to detect back edges? It is very simple
+So how do we modify DFS to detect back edges? It is very simple. If we are at vertex u during DFS and we encounter a gray vertex v, then uv is a back edge.
 
 I illustrate this below.
 On the left hand side is a standard DFS implementation in Java, and on 
