@@ -1,4 +1,4 @@
-# 1. Two Sum 
+## Two Sum 
 
 ## Approach 1
 test test  
