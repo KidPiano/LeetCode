@@ -1,6 +1,6 @@
-## Two Sum 
+# Two Sum 
 
-### Approach 1
+## Approach 1
 test test  
 test test  
 
