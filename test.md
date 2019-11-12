@@ -91,7 +91,9 @@ This is a very long sentence.
 
 <iframe src="https://onedrive.live.com/embed?cid=53581696A39EDFEA&amp;resid=53581696A39EDFEA%21654&amp;authkey=AKTAGQkGN3MbOS4&amp;em=2&amp;wdAr=20" width="91px" height="55px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
-<iframe src="https://onedrive.live.com/embed?cid=53581696A39EDFEA&amp;resid=53581696A39EDFEA%21654&amp;authkey=AKTAGQkGN3MbOS4&amp;em=2&amp;wdAr=20" width="91px" height="55px"></iframe>
+<iframe src="https://onedrive.live.com/embed?cid=53581696A39EDFEA&amp;resid=53581696A39EDFEA%21654&amp;authkey=AKTAGQkGN3MbOS4&amp;em=2&amp;wdAr=20" width="915px" height="550px"></iframe>
+
+<iframe src="https://onedrive.live.com/embed?cid=53581696A39EDFEA&amp;resid=53581696A39EDFEA%21654&amp;authkey=AKTAGQkGN3MbOS4&amp;em=2&amp;wdAr=10" width="915px" height="550px"></iframe>
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc4pXh6BKHwDfricPT7sJyKBSluM1DZL6mdFU-wUtlov9OGKy8bqDxnMZQKiXHj1cy7W0mcy_pxyw0/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
