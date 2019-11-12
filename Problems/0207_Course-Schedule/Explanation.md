@@ -19,7 +19,7 @@ Here is the full commented solution:
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
-<pre style="font-size:10.5px"><code>void DFS() {
+<pre style="font-size:10.6px"><code>void DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
@@ -44,7 +44,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:10.5px"><code>// returns true if the graph is acyclic
+<pre style="font-size:10.6px"><code>// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
@@ -68,7 +68,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified, rewritten)</h4>
-<pre style="font-size:10.5px"><code>// returns true if the graph is acyclic
+<pre style="font-size:10.6px"><code>// returns true if the graph is acyclic
 boolean DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
@@ -92,12 +92,12 @@ boolean visit(int u) {
 </div>
 
 ASDASDA  
-ASDASDADSDSAD  
+OOGA BOOGA ASDASD    
 ASDASDASD  
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (original)</h4>
-<pre style="font-size:11px"><code>void DFS() {
+<pre style="font-size:10.7px"><code>void DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
     for (int u = 0; u < numVertices; u++)
@@ -122,7 +122,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified)</h4>
-<pre style="font-size:11px"><code>// returns true if the graph is acyclic
+<pre style="font-size:10.7px"><code>// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
@@ -146,7 +146,7 @@ void visit(int u) {
 
 <div style="display:inline-block; text-align:left">
 <h4>DFS (modified, rewritten)</h4>
-<pre style="font-size:11px"><code>// returns true if the graph is acyclic
+<pre style="font-size:10.7px"><code>// returns true if the graph is acyclic
 boolean DFS() {
     for (int i = 0; i < color.length; i++)
         color[i] = 'w';
