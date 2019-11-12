@@ -23,6 +23,7 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 
 
 
+
 void visit(int u) {
     color[u] = 'g';
     for (int v : adjlist[u])
