@@ -1,4 +1,4 @@
-asdf11111
+1231235124
 
 ```
 int foo (void) {
@@ -18,12 +18,6 @@ int foo (void) {
 
 ---
 
-<pre><code class="language-ruby">int foo (void) {
-    int i;
-}</code></pre>
-
----
-
 <div markdown="1">
 ```java
 int foo (void) {
@@ -33,6 +27,13 @@ int foo (void) {
 </div>
 
 --- 
+
+```
+int foo (void) {
+    int i;
+}
+```
+{: .blue}
 
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
