@@ -1,4 +1,4 @@
-555
+666
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
@@ -186,20 +186,21 @@ This is a very long sentence.
 </details>  
   
   
-<details markdown="1">
-   	<summary markdown="0">Arrays</summary>
-  
+<details>
+<summary>Arrays</summary>
+<div markdown="1">
 #### Easy:  
   
 1. Contains Duplicate: https://leetcode.com/problems/contains-duplicate/  
 1. Missing Number: https://leetcode.com/problems/missing-number/  
 1. Find All Numbers Disappeared in an Array: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/  
 1. Single Number: https://leetcode.com/problems/single-number/  
+</div>
 </details>
   
   
 <details>
-    <summary><h2>Arrays</h2></summary>
+    <summary style="font-size:2em">Arrays</summary>
     <ul>
         <li>asd</li>
         <li>23ref</li>
