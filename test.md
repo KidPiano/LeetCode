@@ -1,31 +1,12 @@
-55555
-
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
-  <pre>
-    <code class="language-css">body {
-      font: 100% Helvetica, sans-serif;
-      color: #333;
-    }
-    </code>
-  </pre>
+6666
 
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-  <pre>
-    <code class="prettyprint" style="font-weight:bold">
- int foo (void) {
-   <span style="background-color:yellow">int i;</span>
+<pre><code class="prettyprint" style="font-weight:bold">int foo (void) {
+    <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
-    </code>
-  </pre>
-
+</code></pre>
 
 > This is the first level of quoting.
 >
