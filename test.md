@@ -1,4 +1,15 @@
-1111
+212222221111
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+  <pre>
+    <code class="language-java">
+ int foo (void) {
+   <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+    </code>
+  </pre>
+
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <pre>
