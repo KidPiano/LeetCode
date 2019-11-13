@@ -1,5 +1,8 @@
 1231235124
 
+test text
+{: style="background-color:yellow"}
+
 ```
 int foo (void) {
     int i;
