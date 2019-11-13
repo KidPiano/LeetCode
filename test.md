@@ -54,7 +54,7 @@ int foo (void) {
 int foo (void) {  
     int i;  
 }  
-</code></pre>
+</code>
 
 
 
