@@ -1,4 +1,4 @@
-111
+222
 
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
@@ -9,23 +9,20 @@ prettify
  // Yay code and it has colors
 </code></pre>
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"
-/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-prism
-<pre><code class="language-java">int foo (void) {
-    <span style="background-color:yellow">int i;</span>
- }
- // Yay code and it has colors
-</code></pre>
-
 <link rel="stylesheet" href="/path/to/styles/default.css">
 <script src="/path/to/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 higlight
 <pre><code class="java">int foo (void) {
+    <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+</code></pre>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+prism
+<pre><code class="language-java">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
