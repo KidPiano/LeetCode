@@ -1,8 +1,21 @@
-6666
+77777
 
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 <pre><code class="prettyprint" style="font-weight:bold">int foo (void) {
+    <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+</code></pre>
+
+
+<pre><code class="prettyprint" style="font-weight:600">int foo (void) {
+    <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+</code></pre>
+
+<pre><code class="prettyprint" style="font-weight:500">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
