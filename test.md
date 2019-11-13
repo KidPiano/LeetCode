@@ -1,18 +1,20 @@
-4444444
+111111111
 
-<span style="background-color:cyan">
-`test`
-</span>  
+{: .language-java}
+    line1
+    line2
+    line3
 
-<span style="background-color:cyan">
-```test```
-</span>
+<span style="background-color:cyan">`public int foo() {}`</span>  
+
+<span style="background-color:cyan">```public int foo() {}```</span>
 
 `test`
 {: style="background-color:yellow"}
 
     test1
     test2
+    {: style="background-color:yellow"}
     test3
     
 ---
