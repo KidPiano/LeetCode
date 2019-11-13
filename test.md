@@ -1,4 +1,4 @@
-888888
+999
 
 > This is the first level of quoting.
 >
@@ -155,7 +155,7 @@ This is a very long sentence.
 </details>  
   
   
-<details>
+<details markdown="1">
    	<summary>Arrays</summary>
   
 #### Easy:  
