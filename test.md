@@ -1,44 +1,16 @@
-666666
-{: style="background:yellow"}
-
-```
-testasdfasdf
-```
-{: style="background:yellow"}
+7777777
 
 {: .language-java}
     line1
-    <span style="background-color:cyan">line2</span> 
+    line2
     line3
 
-<span style="background-color:cyan">`public int foo() {}`</span>  
-
-<div style="background-color:cyan" markdown="1">
+<div style="color:cyan" markdown="1">
 asdf
 ```java
 public int foo() {}
 ```
 </div>
-
-`test`
-{: style="background-color:yellow"}
-
-    test1
-    test2
-    {: style="background-color:yellow"}
-    test3
-    
----
-
-    test text
-{: style="background-color:yellow"}
-
-```
-int foo (void) {
-    int i;
-}
-```
-{: style="background-color:yellow"}
 
 ---
 
