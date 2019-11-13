@@ -4,9 +4,11 @@ $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need
 
 ooga boogaasdf
 
+$$
 \begin{align*}
-$$ 5 + 5 $$
+5 + 5
 \end{align*}
+$$
 ---
 
 
