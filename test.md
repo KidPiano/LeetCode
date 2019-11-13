@@ -1,3 +1,6 @@
+$$x^{3}$$
+$x_{3}$
+
 hello world asdfasdf
 
 ```
