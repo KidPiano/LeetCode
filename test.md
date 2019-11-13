@@ -1,27 +1,17 @@
-{% raw %}
-$$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
-{% endraw %}
-
-ooga boogaasdf
-
-$$
-\begin{align*}
-5 + 5
-\end{align*}
-$$
----
-
-
-$x_{3}$
-
-hello world asdfasdf
+asdf1
 
 ```
 int foo (void) {
     int i;
 }
 ```
-{: .language-java}
+{: .language-ruby}
+
+---
+
+<pre><code class="language-ruby">int foo (void) {
+    int i;
+}</code></pre>
 
 ---
 
@@ -35,17 +25,7 @@ int foo (void) {
 
 --- 
 
-<div markdown="1">
-```java
-int foo (void) {
-    int i;
-}
-```
-</div>
-
----
-
-<pre><code class="language-java">int foo (void) {
+<pre><code class="language-ruby">int foo (void) {
     int i;
 }</code></pre>
 
