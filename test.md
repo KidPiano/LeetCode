@@ -1,6 +1,12 @@
-212222221111
+44444
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
   <pre>
     <code class="language-java">
  int foo (void) {
@@ -13,7 +19,7 @@
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <pre>
-    <code class="prettyprint">
+    <code class="prettyprint" style="font-weight:bold">
  int foo (void) {
    <span style="background-color:yellow">int i;</span>
  }
