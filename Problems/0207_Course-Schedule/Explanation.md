@@ -1,5 +1,3 @@
-33
-
 # Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course schedule dependency graph does not contain a cycle.  
