@@ -1,4 +1,4 @@
-44444
+55555
 
 {% highlight ruby linenos %}
 def foo
@@ -8,11 +8,10 @@ end
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
   <pre>
-    <code class="language-java">
- int foo (void) {
-   <span style="background-color:yellow">int i;</span>
- }
- // Yay code and it has colors
+    <code class="language-css">body {
+      font: 100% Helvetica, sans-serif;
+      color: #333;
+    }
     </code>
   </pre>
 
