@@ -83,5 +83,5 @@ boolean visit(int u) {
 Here is the full commented solution:
 <iframe src="https://leetcode.com/playground/x7ZQiFoi/shared" frameBorder="0" width="100%" height="730"></iframe>
 
-**Time:** O(N)
+**Time:** O(N)  
 **Space:** O(N)
