@@ -15,6 +15,12 @@
  // Yay code and it has colors
 </code></pre>
 
+<pre><code class="prettyprint" style="font-weight:550">int foo (void) {
+    <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+</code></pre>
+
 <pre><code class="prettyprint" style="font-weight:500">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
