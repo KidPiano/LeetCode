@@ -1,4 +1,4 @@
-33333333
+44444444
 
 {: .language-java}
     line1
@@ -7,7 +7,7 @@
 
 <span style="background-color:cyan">`public int foo() {}`</span>  
 
-<div style="background-color:cyan"; markdown="1">
+<div style="background-color:cyan" markdown="1">
 ```
 public int foo() {}
 ```
