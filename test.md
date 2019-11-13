@@ -1,4 +1,4 @@
-333
+444
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
@@ -6,6 +6,15 @@
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 prettify
 <pre><code class="prettyprint" style="font-weight:bold">int foo (void) {
+    <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+</code></pre>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+prism
+<pre><code class="language-java">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
@@ -21,14 +30,6 @@ higlight
  // Yay code and it has colors
 </code></pre>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-prism
-<pre><code class="language-java">int foo (void) {
-    <span style="background-color:yellow">int i;</span>
- }
- // Yay code and it has colors
-</code></pre>
 
 > This is the first level of quoting.
 >
