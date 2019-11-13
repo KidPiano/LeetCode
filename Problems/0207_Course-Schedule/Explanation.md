@@ -95,7 +95,7 @@ Here is the full commented solution:
 Below, I have highlighted the changes we need to make to DFS to determine if a graph is acyclic:
 
 <div style="display:inline-block; text-align:left">
-<h2 style="margin-top:0; font-size=16px">DFS (original)</h2>
+<h2 style="margin-top:0; font-size:16px">DFS (original)</h2>
 <pre style="font-size:10.8px"><code class="prettyprint" style="font-weight:bold">void DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
@@ -119,7 +119,7 @@ void visit(int u) {
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h2 style="margin-top:0; font-size=16px">DFS (modified)</h2>
+<h2 style="margin-top:0; font-size:16px">DFS (modified)</h2>
 <pre style="font-size:10.8px"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
@@ -142,7 +142,7 @@ void visit(int u) {
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h2 style="margin-top:0; font-size=16px">DFS (modified, rewritten)</h2>
+<h2 style="margin-top:0; font-size:16px">DFS (modified, rewritten)</h2>
 <pre style="font-size:10.8px"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
