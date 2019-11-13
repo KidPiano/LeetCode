@@ -1,10 +1,20 @@
-asdf1
+asdf11111
 
 ```
 int foo (void) {
     int i;
 }
 ```
+{: style="text-align: center"}
+
+---
+
+```
+int foo (void) {
+    int i;
+}
+```
+{: style="text-align: center"}
 {: .language-ruby}
 
 ---
