@@ -1,4 +1,4 @@
-# Leetcode
+# LeetCode
 
 [Test](test.md)
 
