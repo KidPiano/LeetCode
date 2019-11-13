@@ -2,6 +2,14 @@
 $$ 5 + 5 $$
 ---
 
+ooga boogaasdf
+
+\begin{align*}
+$$ 5 + 5 $$
+\end{align*}
+---
+
+
 $x_{3}$
 
 hello world asdfasdf
