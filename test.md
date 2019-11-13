@@ -5,7 +5,7 @@ int foo (void) {
     int i;
 }
 ```
-{: style="text-align: center"}
+{: style="background-color:cyan"}
 
 ---
 
