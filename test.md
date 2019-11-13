@@ -1,4 +1,4 @@
-111111111
+2222222
 
 {: .language-java}
     line1
@@ -7,7 +7,17 @@
 
 <span style="background-color:cyan">`public int foo() {}`</span>  
 
-<span style="background-color:cyan">```public int foo() {}```</span>
+<div style="background-color:cyan">
+```
+public int foo() {}
+```
+</div>
+
+<div style="background-color:cyan">
+```java
+public int foo() {}
+```
+</div>
 
 `test`
 {: style="background-color:yellow"}
