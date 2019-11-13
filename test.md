@@ -10,29 +10,11 @@ int foo (void) {
 ```
 {: .language-java}
 
-<div markdown="1">
-```java
-<span markdown="1">int foo (void) {</span>
-    int i;
-}
-```
-</div>
-
 ---
 
 <div markdown="1">
 ```java
 <span markdown="0" style="background-color:cyan">int foo (void) {</span>
-    int i;
-}
-```
-</div>
-
---- 
-
-<div markdown="1">
-```java
-<span markdown="1" style="background-color:cyan">int foo (void) {</span>
     int i;
 }
 ```
@@ -53,6 +35,16 @@ int foo (void) {
 <pre><code class="language-java">int foo (void) {
     int i;
 }</code></pre>
+
+---
+
+
+<code class="language-java">
+int foo (void) {  
+    int i;  
+}  
+</code></pre>
+
 
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
