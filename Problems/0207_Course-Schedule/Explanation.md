@@ -1,3 +1,5 @@
+11
+
 # Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course schedule dependency graph does not contain a cycle.  
@@ -38,7 +40,7 @@ void visit(int u) {
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h4 style="margin-top:0">DFS (modified)</h4>
+<h4>DFS (modified)</h4>
 <pre style="font-size:10.8px"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
@@ -61,7 +63,7 @@ void visit(int u) {
 </div>
 
 <div style="display:inline-block; text-align:left">
-<h4 style="margin-top:0">DFS (modified, rewritten)</h4>
+<h4>DFS (modified, rewritten)</h4>
 <pre style="font-size:10.8px"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
