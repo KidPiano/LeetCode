@@ -1,4 +1,4 @@
-444
+555
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
@@ -11,7 +11,7 @@ prettify
  // Yay code and it has colors
 </code></pre>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 prism
 <pre><code class="language-java">int foo (void) {
