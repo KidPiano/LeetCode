@@ -1,4 +1,15 @@
-999
+1111
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <pre>
+    <code class="prettyprint">
+ int foo (void) {
+   <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+    </code>
+  </pre>
+
 
 > This is the first level of quoting.
 >
@@ -156,7 +167,7 @@ This is a very long sentence.
   
   
 <details markdown="1">
-   	<summary>Arrays</summary>
+   	<summary markdown="0">Arrays</summary>
   
 #### Easy:  
   
