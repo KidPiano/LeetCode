@@ -14,8 +14,7 @@ int foo (void) {
     int i;
 }
 ```
-{: style="text-align: center"}
-{: .language-ruby}
+{: .language-ruby style="text-align: center"}
 
 ---
 
@@ -27,27 +26,13 @@ int foo (void) {
 
 <div markdown="1">
 ```java
-<span markdown="0" style="background-color:cyan">int foo (void) {</span>
+int foo (void) {
     int i;
 }
 ```
 </div>
 
 --- 
-
-<pre><code class="language-ruby">int foo (void) {
-    int i;
-}</code></pre>
-
----
-
-
-<code class="language-java">
-int foo (void) {  
-    int i;  
-}  
-</code>
-
 
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
