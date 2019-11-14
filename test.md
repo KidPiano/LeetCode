@@ -1,14 +1,9 @@
-4444
+555
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/safGk6ecM_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<a href="https://www.youtube.com/watch?v=safGk6ecM_E" target="_blank"><img src="http://img.youtube.com/vi/safGk6ecM_E/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
 <a href="https://www.youtube.com/watch?v=safGk6ecM_E" target="_blank"></a>
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/safGk6ecM_E/0.jpg)](https://www.youtube.com/watch?v=safGk6ecM_E)
 
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -18,6 +13,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
   \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\] $$5^{3}$$
 </p>
 <div>$$123^{3+2}$$</div>
+
+<div>\binom{n}{2}</div>
 
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
