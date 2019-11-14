@@ -1,4 +1,4 @@
-666
+777
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
@@ -200,7 +200,7 @@ This is a very long sentence.
   
   
 <details>
-    <summary style="font-size:2em">Arrays</summary>
+    <summary><span style="font-size:2em">Arrays</span></summary>
     <ul>
         <li>asd</li>
         <li>23ref</li>
