@@ -5,26 +5,19 @@
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 prettify
-<pre style="background-color:cyan"><code class="prettyprint" style="font-weight:bold">int foo (void) {
+<pre style="background-color:beige"><code class="prettyprint" style="font-weight:bold">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
 </code></pre>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-prism
-<pre><code class="language-java">int foo (void) {
+<pre style="background-color:gainsboro"><code class="prettyprint" style="font-weight:bold">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
 </code></pre>
 
-<link rel="stylesheet" href="/path/to/styles/default.css">
-<script src="/path/to/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-higlight
-<pre><code class="java">int foo (void) {
+<pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
