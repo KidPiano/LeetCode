@@ -7,7 +7,7 @@ In other words, this problem is equivalent to determining whether or not the cou
 Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
 2. Use a modified version of [DFS]() to determine if the graph is acyclic.
-  - if we encounter a gray vertex during DFS, we have found a cycle (return false)
+  - if we encounter a gray vertex during DFS, we have found a back edge and then graph contains a cycle (return false)
   - if we do not encounter a gray vertex during DFS, there is no cycle (return true)
 
 Below, I have highlighted the changes we need to make to DFS to determine if a graph is acyclic:
@@ -33,7 +33,6 @@ void visit(int u) {
 
 
 
-
 </code></pre>
 </div>
 
@@ -53,7 +52,6 @@ void visit(int u) {
     for (int v : adjlist[u])
         if (color[v] == 'w') {
             <span style="background-color:orange">if (visit(v)) return true;</span> }
-        // found back edge
         <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
 }
@@ -79,7 +77,6 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
-
 
 </code></pre>
 </div>
