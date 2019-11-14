@@ -33,6 +33,7 @@ void visit(int u) {
 
 
 
+
 </code></pre>
 </div>
 
@@ -52,6 +53,7 @@ void visit(int u) {
     for (int v : adjlist[u])
         if (color[v] == 'w') {
             <span style="background-color:orange">if (visit(v)) return true;</span> }
+        // found back edge
         <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
 }
@@ -77,6 +79,7 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
+
 
 </code></pre>
 </div>
