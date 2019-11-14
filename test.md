@@ -1,11 +1,11 @@
-11
+22
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 prettify
-<pre><code class="prettyprint" style="font-weight:bold; background-color:cyan">int foo (void) {
+<pre style="background-color:cyan"><code class="prettyprint" style="font-weight:bold">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
