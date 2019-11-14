@@ -11,7 +11,7 @@ In [Approach 1 for Course Schedule](), we saw how to modify DFS to determine if 
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 <div style="display:inline-block">
-<h4 style="margin-top:0">DFS (original)</h4>
+<h4 style="margin-top:0">Modified DFS (returns if graph is acyclic)</h4>
 <pre><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
@@ -35,13 +35,13 @@ boolean visit(int u) {
 </div>
 
 <div style="display:inline-block">
-<h4 style="margin-top:0">DFS (modified)</h4>
-<pre><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
-boolean DFS() {
+<h4 style="margin-top:0">Modified DFS (returns reverse topological sort)</h4>
+<pre><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
+<mark>int[]</mark> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w' && visit(u))
-            return false;
-    return true;
+            <mark>return new int[0];</mark>
+    <mark>return answer;</mark>
 }
 
 // returns true if a cycle is found
