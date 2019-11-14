@@ -8,7 +8,7 @@ Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
 2. Use a modified version of [DFS]() to determine if the graph is acyclic.
   - if we encounter a gray vertex during DFS, we have found a back edge and the graph contains a cycle (return false)
-  - if we do not encounter a gray vertex during DFS, the graph does not contain a cycle (return true)
+  - if we do not encounter a gray vertex during DFS, the graph has no cycles (return true)
 
 Below, I have highlighted the changes we need to make to DFS to determine if a graph is acyclic:
 
