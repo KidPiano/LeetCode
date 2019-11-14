@@ -36,7 +36,7 @@ boolean visit(int u) {
 </div>
 
 <div style="display:inline-block">
-<h4 style="margin-top:0">Modified DFS (returns reverse topological sort)</h4>
+<h4 style="margin-top:0">Modified DFS (returns a reverse topological sort)</h4>
 <pre><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
 <mark>int[]</mark> DFS() {
     for (int u = 0; u < numVertices; u++)
