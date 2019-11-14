@@ -1,11 +1,11 @@
-111
+222
 
-<a href="https://www.youtube.com/watch?v=safGk6ecM_E" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="https://www.youtube.com/watch?v=safGk6ecM_E" target="_blank"><img src="http://img.youtube.com/vi/safGk6ecM_E/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 <a href="https://www.youtube.com/watch?v=safGk6ecM_E" target="_blank"></a>
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=safGk6ecM_E)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/safGk6ecM_E/0.jpg)](https://www.youtube.com/watch?v=safGk6ecM_E)
 
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
