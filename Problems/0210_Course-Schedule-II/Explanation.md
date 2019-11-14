@@ -7,7 +7,54 @@ Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
 2. Use a modified version of [DFS]() to find a reverse [topological sort]() of the graph if it is acyclic.
 
-In [Approach 1 for Course Schedule](), we saw how to modify DFS to determine if a graph if acyclic. Using this as a starting point, we only need to make a minor change to our code to store the reverse topological sort in our answer array: simply append vertices to the  answer array as they finish during DFS. I have highlighted these changes below:
+In [Approach 1 for Course Schedule](), we saw how to modify DFS to determine if a graph is acyclic. Using this as a starting point, we only need to make a minor change to our code to store the reverse topological sort in our answer array: simply append vertices to the  answer array as they finish during DFS. I have highlighted these changes below:
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+<div style="display:inline-block">
+<h4 style="margin-top:0">DFS (original)</h4>
+<pre><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
+boolean DFS() {
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w' && visit(u))
+            return false;
+    return true;
+}
+
+// returns true if a cycle is found
+boolean visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w' && visit(v) || color[v] == 'g')
+            return true;
+    color[u] = 'b';
+    return false;
+}
 
 
+</code></pre>
+</div>
+
+<div style="display:inline-block">
+<h4 style="margin-top:0">DFS (modified)</h4>
+<pre><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
+boolean DFS() {
+    for (int u = 0; u < numVertices; u++)
+        if (color[u] == 'w' && visit(u))
+            return false;
+    return true;
+}
+
+// returns true if a cycle is found
+boolean visit(int u) {
+    color[u] = 'g';
+    for (int v : adjlist[u])
+        if (color[v] == 'w' && visit(v) || color[v] == 'g')
+            return true;
+    color[u] = 'b';
+    // as vertices finish, store them in the answer array
+    <mark>answer[index++] = u;</mark>
+    return false;
+}
+</code></pre>
+</div>
 
