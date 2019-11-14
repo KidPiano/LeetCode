@@ -1,4 +1,4 @@
-33
+44
 
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
@@ -25,7 +25,7 @@ prettify
 </code></pre>
 
 
-<pre style="background-color:#7fab14"><code class="prettyprint" style="font-weight:bold">int foo (void) {
+<pre><code class="prettyprint" style="font-weight:bold">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
