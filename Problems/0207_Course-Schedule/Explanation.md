@@ -1,5 +1,3 @@
-11
-
 # Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course prerequisite graph does not contain a cycle.  
