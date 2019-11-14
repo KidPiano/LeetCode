@@ -12,7 +12,7 @@ In [Approach 1 for Course Schedule](../0207_Course-Schedule/Explanation.md), we 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 <div style="display:inline-block">
 <h4 style="margin-top:0">Modified DFS (determines if a graph is acyclic)</h4>
-<pre><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
+<pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w' && visit(u))
@@ -37,7 +37,7 @@ boolean visit(int u) {
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">Modified DFS (returns a reverse topological sort)</h4>
-<pre><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
+<pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
 <mark>int[]</mark> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w' && visit(u))
