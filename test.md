@@ -1,4 +1,4 @@
-777
+88888
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
@@ -80,6 +80,8 @@ int foo (void) {
 
 --- 
 
+
+[new tab test](https://imgur.com/hyeHmdC){:target="_blank"}
 
 <a href="https://imgur.com/hyeHmdC" target="_blank">Open in new tab</a>  
 
