@@ -5,7 +5,7 @@
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 prettify
-<pre><code class="prettyprint" style="font-weight:bold">int foo (void) {
+<pre><code class="prettyprint" style="font-weight:bold; background-color:cyan">int foo (void) {
     <span style="background-color:yellow">int i;</span>
  }
  // Yay code and it has colors
