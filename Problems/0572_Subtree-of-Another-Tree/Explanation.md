@@ -12,7 +12,7 @@ Below, I provide two ways to write this:
 For more details on the isSameTree implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 #### Complexity Analysis
-Let m = number of nodes in s
+Let m = number of nodes in s  
 Let n = number of nodes in t
 - **Time:** O(mn)  
 - **Space:** O(m+n)
