@@ -1,7 +1,7 @@
 # Subtree of Another Tree 
 
 ## Approach 1: Brute Force ⭐
-The brute force algorithm is simple: for every node in the big tree (s), check if it is the same as the small tree (t):
+The brute force algorithm is simple: for every node in the big tree s, check if it is the same as the small tree t:
 - If the current node in s is equal to t, return true
 - Otherwise, check if the current node's left child is equal to t, and then check if the current node's right child is equal to t
 
