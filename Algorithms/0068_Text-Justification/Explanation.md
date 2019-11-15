@@ -1,4 +1,0 @@
-##  Text Justification 
-
-Coming soon...
-

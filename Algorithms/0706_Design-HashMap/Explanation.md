@@ -1,4 +1,0 @@
-##  Design HashMap 
-
-Coming soon...
-

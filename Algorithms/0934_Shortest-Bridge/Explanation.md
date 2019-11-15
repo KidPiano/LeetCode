@@ -1,4 +1,0 @@
-##  Shortest Bridge 
-
-Coming soon...
-

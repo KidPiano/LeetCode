@@ -1,4 +1,0 @@
-##  Palindrome Permutation 
-
-Coming soon...
-

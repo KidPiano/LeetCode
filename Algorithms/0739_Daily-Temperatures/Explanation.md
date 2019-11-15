@@ -1,4 +1,0 @@
-##  Daily Temperatures 
-
-Coming soon...
-

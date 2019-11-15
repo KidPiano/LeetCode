@@ -1,4 +1,0 @@
-##  Palindrome Pairs 
-
-Coming soon...
-

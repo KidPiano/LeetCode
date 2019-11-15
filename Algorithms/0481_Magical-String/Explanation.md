@@ -1,4 +1,0 @@
-##  Magical String 
-
-Coming soon...
-

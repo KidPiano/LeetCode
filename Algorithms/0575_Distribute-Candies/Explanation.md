@@ -1,4 +1,0 @@
-##  Distribute Candies 
-
-Coming soon...
-

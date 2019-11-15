@@ -1,4 +1,0 @@
-##  Candy 
-
-Coming soon...
-

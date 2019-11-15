@@ -1,4 +1,0 @@
-##  Spiral Matrix 
-
-Coming soon...
-

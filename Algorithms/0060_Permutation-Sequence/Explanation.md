@@ -1,4 +1,0 @@
-##  Permutation Sequence 
-
-Coming soon...
-

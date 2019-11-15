@@ -1,4 +1,0 @@
-##  Tallest Billboard 
-
-Coming soon...
-

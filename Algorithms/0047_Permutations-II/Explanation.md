@@ -1,4 +1,0 @@
-##  Permutations II 
-
-Coming soon...
-

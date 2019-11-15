@@ -1,4 +1,0 @@
-##  Gray Code 
-
-Coming soon...
-

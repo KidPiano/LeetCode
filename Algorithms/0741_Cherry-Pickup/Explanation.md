@@ -1,4 +1,0 @@
-##  Cherry Pickup 
-
-Coming soon...
-

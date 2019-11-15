@@ -1,4 +1,0 @@
-##  Rotate Image 
-
-Coming soon...
-

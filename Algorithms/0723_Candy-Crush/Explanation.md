@@ -1,4 +1,0 @@
-##  Candy Crush 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Brick Wall 
-
-Coming soon...
-

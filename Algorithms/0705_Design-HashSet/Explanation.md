@@ -1,4 +1,0 @@
-##  Design HashSet 
-
-Coming soon...
-

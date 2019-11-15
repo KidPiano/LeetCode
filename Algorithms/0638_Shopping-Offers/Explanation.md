@@ -1,4 +1,0 @@
-##  Shopping Offers 
-
-Coming soon...
-

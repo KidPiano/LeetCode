@@ -1,4 +1,0 @@
-##  Jump Game 
-
-Coming soon...
-

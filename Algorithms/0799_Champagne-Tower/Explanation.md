@@ -1,4 +1,0 @@
-##  Champagne Tower 
-
-Coming soon...
-

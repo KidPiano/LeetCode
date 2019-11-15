@@ -1,4 +1,0 @@
-##  Simplify Path 
-
-Coming soon...
-

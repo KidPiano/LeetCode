@@ -1,4 +1,0 @@
-##  Maximal Square 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Palindrome Number 
-
-Coming soon...
-

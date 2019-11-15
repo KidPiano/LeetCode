@@ -1,4 +1,0 @@
-##  Mirror Reflection 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Scramble String 
-
-Coming soon...
-

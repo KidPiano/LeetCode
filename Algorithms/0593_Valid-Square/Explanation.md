@@ -1,4 +1,0 @@
-##  Valid Square 
-
-Coming soon...
-

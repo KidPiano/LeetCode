@@ -1,4 +1,0 @@
-##  Asteroid Collision 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Beautiful Array 
-
-Coming soon...
-

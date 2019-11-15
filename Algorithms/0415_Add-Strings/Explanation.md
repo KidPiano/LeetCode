@@ -1,4 +1,0 @@
-##  Add Strings 
-
-Coming soon...
-

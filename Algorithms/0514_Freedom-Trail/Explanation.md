@@ -1,4 +1,0 @@
-##  Freedom Trail 
-
-Coming soon...
-

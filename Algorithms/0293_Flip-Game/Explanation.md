@@ -1,4 +1,0 @@
-##  Flip Game 
-
-Coming soon...
-

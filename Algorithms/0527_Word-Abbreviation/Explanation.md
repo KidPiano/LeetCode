@@ -1,4 +1,0 @@
-##  Word Abbreviation 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Zuma Game 
-
-Coming soon...
-

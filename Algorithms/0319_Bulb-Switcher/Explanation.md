@@ -1,4 +1,0 @@
-##  Bulb Switcher 
-
-Coming soon...
-

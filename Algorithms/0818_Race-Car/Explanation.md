@@ -1,4 +1,0 @@
-##  Race Car 
-
-Coming soon...
-

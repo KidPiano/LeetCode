@@ -1,4 +1,0 @@
-##  Exam Room 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Valid Boomerang 
-
-Coming soon...
-

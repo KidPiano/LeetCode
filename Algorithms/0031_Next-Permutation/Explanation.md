@@ -1,4 +1,0 @@
-##  Next Permutation 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Prime Palindrome 
-
-Coming soon...
-

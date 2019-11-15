@@ -1,4 +1,0 @@
-##  Redundant Connection 
-
-Coming soon...
-

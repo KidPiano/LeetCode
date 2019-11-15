@@ -1,4 +1,0 @@
-##  Strange Printer 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  The Maze 
-
-Coming soon...
-

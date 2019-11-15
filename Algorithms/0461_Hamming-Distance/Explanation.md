@@ -1,4 +1,0 @@
-##  Hamming Distance 
-
-Coming soon...
-

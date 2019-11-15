@@ -1,4 +1,0 @@
-##  Word Squares 
-
-Coming soon...
-

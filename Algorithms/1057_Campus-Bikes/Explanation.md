@@ -1,4 +1,0 @@
-##  Campus Bikes 
-
-Coming soon...
-

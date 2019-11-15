@@ -1,4 +1,0 @@
-##  Factor Combinations 
-
-Coming soon...
-

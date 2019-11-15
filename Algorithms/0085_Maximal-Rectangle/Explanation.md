@@ -1,4 +1,0 @@
-##  Maximal Rectangle 
-
-Coming soon...
-

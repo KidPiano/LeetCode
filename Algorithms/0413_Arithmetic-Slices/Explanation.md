@@ -1,4 +1,0 @@
-##  Arithmetic Slices 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Coin Change 
-
-Coming soon...
-

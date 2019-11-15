@@ -1,4 +1,0 @@
-##  Sliding Puzzle 
-
-Coming soon...
-

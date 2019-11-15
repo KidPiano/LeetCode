@@ -1,4 +1,0 @@
-##  Happy Number 
-
-Coming soon...
-

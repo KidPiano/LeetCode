@@ -1,4 +1,0 @@
-##  Super Pow 
-
-Coming soon...
-

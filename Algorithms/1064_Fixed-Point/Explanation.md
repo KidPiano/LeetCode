@@ -1,4 +1,0 @@
-##  Fixed Point 
-
-Coming soon...
-

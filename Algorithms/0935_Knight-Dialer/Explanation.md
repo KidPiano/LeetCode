@@ -1,4 +1,0 @@
-##  Knight Dialer 
-
-Coming soon...
-

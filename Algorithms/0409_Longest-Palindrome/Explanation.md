@@ -1,4 +1,0 @@
-##  Longest Palindrome 
-
-Coming soon...
-

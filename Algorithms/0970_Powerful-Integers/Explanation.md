@@ -1,4 +1,0 @@
-##  Powerful Integers 
-
-Coming soon...
-

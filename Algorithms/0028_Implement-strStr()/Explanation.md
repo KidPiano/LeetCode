@@ -1,4 +1,0 @@
-##  Implement strStr() 
-
-Coming soon...
-

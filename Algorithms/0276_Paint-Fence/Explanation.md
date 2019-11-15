@@ -1,4 +1,0 @@
-##  Paint Fence 
-
-Coming soon...
-

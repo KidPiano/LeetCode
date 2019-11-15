@@ -1,4 +1,0 @@
-##  Coin Path 
-
-Coming soon...
-

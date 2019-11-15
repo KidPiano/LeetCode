@@ -1,4 +1,0 @@
-##  Monotonic Array 
-
-Coming soon...
-

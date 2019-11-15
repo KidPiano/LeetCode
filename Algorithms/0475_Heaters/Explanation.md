@@ -1,4 +1,0 @@
-##  Heaters 
-
-Coming soon...
-

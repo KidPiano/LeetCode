@@ -1,6 +1,0 @@
-##  Linked List Components 
-
-<iframe></iframe>
-
-Click [here](Explanation.md) for an explanation.
-

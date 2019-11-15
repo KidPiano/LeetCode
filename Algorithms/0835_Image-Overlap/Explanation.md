@@ -1,4 +1,0 @@
-##  Image Overlap 
-
-Coming soon...
-

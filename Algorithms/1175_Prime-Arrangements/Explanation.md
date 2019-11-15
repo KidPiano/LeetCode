@@ -1,4 +1,0 @@
-##  Prime Arrangements 
-
-Coming soon...
-

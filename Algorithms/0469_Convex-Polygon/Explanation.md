@@ -1,4 +1,0 @@
-##  Convex Polygon 
-
-Coming soon...
-

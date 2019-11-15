@@ -1,4 +1,0 @@
-##  Perfect Rectangle 
-
-Coming soon...
-

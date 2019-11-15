@@ -1,4 +1,0 @@
-##  Course Schedule 
-
-Coming soon...
-

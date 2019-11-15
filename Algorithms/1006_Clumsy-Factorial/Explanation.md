@@ -1,4 +1,0 @@
-##  Clumsy Factorial 
-
-Coming soon...
-

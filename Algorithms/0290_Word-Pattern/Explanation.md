@@ -1,4 +1,0 @@
-##  Word Pattern 
-
-Coming soon...
-

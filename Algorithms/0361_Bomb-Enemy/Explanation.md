@@ -1,4 +1,0 @@
-##  Bomb Enemy 
-
-Coming soon...
-

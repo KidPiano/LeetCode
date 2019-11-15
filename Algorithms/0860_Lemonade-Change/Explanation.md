@@ -1,4 +1,0 @@
-##  Lemonade Change 
-
-Coming soon...
-

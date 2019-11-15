@@ -1,4 +1,0 @@
-##  Perfect Number 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Counting Bits 
-
-Coming soon...
-

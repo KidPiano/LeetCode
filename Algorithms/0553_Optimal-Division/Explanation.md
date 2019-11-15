@@ -1,4 +1,0 @@
-##  Optimal Division 
-
-Coming soon...
-

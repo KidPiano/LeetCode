@@ -1,4 +1,0 @@
-##  Paint House 
-
-Coming soon...
-

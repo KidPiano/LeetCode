@@ -1,4 +1,0 @@
-##  Contiguous Array 
-
-Coming soon...
-

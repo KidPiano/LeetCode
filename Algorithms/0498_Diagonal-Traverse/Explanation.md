@@ -1,4 +1,0 @@
-##  Diagonal Traverse 
-
-Coming soon...
-

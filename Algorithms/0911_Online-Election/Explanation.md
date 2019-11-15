@@ -1,4 +1,0 @@
-##  Online Election 
-
-Coming soon...
-

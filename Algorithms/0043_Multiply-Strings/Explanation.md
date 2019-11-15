@@ -1,4 +1,0 @@
-##  Multiply Strings 
-
-Coming soon...
-

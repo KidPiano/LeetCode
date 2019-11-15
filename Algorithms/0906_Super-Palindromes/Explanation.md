@@ -1,4 +1,0 @@
-##  Super Palindromes 
-
-Coming soon...
-

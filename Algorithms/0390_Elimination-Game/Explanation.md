@@ -1,4 +1,0 @@
-##  Elimination Game 
-
-Coming soon...
-

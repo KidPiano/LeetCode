@@ -1,4 +1,0 @@
-##  Generalized Abbreviation 
-
-Coming soon...
-

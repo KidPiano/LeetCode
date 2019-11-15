@@ -1,4 +1,0 @@
-##  Rectangle Overlap 
-
-Coming soon...
-

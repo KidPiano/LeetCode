@@ -1,4 +1,0 @@
-##  Triangle 
-
-Coming soon...
-

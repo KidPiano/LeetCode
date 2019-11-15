@@ -1,4 +1,0 @@
-##  Profitable Schemes 
-
-Coming soon...
-

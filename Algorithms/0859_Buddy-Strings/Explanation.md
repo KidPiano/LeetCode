@@ -1,4 +1,0 @@
-##  Buddy Strings 
-
-Coming soon...
-

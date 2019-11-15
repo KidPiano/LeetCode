@@ -1,4 +1,0 @@
-##  Stone Game 
-
-Coming soon...
-

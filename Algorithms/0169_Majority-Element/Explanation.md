@@ -1,4 +1,0 @@
-##  Majority Element 
-
-Coming soon...
-

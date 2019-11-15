@@ -1,4 +1,0 @@
-##  Sentence Similarity 
-
-Coming soon...
-

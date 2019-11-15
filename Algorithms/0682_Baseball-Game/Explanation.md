@@ -1,4 +1,0 @@
-##  Baseball Game 
-
-Coming soon...
-

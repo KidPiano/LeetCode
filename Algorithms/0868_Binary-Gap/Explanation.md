@@ -1,4 +1,0 @@
-##  Binary Gap 
-
-Coming soon...
-

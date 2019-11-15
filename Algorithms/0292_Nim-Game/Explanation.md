@@ -1,4 +1,0 @@
-##  Nim Game 
-
-Coming soon...
-

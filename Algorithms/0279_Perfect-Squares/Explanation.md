@@ -1,4 +1,0 @@
-##  Perfect Squares 
-
-Coming soon...
-

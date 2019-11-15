@@ -1,4 +1,0 @@
-##  Palindromic Substrings 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Island Perimeter 
-
-Coming soon...
-

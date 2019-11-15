@@ -1,4 +1,0 @@
-##  Alien Dictionary 
-
-Coming soon...
-

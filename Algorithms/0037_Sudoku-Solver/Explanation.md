@@ -1,4 +1,0 @@
-##  Sudoku Solver 
-
-Coming soon...
-

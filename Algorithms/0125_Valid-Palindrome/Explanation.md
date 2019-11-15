@@ -1,4 +1,0 @@
-##  Valid Palindrome 
-
-Coming soon...
-

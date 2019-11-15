@@ -1,4 +1,0 @@
-##  Ransom Note 
-
-Coming soon...
-

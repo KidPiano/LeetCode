@@ -1,4 +1,0 @@
-##  Range Module 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  RLE Iterator 
-
-Coming soon...
-

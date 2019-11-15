@@ -1,4 +1,0 @@
-##  Assign Cookies 
-
-Coming soon...
-

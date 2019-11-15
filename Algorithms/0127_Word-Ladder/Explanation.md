@@ -1,4 +1,0 @@
-##  Word Ladder 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Ugly Number 
-
-Coming soon...
-

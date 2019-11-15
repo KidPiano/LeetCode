@@ -1,4 +1,0 @@
-##  Palindrome Partitioning 
-
-Coming soon...
-

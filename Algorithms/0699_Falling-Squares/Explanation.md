@@ -1,4 +1,0 @@
-##  Falling Squares 
-
-Coming soon...
-

@@ -1,4 +1,0 @@
-##  Sqrt(x) 
-
-Coming soon...
-
