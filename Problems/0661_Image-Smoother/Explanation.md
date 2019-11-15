@@ -1,4 +1,4 @@
-##  Image Smoother 
+# Image Smoother 
 
 Coming soon...
 

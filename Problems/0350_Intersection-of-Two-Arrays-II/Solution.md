@@ -1,4 +1,4 @@
-##  Intersection of Two Arrays II 
+# Intersection of Two Arrays II 
 
 <iframe></iframe>
 

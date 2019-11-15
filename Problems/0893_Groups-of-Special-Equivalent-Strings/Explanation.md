@@ -1,4 +1,4 @@
-##  Groups of Special-Equivalent Strings 
+# Groups of Special-Equivalent Strings 
 
 Coming soon...
 

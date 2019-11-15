@@ -1,4 +1,4 @@
-##  Distribute Coins in Binary Tree 
+# Distribute Coins in Binary Tree 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Find the Shortest Superstring 
+# Find the Shortest Superstring 
 
 Coming soon...
 

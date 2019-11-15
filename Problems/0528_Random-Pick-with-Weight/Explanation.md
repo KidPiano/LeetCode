@@ -1,4 +1,4 @@
-##  Random Pick with Weight 
+# Random Pick with Weight 
 
 Coming soon...
 

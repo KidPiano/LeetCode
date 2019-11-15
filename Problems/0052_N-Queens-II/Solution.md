@@ -1,4 +1,4 @@
-##  N-Queens II 
+# N-Queens II 
 
 <iframe></iframe>
 

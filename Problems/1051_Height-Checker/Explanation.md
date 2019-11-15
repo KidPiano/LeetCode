@@ -1,4 +1,4 @@
-##  Height Checker 
+# Height Checker 
 
 Coming soon...
 

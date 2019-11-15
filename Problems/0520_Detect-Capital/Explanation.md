@@ -1,4 +1,4 @@
-##  Detect Capital 
+# Detect Capital 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Minimum Score Triangulation of Polygon 
+# Minimum Score Triangulation of Polygon 
 
 Coming soon...
 

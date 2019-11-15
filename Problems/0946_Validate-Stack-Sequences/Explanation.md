@@ -1,4 +1,4 @@
-##  Validate Stack Sequences 
+# Validate Stack Sequences 
 
 Coming soon...
 

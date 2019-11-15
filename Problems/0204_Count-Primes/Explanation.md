@@ -1,4 +1,4 @@
-##  Count Primes 
+# Count Primes 
 
 Coming soon...
 

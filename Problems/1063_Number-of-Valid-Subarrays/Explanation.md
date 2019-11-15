@@ -1,4 +1,4 @@
-##  Number of Valid Subarrays 
+# Number of Valid Subarrays 
 
 Coming soon...
 

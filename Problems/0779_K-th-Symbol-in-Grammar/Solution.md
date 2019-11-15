@@ -1,4 +1,4 @@
-##  K-th Symbol in Grammar 
+# K-th Symbol in Grammar 
 
 <iframe></iframe>
 

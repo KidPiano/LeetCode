@@ -1,4 +1,4 @@
-##  Split Array into Consecutive Subsequences 
+# Split Array into Consecutive Subsequences 
 
 <iframe></iframe>
 

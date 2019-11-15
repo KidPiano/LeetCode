@@ -1,4 +1,4 @@
-##  Sparse Matrix Multiplication 
+# Sparse Matrix Multiplication 
 
 <iframe></iframe>
 

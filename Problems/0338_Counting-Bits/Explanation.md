@@ -1,4 +1,4 @@
-##  Counting Bits 
+# Counting Bits 
 
 Coming soon...
 

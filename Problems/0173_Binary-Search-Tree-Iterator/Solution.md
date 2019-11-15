@@ -1,4 +1,4 @@
-##  Binary Search Tree Iterator 
+# Binary Search Tree Iterator 
 
 <iframe></iframe>
 

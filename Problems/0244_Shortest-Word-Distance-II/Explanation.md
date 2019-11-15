@@ -1,4 +1,4 @@
-##  Shortest Word Distance II 
+# Shortest Word Distance II 
 
 Coming soon...
 

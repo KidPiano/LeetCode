@@ -1,4 +1,4 @@
-##  Smallest String With Swaps 
+# Smallest String With Swaps 
 
 Coming soon...
 

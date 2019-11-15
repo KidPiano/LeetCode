@@ -1,4 +1,4 @@
-##  Smallest Rectangle Enclosing Black Pixels 
+# Smallest Rectangle Enclosing Black Pixels 
 
 Coming soon...
 

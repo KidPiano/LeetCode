@@ -1,4 +1,4 @@
-##  Maximum Average Subarray II 
+# Maximum Average Subarray II 
 
 <iframe></iframe>
 

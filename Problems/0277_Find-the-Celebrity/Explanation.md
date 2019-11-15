@@ -1,4 +1,4 @@
-##  Find the Celebrity 
+# Find the Celebrity 
 
 Coming soon...
 

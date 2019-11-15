@@ -1,4 +1,4 @@
-##  Word Ladder II 
+# Word Ladder II 
 
 Coming soon...
 

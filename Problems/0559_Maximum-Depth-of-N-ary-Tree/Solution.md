@@ -1,4 +1,4 @@
-##  Maximum Depth of N-ary Tree 
+# Maximum Depth of N-ary Tree 
 
 <iframe></iframe>
 

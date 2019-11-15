@@ -1,4 +1,4 @@
-##  Maximum XOR of Two Numbers in an Array 
+# Maximum XOR of Two Numbers in an Array 
 
 <iframe></iframe>
 

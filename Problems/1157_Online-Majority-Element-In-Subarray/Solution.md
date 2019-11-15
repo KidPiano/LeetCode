@@ -1,4 +1,4 @@
-##  Online Majority Element In Subarray 
+# Online Majority Element In Subarray 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Split Array with Equal Sum 
+# Split Array with Equal Sum 
 
 <iframe></iframe>
 

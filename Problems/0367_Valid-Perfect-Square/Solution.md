@@ -1,4 +1,4 @@
-##  Valid Perfect Square 
+# Valid Perfect Square 
 
 <iframe></iframe>
 

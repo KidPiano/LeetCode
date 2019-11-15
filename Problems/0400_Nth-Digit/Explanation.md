@@ -1,4 +1,4 @@
-##  Nth Digit 
+# Nth Digit 
 
 Coming soon...
 

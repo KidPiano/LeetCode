@@ -1,4 +1,4 @@
-##  Valid Palindrome 
+# Valid Palindrome 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Maximum Sum of Two Non-Overlapping Subarrays 
+# Maximum Sum of Two Non-Overlapping Subarrays 
 
 <iframe></iframe>
 

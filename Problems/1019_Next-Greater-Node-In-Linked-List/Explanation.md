@@ -1,4 +1,4 @@
-##  Next Greater Node In Linked List 
+# Next Greater Node In Linked List 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Chalkboard XOR Game 
+# Chalkboard XOR Game 
 
 <iframe></iframe>
 

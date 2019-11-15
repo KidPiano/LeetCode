@@ -1,4 +1,4 @@
-##  Power of Two 
+# Power of Two 
 
 <iframe></iframe>
 

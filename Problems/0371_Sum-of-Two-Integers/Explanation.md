@@ -1,4 +1,4 @@
-##  Sum of Two Integers 
+# Sum of Two Integers 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Special Binary String 
+# Special Binary String 
 
 Coming soon...
 

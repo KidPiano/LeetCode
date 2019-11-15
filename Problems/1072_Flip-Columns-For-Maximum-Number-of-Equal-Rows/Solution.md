@@ -1,4 +1,4 @@
-##  Flip Columns For Maximum Number of Equal Rows 
+# Flip Columns For Maximum Number of Equal Rows 
 
 <iframe></iframe>
 

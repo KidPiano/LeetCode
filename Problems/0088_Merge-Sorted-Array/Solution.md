@@ -1,4 +1,4 @@
-##  Merge Sorted Array 
+# Merge Sorted Array 
 
 <iframe></iframe>
 

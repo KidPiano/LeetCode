@@ -1,4 +1,4 @@
-##  Rearrange String k Distance Apart 
+# Rearrange String k Distance Apart 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Binary String With Substrings Representing 1 To N 
+# Binary String With Substrings Representing 1 To N 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  K-Concatenation Maximum Sum 
+# K-Concatenation Maximum Sum 
 
 Coming soon...
 

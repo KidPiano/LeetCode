@@ -1,4 +1,4 @@
-##  Number of Equivalent Domino Pairs 
+# Number of Equivalent Domino Pairs 
 
 Coming soon...
 

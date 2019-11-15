@@ -1,4 +1,4 @@
-##  Strong Password Checker 
+# Strong Password Checker 
 
 Coming soon...
 

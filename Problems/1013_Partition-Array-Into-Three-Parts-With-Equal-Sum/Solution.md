@@ -1,4 +1,4 @@
-##  Partition Array Into Three Parts With Equal Sum 
+# Partition Array Into Three Parts With Equal Sum 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Vowel Spellchecker 
+# Vowel Spellchecker 
 
 Coming soon...
 

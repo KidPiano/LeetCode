@@ -1,4 +1,4 @@
-##  Minimum Area Rectangle II 
+# Minimum Area Rectangle II 
 
 <iframe></iframe>
 

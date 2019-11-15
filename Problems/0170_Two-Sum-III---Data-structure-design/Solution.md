@@ -1,4 +1,4 @@
-##  Two Sum III - Data structure design 
+# Two Sum III - Data structure design 
 
 <iframe></iframe>
 

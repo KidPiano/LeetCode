@@ -1,4 +1,4 @@
-##  Maximum Subarray Sum with One Deletion 
+# Maximum Subarray Sum with One Deletion 
 
 Coming soon...
 

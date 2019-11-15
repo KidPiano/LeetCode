@@ -1,4 +1,4 @@
-##  Encode and Decode Strings 
+# Encode and Decode Strings 
 
 Coming soon...
 

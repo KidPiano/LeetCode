@@ -1,4 +1,4 @@
-##  Fair Candy Swap 
+# Fair Candy Swap 
 
 Coming soon...
 

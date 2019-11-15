@@ -1,4 +1,4 @@
-##  Number of Distinct Islands 
+# Number of Distinct Islands 
 
 <iframe></iframe>
 

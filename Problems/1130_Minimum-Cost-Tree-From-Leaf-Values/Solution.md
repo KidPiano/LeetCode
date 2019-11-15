@@ -1,4 +1,4 @@
-##  Minimum Cost Tree From Leaf Values 
+# Minimum Cost Tree From Leaf Values 
 
 <iframe></iframe>
 

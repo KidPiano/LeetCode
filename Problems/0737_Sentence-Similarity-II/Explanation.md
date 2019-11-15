@@ -1,4 +1,4 @@
-##  Sentence Similarity II 
+# Sentence Similarity II 
 
 Coming soon...
 

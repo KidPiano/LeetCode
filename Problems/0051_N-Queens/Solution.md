@@ -1,4 +1,4 @@
-##  N-Queens 
+# N-Queens 
 
 <iframe></iframe>
 

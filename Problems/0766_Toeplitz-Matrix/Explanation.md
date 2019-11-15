@@ -1,4 +1,4 @@
-##  Toeplitz Matrix 
+# Toeplitz Matrix 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Pow(x, n) 
+# Pow(x, n) 
 
 Coming soon...
 

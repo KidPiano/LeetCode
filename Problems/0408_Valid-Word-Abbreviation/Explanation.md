@@ -1,4 +1,4 @@
-##  Valid Word Abbreviation 
+# Valid Word Abbreviation 
 
 Coming soon...
 

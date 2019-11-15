@@ -1,4 +1,4 @@
-##  Consecutive Numbers Sum 
+# Consecutive Numbers Sum 
 
 Coming soon...
 

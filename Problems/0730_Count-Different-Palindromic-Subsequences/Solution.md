@@ -1,4 +1,4 @@
-##  Count Different Palindromic Subsequences 
+# Count Different Palindromic Subsequences 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Maximal Rectangle 
+# Maximal Rectangle 
 
 <iframe></iframe>
 

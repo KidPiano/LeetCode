@@ -1,4 +1,4 @@
-##  Prime Number of Set Bits in Binary Representation 
+# Prime Number of Set Bits in Binary Representation 
 
 <iframe></iframe>
 

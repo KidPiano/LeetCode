@@ -1,4 +1,4 @@
-##  Pancake Sorting 
+# Pancake Sorting 
 
 Coming soon...
 

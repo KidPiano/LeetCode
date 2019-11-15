@@ -1,4 +1,4 @@
-##  Divide Array Into Increasing Sequences 
+# Divide Array Into Increasing Sequences 
 
 <iframe></iframe>
 

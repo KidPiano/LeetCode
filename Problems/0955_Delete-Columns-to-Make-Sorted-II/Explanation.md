@@ -1,4 +1,4 @@
-##  Delete Columns to Make Sorted II 
+# Delete Columns to Make Sorted II 
 
 Coming soon...
 

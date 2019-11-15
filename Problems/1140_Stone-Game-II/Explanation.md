@@ -1,4 +1,4 @@
-##  Stone Game II 
+# Stone Game II 
 
 Coming soon...
 

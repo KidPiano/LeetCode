@@ -1,4 +1,4 @@
-##  Generalized Abbreviation 
+# Generalized Abbreviation 
 
 <iframe></iframe>
 

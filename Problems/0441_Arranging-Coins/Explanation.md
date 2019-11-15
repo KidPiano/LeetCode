@@ -1,4 +1,4 @@
-##  Arranging Coins 
+# Arranging Coins 
 
 Coming soon...
 

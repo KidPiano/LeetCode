@@ -1,4 +1,4 @@
-##  Strange Printer 
+# Strange Printer 
 
 <iframe></iframe>
 

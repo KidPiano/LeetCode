@@ -1,4 +1,4 @@
-##  Maximum Distance in Arrays 
+# Maximum Distance in Arrays 
 
 <iframe></iframe>
 

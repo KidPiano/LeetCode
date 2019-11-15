@@ -1,4 +1,4 @@
-##  Smallest Subsequence of Distinct Characters 
+# Smallest Subsequence of Distinct Characters 
 
 Coming soon...
 

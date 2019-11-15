@@ -1,4 +1,4 @@
-##  Positions of Large Groups 
+# Positions of Large Groups 
 
 <iframe></iframe>
 

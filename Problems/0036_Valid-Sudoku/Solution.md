@@ -1,4 +1,4 @@
-##  Valid Sudoku 
+# Valid Sudoku 
 
 <iframe></iframe>
 

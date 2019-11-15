@@ -1,4 +1,4 @@
-##  Shortest Common Supersequence 
+# Shortest Common Supersequence 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Sum of Digits in the Minimum Number 
+# Sum of Digits in the Minimum Number 
 
 Coming soon...
 

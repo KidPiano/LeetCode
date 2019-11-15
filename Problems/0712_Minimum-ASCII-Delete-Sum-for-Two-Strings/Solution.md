@@ -1,4 +1,4 @@
-##  Minimum ASCII Delete Sum for Two Strings 
+# Minimum ASCII Delete Sum for Two Strings 
 
 <iframe></iframe>
 

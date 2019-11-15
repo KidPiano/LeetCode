@@ -1,4 +1,4 @@
-##  Merge Two Sorted Lists 
+# Merge Two Sorted Lists 
 
 Coming soon...
 

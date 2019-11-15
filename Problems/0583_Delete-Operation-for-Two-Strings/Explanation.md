@@ -1,4 +1,4 @@
-##  Delete Operation for Two Strings 
+# Delete Operation for Two Strings 
 
 Coming soon...
 

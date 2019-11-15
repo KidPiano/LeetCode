@@ -1,4 +1,4 @@
-##  Jump Game II 
+# Jump Game II 
 
 Coming soon...
 

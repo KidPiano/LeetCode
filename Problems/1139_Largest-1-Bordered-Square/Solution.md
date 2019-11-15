@@ -1,4 +1,4 @@
-##  Largest 1-Bordered Square 
+# Largest 1-Bordered Square 
 
 <iframe></iframe>
 

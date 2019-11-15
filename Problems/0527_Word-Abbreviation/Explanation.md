@@ -1,4 +1,4 @@
-##  Word Abbreviation 
+# Word Abbreviation 
 
 Coming soon...
 

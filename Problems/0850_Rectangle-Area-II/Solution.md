@@ -1,4 +1,4 @@
-##  Rectangle Area II 
+# Rectangle Area II 
 
 <iframe></iframe>
 

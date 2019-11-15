@@ -1,4 +1,4 @@
-##  Shortest Completing Word 
+# Shortest Completing Word 
 
 Coming soon...
 

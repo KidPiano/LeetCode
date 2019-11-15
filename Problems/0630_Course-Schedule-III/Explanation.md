@@ -1,4 +1,4 @@
-##  Course Schedule III 
+# Course Schedule III 
 
 Coming soon...
 

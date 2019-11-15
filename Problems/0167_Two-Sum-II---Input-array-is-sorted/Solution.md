@@ -1,4 +1,4 @@
-##  Two Sum II - Input array is sorted 
+# Two Sum II - Input array is sorted 
 
 <iframe></iframe>
 

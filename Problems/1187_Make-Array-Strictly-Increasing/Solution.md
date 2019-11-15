@@ -1,4 +1,4 @@
-##  Make Array Strictly Increasing 
+# Make Array Strictly Increasing 
 
 <iframe></iframe>
 

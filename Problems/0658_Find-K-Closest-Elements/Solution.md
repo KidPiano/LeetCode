@@ -1,4 +1,4 @@
-##  Find K Closest Elements 
+# Find K Closest Elements 
 
 <iframe></iframe>
 

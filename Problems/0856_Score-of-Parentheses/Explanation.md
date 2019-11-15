@@ -1,4 +1,4 @@
-##  Score of Parentheses 
+# Score of Parentheses 
 
 Coming soon...
 

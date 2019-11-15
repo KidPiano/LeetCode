@@ -1,4 +1,4 @@
-##  Find and Replace Pattern 
+# Find and Replace Pattern 
 
 Coming soon...
 

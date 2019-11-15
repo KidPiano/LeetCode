@@ -1,4 +1,4 @@
-##  Number of Subarrays with Bounded Maximum 
+# Number of Subarrays with Bounded Maximum 
 
 Coming soon...
 

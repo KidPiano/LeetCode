@@ -1,4 +1,4 @@
-##  Number of Squareful Arrays 
+# Number of Squareful Arrays 
 
 Coming soon...
 

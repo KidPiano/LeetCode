@@ -1,4 +1,4 @@
-##  Preimage Size of Factorial Zeroes Function 
+# Preimage Size of Factorial Zeroes Function 
 
 <iframe></iframe>
 

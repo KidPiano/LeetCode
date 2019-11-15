@@ -1,4 +1,4 @@
-##  Missing Element in Sorted Array 
+# Missing Element in Sorted Array 
 
 <iframe></iframe>
 

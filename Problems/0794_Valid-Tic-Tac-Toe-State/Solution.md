@@ -1,4 +1,4 @@
-##  Valid Tic-Tac-Toe State 
+# Valid Tic-Tac-Toe State 
 
 <iframe></iframe>
 

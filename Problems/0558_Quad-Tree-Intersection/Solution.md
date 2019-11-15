@@ -1,4 +1,4 @@
-##  Quad Tree Intersection 
+# Quad Tree Intersection 
 
 <iframe></iframe>
 

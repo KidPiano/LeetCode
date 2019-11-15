@@ -1,4 +1,4 @@
-##  Minimum Moves to Equal Array Elements II 
+# Minimum Moves to Equal Array Elements II 
 
 Coming soon...
 

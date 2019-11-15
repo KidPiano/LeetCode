@@ -1,4 +1,4 @@
-##  Largest Sum of Averages 
+# Largest Sum of Averages 
 
 <iframe></iframe>
 

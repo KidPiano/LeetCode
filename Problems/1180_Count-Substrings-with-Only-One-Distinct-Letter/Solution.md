@@ -1,4 +1,4 @@
-##  Count Substrings with Only One Distinct Letter 
+# Count Substrings with Only One Distinct Letter 
 
 <iframe></iframe>
 

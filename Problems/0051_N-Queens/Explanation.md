@@ -1,4 +1,4 @@
-##  N-Queens 
+# N-Queens 
 
 Coming soon...
 

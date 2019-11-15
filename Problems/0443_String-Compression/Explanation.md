@@ -1,4 +1,4 @@
-##  String Compression 
+# String Compression 
 
 Coming soon...
 

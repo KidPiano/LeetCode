@@ -1,4 +1,4 @@
-##  Combination Sum III 
+# Combination Sum III 
 
 <iframe></iframe>
 

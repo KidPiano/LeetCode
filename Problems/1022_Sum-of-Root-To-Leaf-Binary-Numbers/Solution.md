@@ -1,4 +1,4 @@
-##  Sum of Root To Leaf Binary Numbers 
+# Sum of Root To Leaf Binary Numbers 
 
 <iframe></iframe>
 

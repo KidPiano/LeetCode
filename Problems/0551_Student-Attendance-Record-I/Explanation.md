@@ -1,4 +1,4 @@
-##  Student Attendance Record I 
+# Student Attendance Record I 
 
 Coming soon...
 

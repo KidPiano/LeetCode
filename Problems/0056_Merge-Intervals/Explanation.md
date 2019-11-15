@@ -1,4 +1,4 @@
-##  Merge Intervals 
+# Merge Intervals 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Smallest Integer Divisible by K 
+# Smallest Integer Divisible by K 
 
 Coming soon...
 

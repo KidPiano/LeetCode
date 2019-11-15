@@ -1,4 +1,4 @@
-##  Transform to Chessboard 
+# Transform to Chessboard 
 
 Coming soon...
 

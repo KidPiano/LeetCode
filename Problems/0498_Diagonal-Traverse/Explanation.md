@@ -1,4 +1,4 @@
-##  Diagonal Traverse 
+# Diagonal Traverse 
 
 Coming soon...
 

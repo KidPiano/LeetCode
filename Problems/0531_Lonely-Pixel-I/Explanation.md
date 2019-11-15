@@ -1,4 +1,4 @@
-##  Lonely Pixel I 
+# Lonely Pixel I 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Valid Word Square 
+# Valid Word Square 
 
 Coming soon...
 

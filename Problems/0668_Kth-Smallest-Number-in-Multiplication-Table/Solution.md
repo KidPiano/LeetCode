@@ -1,4 +1,4 @@
-##  Kth Smallest Number in Multiplication Table 
+# Kth Smallest Number in Multiplication Table 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Check If a Number Is Majority Element in a Sorted Array 
+# Check If a Number Is Majority Element in a Sorted Array 
 
 <iframe></iframe>
 

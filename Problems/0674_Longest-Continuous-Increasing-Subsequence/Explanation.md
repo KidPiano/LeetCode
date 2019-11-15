@@ -1,4 +1,4 @@
-##  Longest Continuous Increasing Subsequence 
+# Longest Continuous Increasing Subsequence 
 
 Coming soon...
 

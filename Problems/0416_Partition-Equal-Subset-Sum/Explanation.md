@@ -1,4 +1,4 @@
-##  Partition Equal Subset Sum 
+# Partition Equal Subset Sum 
 
 Coming soon...
 

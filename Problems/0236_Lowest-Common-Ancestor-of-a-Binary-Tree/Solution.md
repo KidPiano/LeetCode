@@ -1,4 +1,4 @@
-##  Lowest Common Ancestor of a Binary Tree 
+# Lowest Common Ancestor of a Binary Tree 
 
 <iframe></iframe>
 

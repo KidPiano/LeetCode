@@ -1,4 +1,4 @@
-##  Max Sum of Rectangle No Larger Than K 
+# Max Sum of Rectangle No Larger Than K 
 
 <iframe></iframe>
 

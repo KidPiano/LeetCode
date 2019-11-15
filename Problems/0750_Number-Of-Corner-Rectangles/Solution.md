@@ -1,4 +1,4 @@
-##  Number Of Corner Rectangles 
+# Number Of Corner Rectangles 
 
 <iframe></iframe>
 

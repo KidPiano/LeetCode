@@ -1,4 +1,4 @@
-##  Insertion Sort List 
+# Insertion Sort List 
 
 Coming soon...
 

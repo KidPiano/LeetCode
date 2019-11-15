@@ -1,4 +1,4 @@
-##  Super Ugly Number 
+# Super Ugly Number 
 
 <iframe></iframe>
 

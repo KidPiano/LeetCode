@@ -1,4 +1,4 @@
-##  Minimum Domino Rotations For Equal Row 
+# Minimum Domino Rotations For Equal Row 
 
 <iframe></iframe>
 

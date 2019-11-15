@@ -1,4 +1,4 @@
-##  Goat Latin 
+# Goat Latin 
 
 Coming soon...
 

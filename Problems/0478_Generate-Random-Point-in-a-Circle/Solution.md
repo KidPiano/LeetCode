@@ -1,4 +1,4 @@
-##  Generate Random Point in a Circle 
+# Generate Random Point in a Circle 
 
 <iframe></iframe>
 

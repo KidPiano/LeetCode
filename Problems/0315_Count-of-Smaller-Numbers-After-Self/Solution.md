@@ -1,4 +1,4 @@
-##  Count of Smaller Numbers After Self 
+# Count of Smaller Numbers After Self 
 
 <iframe></iframe>
 

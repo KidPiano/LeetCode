@@ -1,4 +1,4 @@
-##  Construct Quad Tree 
+# Construct Quad Tree 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Number of Atoms 
+# Number of Atoms 
 
 Coming soon...
 

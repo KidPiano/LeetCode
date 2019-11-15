@@ -1,4 +1,4 @@
-##  Equal Rational Numbers 
+# Equal Rational Numbers 
 
 Coming soon...
 

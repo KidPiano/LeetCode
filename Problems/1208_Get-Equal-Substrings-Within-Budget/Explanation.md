@@ -1,4 +1,4 @@
-##  Get Equal Substrings Within Budget 
+# Get Equal Substrings Within Budget 
 
 Coming soon...
 

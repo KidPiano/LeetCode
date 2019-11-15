@@ -1,4 +1,4 @@
-##  Global and Local Inversions 
+# Global and Local Inversions 
 
 Coming soon...
 

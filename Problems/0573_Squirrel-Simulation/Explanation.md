@@ -1,4 +1,4 @@
-##  Squirrel Simulation 
+# Squirrel Simulation 
 
 Coming soon...
 

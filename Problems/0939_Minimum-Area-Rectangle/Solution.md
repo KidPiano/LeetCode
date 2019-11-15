@@ -1,4 +1,4 @@
-##  Minimum Area Rectangle 
+# Minimum Area Rectangle 
 
 <iframe></iframe>
 

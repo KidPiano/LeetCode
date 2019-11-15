@@ -1,4 +1,4 @@
-##  Recover a Tree From Preorder Traversal 
+# Recover a Tree From Preorder Traversal 
 
 <iframe></iframe>
 

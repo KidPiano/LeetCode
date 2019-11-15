@@ -1,4 +1,4 @@
-##  Satisfiability of Equality Equations 
+# Satisfiability of Equality Equations 
 
 Coming soon...
 

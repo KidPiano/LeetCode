@@ -1,4 +1,4 @@
-##  Letter Case Permutation 
+# Letter Case Permutation 
 
 Coming soon...
 

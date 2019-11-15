@@ -1,4 +1,4 @@
-##  Nth Magical Number 
+# Nth Magical Number 
 
 <iframe></iframe>
 

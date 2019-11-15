@@ -1,4 +1,4 @@
-##  Number of Longest Increasing Subsequence 
+# Number of Longest Increasing Subsequence 
 
 <iframe></iframe>
 

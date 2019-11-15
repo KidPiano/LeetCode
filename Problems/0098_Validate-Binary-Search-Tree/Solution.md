@@ -1,4 +1,4 @@
-##  Validate Binary Search Tree 
+# Validate Binary Search Tree 
 
 <iframe></iframe>
 

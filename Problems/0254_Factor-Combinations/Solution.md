@@ -1,4 +1,4 @@
-##  Factor Combinations 
+# Factor Combinations 
 
 <iframe></iframe>
 

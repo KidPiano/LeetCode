@@ -1,4 +1,4 @@
-##  Minimum Factorization 
+# Minimum Factorization 
 
 Coming soon...
 

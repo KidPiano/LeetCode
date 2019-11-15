@@ -1,4 +1,4 @@
-##  Random Pick with Blacklist 
+# Random Pick with Blacklist 
 
 Coming soon...
 

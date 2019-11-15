@@ -1,4 +1,4 @@
-##  Hand of Straights 
+# Hand of Straights 
 
 <iframe></iframe>
 

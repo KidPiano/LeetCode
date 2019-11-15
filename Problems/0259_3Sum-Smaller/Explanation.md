@@ -1,4 +1,4 @@
-##  3Sum Smaller 
+# 3Sum Smaller 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Three Equal Parts 
+# Three Equal Parts 
 
 Coming soon...
 

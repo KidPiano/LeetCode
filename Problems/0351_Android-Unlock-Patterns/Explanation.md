@@ -1,4 +1,4 @@
-##  Android Unlock Patterns 
+# Android Unlock Patterns 
 
 Coming soon...
 

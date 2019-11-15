@@ -1,4 +1,4 @@
-##  Moving Stones Until Consecutive II 
+# Moving Stones Until Consecutive II 
 
 <iframe></iframe>
 

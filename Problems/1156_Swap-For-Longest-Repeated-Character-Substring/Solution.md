@@ -1,4 +1,4 @@
-##  Swap For Longest Repeated Character Substring 
+# Swap For Longest Repeated Character Substring 
 
 <iframe></iframe>
 

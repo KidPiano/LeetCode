@@ -1,4 +1,4 @@
-##  Array Partition I 
+# Array Partition I 
 
 Coming soon...
 

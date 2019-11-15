@@ -1,4 +1,4 @@
-##  Swap Adjacent in LR String 
+# Swap Adjacent in LR String 
 
 Coming soon...
 

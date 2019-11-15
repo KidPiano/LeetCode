@@ -1,4 +1,4 @@
-##  Parallel Courses 
+# Parallel Courses 
 
 Coming soon...
 

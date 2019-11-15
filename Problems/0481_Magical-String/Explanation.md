@@ -1,4 +1,4 @@
-##  Magical String 
+# Magical String 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Minimum Genetic Mutation 
+# Minimum Genetic Mutation 
 
 Coming soon...
 

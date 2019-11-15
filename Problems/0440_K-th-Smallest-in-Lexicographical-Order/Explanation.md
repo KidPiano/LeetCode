@@ -1,4 +1,4 @@
-##  K-th Smallest in Lexicographical Order 
+# K-th Smallest in Lexicographical Order 
 
 Coming soon...
 

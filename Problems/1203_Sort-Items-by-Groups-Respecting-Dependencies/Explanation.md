@@ -1,4 +1,4 @@
-##  Sort Items by Groups Respecting Dependencies 
+# Sort Items by Groups Respecting Dependencies 
 
 Coming soon...
 

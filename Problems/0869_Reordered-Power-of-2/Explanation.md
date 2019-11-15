@@ -1,4 +1,4 @@
-##  Reordered Power of 2 
+# Reordered Power of 2 
 
 Coming soon...
 

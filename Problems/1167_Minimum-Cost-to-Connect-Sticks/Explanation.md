@@ -1,4 +1,4 @@
-##  Minimum Cost to Connect Sticks 
+# Minimum Cost to Connect Sticks 
 
 Coming soon...
 

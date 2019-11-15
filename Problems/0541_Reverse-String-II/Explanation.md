@@ -1,4 +1,4 @@
-##  Reverse String II 
+# Reverse String II 
 
 Coming soon...
 

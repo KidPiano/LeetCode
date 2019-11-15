@@ -1,4 +1,4 @@
-##  K-th Smallest Prime Fraction 
+# K-th Smallest Prime Fraction 
 
 Coming soon...
 

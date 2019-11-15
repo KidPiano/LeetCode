@@ -1,4 +1,4 @@
-##  Valid Permutations for DI Sequence 
+# Valid Permutations for DI Sequence 
 
 Coming soon...
 

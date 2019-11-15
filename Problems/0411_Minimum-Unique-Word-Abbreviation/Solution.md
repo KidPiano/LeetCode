@@ -1,4 +1,4 @@
-##  Minimum Unique Word Abbreviation 
+# Minimum Unique Word Abbreviation 
 
 <iframe></iframe>
 

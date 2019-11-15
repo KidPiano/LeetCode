@@ -1,4 +1,4 @@
-##  Number of Valid Words for Each Puzzle 
+# Number of Valid Words for Each Puzzle 
 
 <iframe></iframe>
 

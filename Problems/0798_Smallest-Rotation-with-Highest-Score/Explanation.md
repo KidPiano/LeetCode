@@ -1,4 +1,4 @@
-##  Smallest Rotation with Highest Score 
+# Smallest Rotation with Highest Score 
 
 Coming soon...
 

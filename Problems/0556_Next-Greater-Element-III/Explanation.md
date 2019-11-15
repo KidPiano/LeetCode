@@ -1,4 +1,4 @@
-##  Next Greater Element III 
+# Next Greater Element III 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Sum of Square Numbers 
+# Sum of Square Numbers 
 
 Coming soon...
 

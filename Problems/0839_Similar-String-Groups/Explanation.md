@@ -1,4 +1,4 @@
-##  Similar String Groups 
+# Similar String Groups 
 
 Coming soon...
 

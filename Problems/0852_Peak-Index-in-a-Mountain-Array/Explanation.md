@@ -1,4 +1,4 @@
-##  Peak Index in a Mountain Array 
+# Peak Index in a Mountain Array 
 
 Coming soon...
 

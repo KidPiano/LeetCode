@@ -1,4 +1,4 @@
-##  Next Greater Element II 
+# Next Greater Element II 
 
 <iframe></iframe>
 

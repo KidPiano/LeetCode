@@ -1,4 +1,4 @@
-##  Moving Average from Data Stream 
+# Moving Average from Data Stream 
 
 Coming soon...
 

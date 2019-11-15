@@ -1,4 +1,4 @@
-##  Sum of Subarray Minimums 
+# Sum of Subarray Minimums 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Generate Parentheses 
+# Generate Parentheses 
 
 Coming soon...
 

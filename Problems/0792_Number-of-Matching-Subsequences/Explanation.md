@@ -1,4 +1,4 @@
-##  Number of Matching Subsequences 
+# Number of Matching Subsequences 
 
 Coming soon...
 

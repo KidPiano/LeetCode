@@ -1,4 +1,4 @@
-##  Longest Repeating Substring 
+# Longest Repeating Substring 
 
 <iframe></iframe>
 

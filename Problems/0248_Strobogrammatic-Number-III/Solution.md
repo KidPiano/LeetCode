@@ -1,4 +1,4 @@
-##  Strobogrammatic Number III 
+# Strobogrammatic Number III 
 
 <iframe></iframe>
 

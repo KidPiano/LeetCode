@@ -1,4 +1,4 @@
-##  K-diff Pairs in an Array 
+# K-diff Pairs in an Array 
 
 <iframe></iframe>
 

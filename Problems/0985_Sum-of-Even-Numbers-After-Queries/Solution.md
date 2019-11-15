@@ -1,4 +1,4 @@
-##  Sum of Even Numbers After Queries 
+# Sum of Even Numbers After Queries 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Stamping The Sequence 
+# Stamping The Sequence 
 
 <iframe></iframe>
 

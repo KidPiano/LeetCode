@@ -1,4 +1,4 @@
-##  Sliding Puzzle 
+# Sliding Puzzle 
 
 <iframe></iframe>
 

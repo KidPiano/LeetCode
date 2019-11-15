@@ -1,4 +1,4 @@
-##  Valid Sudoku 
+# Valid Sudoku 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Longest Uncommon Subsequence I 
+# Longest Uncommon Subsequence I 
 
 <iframe></iframe>
 

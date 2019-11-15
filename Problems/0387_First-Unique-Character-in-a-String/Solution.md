@@ -1,4 +1,4 @@
-##  First Unique Character in a String 
+# First Unique Character in a String 
 
 <iframe></iframe>
 

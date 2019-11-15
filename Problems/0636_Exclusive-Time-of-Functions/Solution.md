@@ -1,4 +1,4 @@
-##  Exclusive Time of Functions 
+# Exclusive Time of Functions 
 
 <iframe></iframe>
 

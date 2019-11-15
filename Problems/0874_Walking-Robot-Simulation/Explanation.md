@@ -1,4 +1,4 @@
-##  Walking Robot Simulation 
+# Walking Robot Simulation 
 
 Coming soon...
 

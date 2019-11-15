@@ -1,4 +1,4 @@
-##  Remove Duplicates from Sorted Array II 
+# Remove Duplicates from Sorted Array II 
 
 Coming soon...
 

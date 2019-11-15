@@ -1,4 +1,4 @@
-##  Reverse Substrings Between Each Pair of Parentheses 
+# Reverse Substrings Between Each Pair of Parentheses 
 
 <iframe></iframe>
 

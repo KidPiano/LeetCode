@@ -1,4 +1,4 @@
-##  The Skyline Problem 
+# The Skyline Problem 
 
 <iframe></iframe>
 

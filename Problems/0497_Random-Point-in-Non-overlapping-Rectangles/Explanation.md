@@ -1,4 +1,4 @@
-##  Random Point in Non-overlapping Rectangles 
+# Random Point in Non-overlapping Rectangles 
 
 Coming soon...
 

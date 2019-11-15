@@ -1,4 +1,4 @@
-##  Minimum Cost to Merge Stones 
+# Minimum Cost to Merge Stones 
 
 <iframe></iframe>
 

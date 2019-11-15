@@ -1,4 +1,4 @@
-##  Longest String Chain 
+# Longest String Chain 
 
 Coming soon...
 

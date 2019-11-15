@@ -1,4 +1,4 @@
-##  Sentence Screen Fitting 
+# Sentence Screen Fitting 
 
 Coming soon...
 

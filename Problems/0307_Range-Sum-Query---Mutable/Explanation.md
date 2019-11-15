@@ -1,4 +1,4 @@
-##  Range Sum Query - Mutable 
+# Range Sum Query - Mutable 
 
 Coming soon...
 

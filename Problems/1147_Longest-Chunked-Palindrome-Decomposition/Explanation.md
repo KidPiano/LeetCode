@@ -1,4 +1,4 @@
-##  Longest Chunked Palindrome Decomposition 
+# Longest Chunked Palindrome Decomposition 
 
 Coming soon...
 

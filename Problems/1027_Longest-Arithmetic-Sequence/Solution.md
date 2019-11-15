@@ -1,4 +1,4 @@
-##  Longest Arithmetic Sequence 
+# Longest Arithmetic Sequence 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Maximum Average Subtree 
+# Maximum Average Subtree 
 
 <iframe></iframe>
 

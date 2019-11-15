@@ -1,4 +1,4 @@
-##  Armstrong Number 
+# Armstrong Number 
 
 Coming soon...
 

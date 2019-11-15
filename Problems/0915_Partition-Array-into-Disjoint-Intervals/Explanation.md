@@ -1,4 +1,4 @@
-##  Partition Array into Disjoint Intervals 
+# Partition Array into Disjoint Intervals 
 
 Coming soon...
 

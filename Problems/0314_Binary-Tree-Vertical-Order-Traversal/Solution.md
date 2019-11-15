@@ -1,4 +1,4 @@
-##  Binary Tree Vertical Order Traversal 
+# Binary Tree Vertical Order Traversal 
 
 <iframe></iframe>
 

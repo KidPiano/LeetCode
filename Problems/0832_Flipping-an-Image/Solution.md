@@ -1,4 +1,4 @@
-##  Flipping an Image 
+# Flipping an Image 
 
 <iframe></iframe>
 

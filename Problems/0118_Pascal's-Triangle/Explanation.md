@@ -1,4 +1,4 @@
-##  Pascal's Triangle 
+# Pascal's Triangle 
 
 Coming soon...
 

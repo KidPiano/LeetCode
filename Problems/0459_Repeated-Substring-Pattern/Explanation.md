@@ -1,4 +1,4 @@
-##  Repeated Substring Pattern 
+# Repeated Substring Pattern 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Lexicographical Numbers 
+# Lexicographical Numbers 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Partition to K Equal Sum Subsets 
+# Partition to K Equal Sum Subsets 
 
 <iframe></iframe>
 

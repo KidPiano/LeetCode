@@ -1,4 +1,4 @@
-##  Remove Duplicate Letters 
+# Remove Duplicate Letters 
 
 Coming soon...
 

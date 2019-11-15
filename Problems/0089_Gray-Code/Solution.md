@@ -1,4 +1,4 @@
-##  Gray Code 
+# Gray Code 
 
 <iframe></iframe>
 

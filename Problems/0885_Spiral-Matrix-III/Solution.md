@@ -1,4 +1,4 @@
-##  Spiral Matrix III 
+# Spiral Matrix III 
 
 <iframe></iframe>
 

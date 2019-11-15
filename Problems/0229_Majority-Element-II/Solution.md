@@ -1,4 +1,4 @@
-##  Majority Element II 
+# Majority Element II 
 
 <iframe></iframe>
 

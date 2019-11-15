@@ -1,4 +1,4 @@
-##  Ugly Number II 
+# Ugly Number II 
 
 Coming soon...
 

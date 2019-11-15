@@ -1,4 +1,4 @@
-##  Min Stack 
+# Min Stack 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Design Excel Sum Formula 
+# Design Excel Sum Formula 
 
 Coming soon...
 

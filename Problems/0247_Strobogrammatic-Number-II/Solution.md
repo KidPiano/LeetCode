@@ -1,4 +1,4 @@
-##  Strobogrammatic Number II 
+# Strobogrammatic Number II 
 
 <iframe></iframe>
 

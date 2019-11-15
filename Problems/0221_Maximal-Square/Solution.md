@@ -1,4 +1,4 @@
-##  Maximal Square 
+# Maximal Square 
 
 <iframe></iframe>
 

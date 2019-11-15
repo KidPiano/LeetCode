@@ -1,4 +1,4 @@
-##  Grid Illumination 
+# Grid Illumination 
 
 Coming soon...
 

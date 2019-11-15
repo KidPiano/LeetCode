@@ -1,4 +1,4 @@
-##  Non-decreasing Array 
+# Non-decreasing Array 
 
 Coming soon...
 

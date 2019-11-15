@@ -1,4 +1,4 @@
-##  Sum of Subsequence Widths 
+# Sum of Subsequence Widths 
 
 Coming soon...
 

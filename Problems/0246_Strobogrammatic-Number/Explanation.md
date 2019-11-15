@@ -1,4 +1,4 @@
-##  Strobogrammatic Number 
+# Strobogrammatic Number 
 
 Coming soon...
 

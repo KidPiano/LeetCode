@@ -1,4 +1,4 @@
-##  Strange Printer 
+# Strange Printer 
 
 Coming soon...
 

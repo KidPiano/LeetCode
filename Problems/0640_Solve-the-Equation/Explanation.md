@@ -1,4 +1,4 @@
-##  Solve the Equation 
+# Solve the Equation 
 
 Coming soon...
 

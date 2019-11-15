@@ -1,4 +1,4 @@
-##  Smallest Sufficient Team 
+# Smallest Sufficient Team 
 
 <iframe></iframe>
 

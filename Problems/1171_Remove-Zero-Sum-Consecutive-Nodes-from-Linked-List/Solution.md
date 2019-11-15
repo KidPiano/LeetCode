@@ -1,4 +1,4 @@
-##  Remove Zero Sum Consecutive Nodes from Linked List 
+# Remove Zero Sum Consecutive Nodes from Linked List 
 
 <iframe></iframe>
 

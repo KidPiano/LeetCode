@@ -1,4 +1,4 @@
-##  Bitwise ORs of Subarrays 
+# Bitwise ORs of Subarrays 
 
 <iframe></iframe>
 

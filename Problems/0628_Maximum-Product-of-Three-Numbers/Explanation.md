@@ -1,4 +1,4 @@
-##  Maximum Product of Three Numbers 
+# Maximum Product of Three Numbers 
 
 Coming soon...
 

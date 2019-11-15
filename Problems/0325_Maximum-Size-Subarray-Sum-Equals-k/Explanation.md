@@ -1,4 +1,4 @@
-##  Maximum Size Subarray Sum Equals k 
+# Maximum Size Subarray Sum Equals k 
 
 Coming soon...
 

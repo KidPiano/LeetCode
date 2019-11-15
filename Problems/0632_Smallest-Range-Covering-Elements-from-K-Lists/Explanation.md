@@ -1,4 +1,4 @@
-##  Smallest Range Covering Elements from K Lists 
+# Smallest Range Covering Elements from K Lists 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Fair Candy Swap 
+# Fair Candy Swap 
 
 <iframe></iframe>
 

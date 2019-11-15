@@ -1,4 +1,4 @@
-##  Verify Preorder Sequence in Binary Search Tree 
+# Verify Preorder Sequence in Binary Search Tree 
 
 <iframe></iframe>
 

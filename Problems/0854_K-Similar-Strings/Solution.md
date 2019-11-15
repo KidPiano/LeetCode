@@ -1,4 +1,4 @@
-##  K-Similar Strings 
+# K-Similar Strings 
 
 <iframe></iframe>
 

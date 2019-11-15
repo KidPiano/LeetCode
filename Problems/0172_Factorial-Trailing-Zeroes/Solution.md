@@ -1,4 +1,4 @@
-##  Factorial Trailing Zeroes 
+# Factorial Trailing Zeroes 
 
 <iframe></iframe>
 

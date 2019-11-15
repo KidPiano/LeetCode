@@ -1,4 +1,4 @@
-##  Monotone Increasing Digits 
+# Monotone Increasing Digits 
 
 Coming soon...
 

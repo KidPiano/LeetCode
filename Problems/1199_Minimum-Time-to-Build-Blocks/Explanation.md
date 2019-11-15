@@ -1,4 +1,4 @@
-##  Minimum Time to Build Blocks 
+# Minimum Time to Build Blocks 
 
 Coming soon...
 

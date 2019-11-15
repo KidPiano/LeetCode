@@ -1,4 +1,4 @@
-##  Magic Squares In Grid 
+# Magic Squares In Grid 
 
 Coming soon...
 

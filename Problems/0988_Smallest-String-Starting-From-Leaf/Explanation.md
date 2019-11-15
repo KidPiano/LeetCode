@@ -1,4 +1,4 @@
-##  Smallest String Starting From Leaf 
+# Smallest String Starting From Leaf 
 
 Coming soon...
 

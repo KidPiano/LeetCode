@@ -1,4 +1,4 @@
-##  Longest Consecutive Sequence 
+# Longest Consecutive Sequence 
 
 Coming soon...
 

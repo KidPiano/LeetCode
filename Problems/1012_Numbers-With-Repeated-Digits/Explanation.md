@@ -1,4 +1,4 @@
-##  Numbers With Repeated Digits 
+# Numbers With Repeated Digits 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Hamming Distance 
+# Hamming Distance 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Increasing Triplet Subsequence 
+# Increasing Triplet Subsequence 
 
 <iframe></iframe>
 

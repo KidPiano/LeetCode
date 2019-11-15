@@ -1,4 +1,4 @@
-##  Minimum Swaps to Group All 1's Together 
+# Minimum Swaps to Group All 1's Together 
 
 Coming soon...
 

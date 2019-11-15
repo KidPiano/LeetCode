@@ -1,4 +1,4 @@
-##  Elimination Game 
+# Elimination Game 
 
 <iframe></iframe>
 

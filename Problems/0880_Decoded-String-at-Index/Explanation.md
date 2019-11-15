@@ -1,4 +1,4 @@
-##  Decoded String at Index 
+# Decoded String at Index 
 
 Coming soon...
 

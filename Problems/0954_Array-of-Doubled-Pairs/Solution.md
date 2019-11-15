@@ -1,4 +1,4 @@
-##  Array of Doubled Pairs 
+# Array of Doubled Pairs 
 
 <iframe></iframe>
 

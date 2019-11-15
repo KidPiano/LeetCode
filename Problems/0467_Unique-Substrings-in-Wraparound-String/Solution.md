@@ -1,4 +1,4 @@
-##  Unique Substrings in Wraparound String 
+# Unique Substrings in Wraparound String 
 
 <iframe></iframe>
 

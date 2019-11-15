@@ -1,4 +1,4 @@
-##  Construct Binary Search Tree from Preorder Traversal 
+# Construct Binary Search Tree from Preorder Traversal 
 
 Coming soon...
 

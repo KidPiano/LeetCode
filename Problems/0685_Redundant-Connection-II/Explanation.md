@@ -1,4 +1,4 @@
-##  Redundant Connection II 
+# Redundant Connection II 
 
 Coming soon...
 

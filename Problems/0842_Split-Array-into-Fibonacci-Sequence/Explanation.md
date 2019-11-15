@@ -1,4 +1,4 @@
-##  Split Array into Fibonacci Sequence 
+# Split Array into Fibonacci Sequence 
 
 Coming soon...
 

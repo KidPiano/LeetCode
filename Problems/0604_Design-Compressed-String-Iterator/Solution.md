@@ -1,4 +1,4 @@
-##  Design Compressed String Iterator 
+# Design Compressed String Iterator 
 
 <iframe></iframe>
 

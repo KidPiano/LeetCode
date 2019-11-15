@@ -1,4 +1,4 @@
-##  Nested List Weight Sum 
+# Nested List Weight Sum 
 
 Coming soon...
 

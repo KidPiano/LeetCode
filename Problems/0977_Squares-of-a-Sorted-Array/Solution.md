@@ -1,4 +1,4 @@
-##  Squares of a Sorted Array 
+# Squares of a Sorted Array 
 
 <iframe></iframe>
 

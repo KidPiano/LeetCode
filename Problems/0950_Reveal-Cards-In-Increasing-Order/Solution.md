@@ -1,4 +1,4 @@
-##  Reveal Cards In Increasing Order 
+# Reveal Cards In Increasing Order 
 
 <iframe></iframe>
 

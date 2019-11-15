@@ -1,4 +1,4 @@
-##  Divisor Game 
+# Divisor Game 
 
 <iframe></iframe>
 

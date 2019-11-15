@@ -1,4 +1,4 @@
-##  Nim Game 
+# Nim Game 
 
 <iframe></iframe>
 

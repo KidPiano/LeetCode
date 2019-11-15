@@ -1,4 +1,4 @@
-##  Largest Component Size by Common Factor 
+# Largest Component Size by Common Factor 
 
 Coming soon...
 

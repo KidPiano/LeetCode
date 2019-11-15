@@ -1,4 +1,4 @@
-##  Statistics from a Large Sample 
+# Statistics from a Large Sample 
 
 Coming soon...
 

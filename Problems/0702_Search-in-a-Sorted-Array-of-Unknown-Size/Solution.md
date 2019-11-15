@@ -1,4 +1,4 @@
-##  Search in a Sorted Array of Unknown Size 
+# Search in a Sorted Array of Unknown Size 
 
 <iframe></iframe>
 

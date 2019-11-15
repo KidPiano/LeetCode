@@ -1,4 +1,4 @@
-##  Delete and Earn 
+# Delete and Earn 
 
 Coming soon...
 

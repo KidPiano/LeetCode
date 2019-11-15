@@ -1,4 +1,4 @@
-##  Minimum Index Sum of Two Lists 
+# Minimum Index Sum of Two Lists 
 
 Coming soon...
 

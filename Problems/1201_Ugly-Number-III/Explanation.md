@@ -1,4 +1,4 @@
-##  Ugly Number III 
+# Ugly Number III 
 
 Coming soon...
 

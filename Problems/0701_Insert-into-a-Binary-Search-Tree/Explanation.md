@@ -1,4 +1,4 @@
-##  Insert into a Binary Search Tree 
+# Insert into a Binary Search Tree 
 
 Coming soon...
 

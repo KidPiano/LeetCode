@@ -1,4 +1,4 @@
-##  Trim a Binary Search Tree 
+# Trim a Binary Search Tree 
 
 Coming soon...
 

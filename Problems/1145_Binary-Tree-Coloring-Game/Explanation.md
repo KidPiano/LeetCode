@@ -1,4 +1,4 @@
-##  Binary Tree Coloring Game 
+# Binary Tree Coloring Game 
 
 Coming soon...
 

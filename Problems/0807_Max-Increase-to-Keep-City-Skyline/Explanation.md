@@ -1,4 +1,4 @@
-##  Max Increase to Keep City Skyline 
+# Max Increase to Keep City Skyline 
 
 Coming soon...
 

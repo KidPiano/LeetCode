@@ -1,4 +1,4 @@
-##  Minimum Increment to Make Array Unique 
+# Minimum Increment to Make Array Unique 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Stream of Characters 
+# Stream of Characters 
 
 Coming soon...
 

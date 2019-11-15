@@ -1,4 +1,4 @@
-##  Smallest Good Base 
+# Smallest Good Base 
 
 Coming soon...
 

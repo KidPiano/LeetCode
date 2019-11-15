@@ -1,4 +1,4 @@
-##  Minimum Swaps To Make Sequences Increasing 
+# Minimum Swaps To Make Sequences Increasing 
 
 <iframe></iframe>
 

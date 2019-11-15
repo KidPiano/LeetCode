@@ -1,4 +1,4 @@
-##  Split Array With Same Average 
+# Split Array With Same Average 
 
 <iframe></iframe>
 

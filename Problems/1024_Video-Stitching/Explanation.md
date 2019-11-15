@@ -1,4 +1,4 @@
-##  Video Stitching 
+# Video Stitching 
 
 Coming soon...
 

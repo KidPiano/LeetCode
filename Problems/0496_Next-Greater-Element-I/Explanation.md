@@ -1,4 +1,4 @@
-##  Next Greater Element I 
+# Next Greater Element I 
 
 Coming soon...
 

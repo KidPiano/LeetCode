@@ -1,4 +1,4 @@
-##  Number of Connected Components in an Undirected Graph 
+# Number of Connected Components in an Undirected Graph 
 
 <iframe></iframe>
 

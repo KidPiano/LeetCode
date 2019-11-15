@@ -1,4 +1,4 @@
-##  K Empty Slots 
+# K Empty Slots 
 
 Coming soon...
 

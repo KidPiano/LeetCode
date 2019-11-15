@@ -1,4 +1,4 @@
-##  Powerful Integers 
+# Powerful Integers 
 
 <iframe></iframe>
 

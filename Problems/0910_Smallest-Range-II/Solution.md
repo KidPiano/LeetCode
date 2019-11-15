@@ -1,4 +1,4 @@
-##  Smallest Range II 
+# Smallest Range II 
 
 <iframe></iframe>
 

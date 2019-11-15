@@ -1,4 +1,4 @@
-##  Encode String with Shortest Length 
+# Encode String with Shortest Length 
 
 Coming soon...
 

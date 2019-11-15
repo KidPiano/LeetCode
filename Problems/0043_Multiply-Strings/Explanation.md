@@ -1,4 +1,4 @@
-##  Multiply Strings 
+# Multiply Strings 
 
 Coming soon...
 

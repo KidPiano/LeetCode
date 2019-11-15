@@ -1,4 +1,4 @@
-##  Equal Tree Partition 
+# Equal Tree Partition 
 
 <iframe></iframe>
 

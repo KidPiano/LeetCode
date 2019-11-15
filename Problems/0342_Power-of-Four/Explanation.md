@@ -1,4 +1,4 @@
-##  Power of Four 
+# Power of Four 
 
 Coming soon...
 

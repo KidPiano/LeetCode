@@ -1,4 +1,4 @@
-##  Binary Number with Alternating Bits 
+# Binary Number with Alternating Bits 
 
 <iframe></iframe>
 

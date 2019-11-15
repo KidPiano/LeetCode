@@ -1,4 +1,4 @@
-##  Paint House II 
+# Paint House II 
 
 Coming soon...
 

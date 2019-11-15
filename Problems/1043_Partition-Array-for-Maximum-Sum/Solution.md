@@ -1,4 +1,4 @@
-##  Partition Array for Maximum Sum 
+# Partition Array for Maximum Sum 
 
 <iframe></iframe>
 

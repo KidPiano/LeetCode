@@ -1,4 +1,4 @@
-##  Power of Three 
+# Power of Three 
 
 Coming soon...
 

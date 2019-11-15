@@ -1,4 +1,4 @@
-##  Divisor Game 
+# Divisor Game 
 
 Coming soon...
 

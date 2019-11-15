@@ -1,4 +1,4 @@
-##  Stickers to Spell Word 
+# Stickers to Spell Word 
 
 Coming soon...
 

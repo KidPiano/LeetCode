@@ -1,4 +1,4 @@
-##  Non-negative Integers without Consecutive Ones 
+# Non-negative Integers without Consecutive Ones 
 
 Coming soon...
 

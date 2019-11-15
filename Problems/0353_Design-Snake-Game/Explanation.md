@@ -1,4 +1,4 @@
-##  Design Snake Game 
+# Design Snake Game 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  X of a Kind in a Deck of Cards 
+# X of a Kind in a Deck of Cards 
 
 <iframe></iframe>
 

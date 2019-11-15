@@ -1,4 +1,4 @@
-##  Longest Common Prefix 
+# Longest Common Prefix 
 
 Coming soon...
 

@@ -1,4 +1,4 @@
-##  Largest Rectangle in Histogram 
+# Largest Rectangle in Histogram 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Find the Duplicate Number 
+# Find the Duplicate Number 
 
 Coming soon...
 

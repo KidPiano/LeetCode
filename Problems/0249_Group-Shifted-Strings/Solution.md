@@ -1,4 +1,4 @@
-##  Group Shifted Strings 
+# Group Shifted Strings 
 
 <iframe></iframe>
 

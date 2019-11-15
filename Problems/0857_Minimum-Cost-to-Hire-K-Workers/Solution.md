@@ -1,4 +1,4 @@
-##  Minimum Cost to Hire K Workers 
+# Minimum Cost to Hire K Workers 
 
 <iframe></iframe>
 

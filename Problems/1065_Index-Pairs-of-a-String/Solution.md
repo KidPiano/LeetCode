@@ -1,4 +1,4 @@
-##  Index Pairs of a String 
+# Index Pairs of a String 
 
 <iframe></iframe>
 

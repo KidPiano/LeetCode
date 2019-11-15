@@ -1,4 +1,4 @@
-##  Decrease Elements To Make Array Zigzag 
+# Decrease Elements To Make Array Zigzag 
 
 Coming soon...
 

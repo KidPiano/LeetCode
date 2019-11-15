@@ -1,4 +1,4 @@
-##  Last Substring in Lexicographical Order 
+# Last Substring in Lexicographical Order 
 
 Coming soon...
 

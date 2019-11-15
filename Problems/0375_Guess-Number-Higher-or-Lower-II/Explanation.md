@@ -1,4 +1,4 @@
-##  Guess Number Higher or Lower II 
+# Guess Number Higher or Lower II 
 
 Coming soon...
 

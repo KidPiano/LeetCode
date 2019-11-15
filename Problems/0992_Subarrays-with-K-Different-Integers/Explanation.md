@@ -1,4 +1,4 @@
-##  Subarrays with K Different Integers 
+# Subarrays with K Different Integers 
 
 Coming soon...
 

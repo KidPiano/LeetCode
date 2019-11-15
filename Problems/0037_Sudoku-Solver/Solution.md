@@ -1,4 +1,4 @@
-##  Sudoku Solver 
+# Sudoku Solver 
 
 <iframe></iframe>
 

@@ -1,4 +1,4 @@
-##  Battleships in a Board 
+# Battleships in a Board 
 
 <iframe></iframe>
 

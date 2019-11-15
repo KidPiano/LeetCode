@@ -1,4 +1,4 @@
-##  Binary Search Tree to Greater Sum Tree 
+# Binary Search Tree to Greater Sum Tree 
 
 <iframe></iframe>
 
