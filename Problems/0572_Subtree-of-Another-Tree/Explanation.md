@@ -1,3 +1,5 @@
+11
+
 # Subtree of Another Tree 
 
 ## Approach 1: Brute Force ⭐
@@ -7,8 +9,8 @@ The brute force algorithm is simple: for every node in the big tree s, check if 
 
 Below, I provide two ways to write this:
 
-<iframe src="https://leetcode.com/playground/uanpH3af/shared" frameBorder="0" width="50%" height="255"></iframe>
-<iframe src="https://leetcode.com/playground/yqDpxkgF/shared" frameBorder="0" width="50%" height="255"></iframe>
+<iframe src="https://leetcode.com/playground/uanpH3af/shared" frameBorder="0" width="40%" height="255"></iframe>
+<iframe src="https://leetcode.com/playground/yqDpxkgF/shared" frameBorder="0" width="40%" height="255"></iframe>
 
 For more details on the isSameTree implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
