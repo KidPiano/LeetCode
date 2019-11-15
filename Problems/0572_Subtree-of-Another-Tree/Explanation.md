@@ -3,7 +3,7 @@
 ## Approach 1: Brute Force ⭐
 The brute force algorithm: for every node in the big tree s, check if it is the same as the small tree t:
 - If the current node in s is equal to t, return true
-- Otherwise, check if the current node's left child is equal to t, and then check if its right child is equal to t
+- Otherwise, check if the current node's left child contains t as a subtree, and then check if the current node's right child contains t as a subtree
 
 <iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
 
