@@ -1,5 +1,3 @@
-11
-
 # Subtree of Another Tree 
 
 ## Approach 1: Brute Force ⭐
@@ -7,11 +5,9 @@ The brute force algorithm is simple: for every node in the big tree s, check if 
 - If the current node in s is equal to t, return true
 - Otherwise, check if the current node's left child is equal to t, and then check if its right child is equal to t
 
-Below, I provide two ways to write this:
+<iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
 
-<iframe src="https://leetcode.com/playground/uanpH3af/shared" frameBorder="0" width="40%" height="255"></iframe>
-<iframe src="https://leetcode.com/playground/yqDpxkgF/shared" frameBorder="0" width="40%" height="255"></iframe>
-
+Note that in the isSameTree method, it is possible to replace the first two lines of code with `if (s == null || t == null) return s == t;`
 For more details on the isSameTree implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 #### Complexity Analysis
