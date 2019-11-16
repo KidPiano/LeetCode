@@ -1,4 +1,4 @@
-111
+222
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/safGk6ecM_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -25,7 +25,7 @@
 
 - <div>\(O(m^2 + n^2 + mn) \)</div>
 - <div>test</div> <div>\(O(m^2 + n^2 + mn) \)</div>
-<li> <div>\(O(m^2 + n^2 + mn) \)</div> </li>
+<ul><li> <div>\(O(m^2 + n^2 + mn) \)</div> </li></ul>
 <div>\(O(m^2 + n^2 + mn) \)</div>
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
