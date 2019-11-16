@@ -30,8 +30,8 @@ Let n = number of nodes in t
 
 ## Approach 3: Reduce to Substring Problem (Attempt 1: String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
-1. Traverse the bigger tree s, and store the order of the traversal in string_s
-2. Traverse the smaller tree t, and store the order of the traversal in string_t
+1. Traverse the bigger tree s, and store the order of the traversal in `string_s`
+2. Traverse the smaller tree t, and store the order of the traversal in `string_t`
 3. Return whether or not string_t is a substring of string_s
 
 Things to note:
