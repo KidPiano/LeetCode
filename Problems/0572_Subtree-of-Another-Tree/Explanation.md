@@ -1,5 +1,4 @@
-22
-
+<!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -18,16 +17,16 @@ For more details on the isSameTree implementation, check out my explanation for 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** O(mn). In the worst case scenario, there are many duplicate values in s and t. We must check every node in t for every node in s.  
-- **Space:** O(m). Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we are m-x recursive calls deep into isSubtree when isSameTree is called. It takes at most x+1 recursive calls of isSameTree to verify that the current node is not t, because we reach a null child in s. We will never use more than m+1 stack frames.
+- <div><b>Time:</b> \(O(mn)\). In the worst case scenario, there are many duplicate values in s and t. We must check every node in t for every node in s.</div>
+- <div><b>Space:</b> \(O(m)\). Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we are m-x recursive calls deep into isSubtree when isSameTree is called. It takes at most x+1 recursive calls of isSameTree to verify that the current node is not t, because we reach a null child in s. We will never use more than m+1 stack frames.</div>
 
 ## Approach 2: Brute Force Optimizations
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** O(mn)
-- **Space:** O(m)
+- <div><b>Time:</b> \(O(mn)\)</div>
+- <div><b>Space:</b> \(O(m)\)</div>
 
 ## Approach 3: Reduction to Substring Problem (Attempt 1: String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm consists of 3 steps:
@@ -40,29 +39,29 @@ Note that in steps 1 and 2, we need to add delimiters in the strings to separate
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** <div>\(O(m^2 + n^2 + mn) \)</div>
-- **Space:** O(m+n)
+- <div><b>Time:</b> \(O(m^2+n^2+mn)\)</div>
+- <div><b>Space:</b> \(O(m+n)\)</div>
 
 ## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** O(mn)
-- **Space:** O(m)
+- <div><b>Time:</b> \(O(mn)\)</div>
+- <div><b>Space:</b> \(O(m)\)</div>
 
 ## Approach 5: Reduction to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** O(mn)
-- **Space:** O(m)
+- <div><b>Time:</b> \(O(mn)\)</div>
+- <div><b>Space:</b> \(O(m)\)</div>
 
 ## Approach 6: HashSet
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** O(mn)
-- **Space:** O(m)
+- <div><b>Time:</b> \(O(mn)\)</div>
+- <div><b>Space:</b> \(O(m)\)</div>
