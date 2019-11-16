@@ -32,7 +32,7 @@ Let n = number of nodes in t
 Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
 1. Traverse the bigger tree s, and store the order of the traversal in `string_s`
 2. Traverse the smaller tree t, and store the order of the traversal in `string_t`
-3. Return whether or not string_t is a substring of string_s
+3. Return whether or not `string_t` is a substring of `string_s`
 
 Things to note:
 - When implementing steps 1 and 2, I will use the "#" symbol as a delimiter in the strings to separate node values. If I didn't do this, "2" would end up being a substring of "12", which is not necessarily what we want. 
