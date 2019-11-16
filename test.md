@@ -1,4 +1,4 @@
-333
+555
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/safGk6ecM_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -8,7 +8,7 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  <b>When</b> \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
   \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\] $$5^{3}$$
 </p>
 <div>$$123^{3+2}$$</div>
@@ -24,7 +24,8 @@
 <div>\(\binom n 2\)</div>
 
 - <div style="font-style:normal">\(O(m^2 + n^2 + mn) \)</div>
-- <div>test</div> <div>\(O(m^2 + n^2 + mn) \)</div>
+- <div>test: \(O(m^2 + n^2 + mn) \)</div>
+- <div><b>test</b>: \(O(m^2 + n^2 + mn) \)</div>
 <ul><li>test<div>\(O(m^2 + n^2 + mn) \)</div> </li></ul>
 <div>\(O(m^2 + n^2 + mn) \)</div>
 
