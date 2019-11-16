@@ -28,7 +28,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 3: Reduce to Substring Problem (Attempt 1: String, indexOf) ⭐
+## Approach 3: Reduction to Substring Problem (Attempt 1: String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
 1. Serialize s - traverse the bigger tree s and store the order of the traversal in `string_s`
 2. Serialize t - traverse the smaller tree t and store the order of the traversal in `string_t`
@@ -38,19 +38,20 @@ Things to note:
 - When we serialize a tree, we will use the letter "N" to represent a null child (see picture below).
 - When we serialize a tree, we will use the "#" symbol as a delimiter in the strings to separate node values (see picture below).
 - When we serialize a tree, we will traverse the nodes using a [preorder traversal](). If an [inorder traversal]() or a [postorder traversal]() was used instead, we would need to differentiate between left null children and right null children.
-- When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in string_s`, and -1 otherwise.
+- When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in `string_s`, and -1 otherwise.
 
 Insert picture here.asdfasdf
 
+asdfasdf
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, traversing the bigger tree s takes \(O(m^2\) time. This is because strings are immutable in Java. Therefore, when we traverse the m nodes, we must create a new string of at most length m at each node. The same reasoning is why traversing the smaller tree t takes \(O(n^2\) time. Lastly, the Java library function indexOf, which finds a substringasdfasdf</div>
+- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, traversing the bigger tree s takes \(O(m^2\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). The same reasoning is why traversing the smaller tree t takes \(O(n^2\) time. Lastly, the Java library function indexOf takes mn time.</div>
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
-## Approach 4: Reduce to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
+## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
 
 <iframe src="https://leetcode.com/playground/LcwEF8ZC/shared" frameBorder="0" width="100%" height="425"></iframe>
 
@@ -60,7 +61,15 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 5: Reduce to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
+## Approach 5: Reduction to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
+
+#### Complexity Analysis
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- <div><b>Time:</b> \(O(mn)\)</div>
+- <div><b>Space:</b> \(O(m)\)</div>
+
+## Approach 6: Reduction to Substring Problem (Attempt 4: StringBuffer, KMP, Morris Traversal) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -69,6 +78,7 @@ Let n = number of nodes in t
 - <div><b>Space:</b> \(O(m)\)</div>
 
 ## Approach 6: HashSet
+
 
 #### Complexity Analysis
 Let m = number of nodes in s  
