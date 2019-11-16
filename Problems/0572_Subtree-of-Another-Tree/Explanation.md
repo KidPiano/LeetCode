@@ -1,3 +1,5 @@
+22
+
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -38,7 +40,7 @@ Note that in steps 1 and 2, we need to add delimiters in the strings to separate
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** <div>\(O(m^2 + n^2 + mn)\)</div>
+- **Time:** <div>\(O(m^2 + n^2 + mn) \)</div>
 - **Space:** O(m+n)
 
 ## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
