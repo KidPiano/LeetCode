@@ -33,10 +33,11 @@ Another approach to this problem is to reduce it to the substring problem first.
 2. Traverse the smaller tree t, and store the order of the traversal in string_t
 3. Return whether or not string_t is a substring of string_s
 
+Note that in steps 1 and 2, we need to add delimiters in the strings to separate node values. Otherwise, "2" would end up being a substring of "12", which is not necessarily what we want.
+
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** <span>\(O(m^2 + n^2 + mn)\)</span>
 - **Time:** <div>\(O(m^2 + n^2 + mn)\)</div>
 - **Space:** O(m+n)
 
