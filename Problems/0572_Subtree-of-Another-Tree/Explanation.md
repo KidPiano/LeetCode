@@ -5,6 +5,10 @@ The brute force algorithm: for every node in the big tree _s_, check if it is th
 - If the current node in _s_ is equal to the smaller tree _t_, return true
 - Otherwise, recursively check if the current node's left child contains _t_ as a subtree, and then if the current node's right child contains _t_ as a subtree
 
+The brute force algorithm: for every node in the big tree s, check if it is the same as the small tree t. We use recursion to accomplish this:
+- If the current node in s is equal to the smaller tree t, return true
+- Otherwise, recursively check if the current node's left child contains t as a subtree, and then if the current node's right child contains t as a subtree
+
 <iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
 
 Note that in the isSameTree method, it is possible to replace the first two lines of code with `if (s == null || t == null) return s == t;`
