@@ -36,8 +36,8 @@ Another approach to this problem is to reduce it to the substring problem first.
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** <span>\(O(m^2+n^2+mn)\)</span>
-- **Time:** <div>\(O(m^2+n^2+mn)\)</div>
+- **Time:** <span>\(O(m^2 + n^2 + mn)\)</span>
+- **Time:** <div>\(O(m^2 + n^2 + mn)\)</div>
 - **Space:** O(m+n)
 
 ## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
