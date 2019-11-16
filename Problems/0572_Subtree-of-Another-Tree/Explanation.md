@@ -1,10 +1,6 @@
 # Subtree of Another Tree 
 
 ## Approach 1: Brute Force ⭐
-The brute force algorithm: for every node in the big tree _s_, check if it is the same as the small tree _t_. We use recursion to accomplish this:
-- If the current node in _s_ is equal to the smaller tree _t_, return true
-- Otherwise, recursively check if the current node's left child contains _t_ as a subtree, and then if the current node's right child contains _t_ as a subtree
-
 The brute force algorithm: for every node in the big tree s, check if it is the same as the small tree t. We use recursion to accomplish this:
 - If the current node in s is equal to the smaller tree t, return true
 - Otherwise, recursively check if the current node's left child contains t as a subtree, and then if the current node's right child contains t as a subtree
@@ -15,10 +11,10 @@ Note that in the isSameTree method, it is possible to replace the first two line
 For more details on the isSameTree implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 #### Complexity Analysis
-Let m = number of nodes in _s_  
-Let n = number of nodes in _t_
-- **Time:** O(mn). In the worst case scenario, there are many duplicate values in _s_ and _t_. We must check every node in _t_ for every node in _s_.  
-- **Space:** O(m). Each recursive call takes up a stack frame, and the worst case scenario occurs when _s_ is skewed. Imagine we have m-x recursive calls of isSubtree when isSameTree is called. It takes at most x recursive calls to verify that the current node is not _t_.
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- **Time:** O(mn). In the worst case scenario, there are many duplicate values in s and t. We must check every node in t for every node in s.  
+- **Space:** O(m). Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we have m-x recursive calls of isSubtree when isSameTree is called. It takes at most x+1 recursive calls of isSameTree to verify that the current node is not t, because we reach a null child in s.
 
 ## Approach 2: Brute Force Optimizations
 
