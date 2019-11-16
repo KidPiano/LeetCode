@@ -20,7 +20,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\). In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.</div>
 - <div><b>Space:</b> \(O(m)\). Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls deep into isSubtree when isSameTree is called. It takes at most \(x+1\) recursive calls of isSameTree to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than \(m+1\) stack frames.</div>
 
-## Approach 2: Brute Force Optimizations
+## Approach 2: Brute Force Optimization
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -29,7 +29,7 @@ Let n = number of nodes in t
 - <div><b>Space:</b> \(O(m)\)</div>
 
 ## Approach 3: Reduce to Substring Problem (Attempt 1: String, indexOf) ⭐
-Another approach to this problem is to reduce it to the substring problem first. The algorithm consists of 3 steps:
+Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
 1. Traverse the bigger tree s, and store the order of the traversal in string_s
 2. Traverse the smaller tree t, and store the order of the traversal in string_t
 3. Return whether or not string_t is a substring of string_s
