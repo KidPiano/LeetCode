@@ -28,7 +28,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 3: Reduction to Substring Problem (Attempt 1: String, indexOf) ⭐
+## Approach 3: Reduction to Substring Problem (String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
 1. Serialize s - traverse the bigger tree s and store the order of the traversal in `string_s`
 2. Serialize t - traverse the smaller tree t and store the order of the traversal in `string_t`
@@ -51,7 +51,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, traversing the bigger tree s takes \(O(m^2)\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). The same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function `indexOf()` takes \(O(mn)\) time.</div>
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
-## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
+## Approach 4: Reduction to Substring Problem (StringBuffer, indexOf) ⭐
 
 <iframe src="https://leetcode.com/playground/LcwEF8ZC/shared" frameBorder="0" width="100%" height="425"></iframe>
 
@@ -61,7 +61,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 5: Reduction to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
+## Approach 5: Reduction to Substring Problem (StringBuffer, KMP) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -69,7 +69,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 6: Reduction to Substring Problem (Attempt 4: StringBuffer, KMP, Morris Traversal) ⭐
+## Approach 6: Reduction to Substring Problem (StringBuffer, KMP, Morris Traversal) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
