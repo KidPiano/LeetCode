@@ -4,7 +4,7 @@
 
 # Subtree of Another Tree 
 
-## Approach 1: Brute Force ⭐
+## Approach 1: Brute Force
 For every node in the big tree s, we want to check if it is the same as the small tree t. We use recursion to accomplish this:
 - If the current node in s is equal to the smaller tree t, return true
 - Otherwise, recursively check if the current node's left child contains t as a subtree, and then if the current node's right child contains t as a subtree
