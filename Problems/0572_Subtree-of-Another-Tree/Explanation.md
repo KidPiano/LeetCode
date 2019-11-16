@@ -36,10 +36,12 @@ Another approach to this problem is to reduce it to the substring problem first.
 
 Things to note:
 - When implementing steps 1 and 2, I will use the "#" symbol as a delimiter in the strings to separate node values. If I didn't do this, "2" would end up being a substring of "12", which is not necessarily what we want. 
-- I will also use the letter "N" to represent a null child. asdfasdfasdf
+- I will also use the letter "N" to represent a null child. asdfasdfasdfasdasd
 - Below I have chosen to traverse the trees using a [preorder traversal](). If an [inorder traversal]() or a [postorder traversal]() was used instead, I would have had to differentiate between a left null child and a right null child.
 
 Insert powerpoint presentation asdfsadf.
+
+<iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -48,6 +50,8 @@ Let n = number of nodes in t
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
 ## Approach 4: Reduce to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
+
+<iframe src="https://leetcode.com/playground/LcwEF8ZC/shared" frameBorder="0" width="100%" height="425"></iframe>
 
 #### Complexity Analysis
 Let m = number of nodes in s  
