@@ -1,4 +1,4 @@
-666
+777
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/safGk6ecM_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -24,11 +24,10 @@
 <div>\(\binom n 2\)</div>
 
 - <div style="font-style:normal">\(O(m^2 + n^2 + mn) \)</div>
-- <div>test: \(O(m^2 + n^2 + mn) \)</div>
-- testasd: <span>\(O(m^2 + n^2 + mn) \)</span>
-- <div><b>test</b>: \(O(m^2 + n^2 + mn) \)</div>
+- <div>test: \(O(m^2 + n^2 + mn) \)</div> asdfasdf
+- <div><b>test</b>: \(O(m^2 + n^2 + mn) \)</div> asdfasdf 
 <ul><li>test<div>\(O(m^2 + n^2 + mn) \)</div> </li></ul>
-<div>\(O(m^2 + n^2 + mn) \)</div>
+<div>\(O(m^2 + n^2 + mn) \)</div> asdfasdf
 
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
