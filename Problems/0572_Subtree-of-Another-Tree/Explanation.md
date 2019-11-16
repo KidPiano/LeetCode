@@ -28,7 +28,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 3: Reduction to Substring Problem (Attempt 1: String, indexOf) ⭐
+## Approach 3: Reduce to Substring Problem (Attempt 1: String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm consists of 3 steps:
 1. Traverse the bigger tree s, and store the order of the traversal in string_s
 2. Traverse the smaller tree t, and store the order of the traversal in string_t
@@ -42,7 +42,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(m^2+n^2+mn)\)</div>
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
-## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
+## Approach 4: Reduce to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -50,7 +50,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 5: Reduction to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
+## Approach 5: Reduce to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
