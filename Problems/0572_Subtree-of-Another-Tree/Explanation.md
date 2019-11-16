@@ -25,7 +25,7 @@ Let n = number of nodes in t
 - **Space:** O(m)
 
 ## Approach 3: Reduction to Substring Problem (Attempt 1: String, indexOf) ⭐
-Another approach to this problem is to reduce it to the substring problem. The algorithm consists of 3 steps:
+Another approach to this problem is to reduce it to the substring problem first. The algorithm consists of 3 steps:
 1. Traverse the bigger tree s, and store the order of the traversal in string_s
 2. Traverse the smaller tree t, and store the order of the traversal in string_t
 3. Return whether or not string_t is a substring of string_s
