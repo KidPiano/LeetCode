@@ -33,8 +33,8 @@ Another approach to this problem is to reduce it to the substring problem first.
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- **Time:** O(mn)
-- **Space:** O(m)
+- **Time:** \(O(m^2+n^2+mn)\)
+- **Space:** O(m+n)
 
 ## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
 
