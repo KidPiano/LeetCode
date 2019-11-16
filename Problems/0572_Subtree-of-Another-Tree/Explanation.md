@@ -14,7 +14,7 @@ For more details on the isSameTree implementation, check out my explanation for 
 Let m = number of nodes in _s_  
 Let n = number of nodes in _t_
 - **Time:** O(mn). In the worst case scenario, there are many duplicate values in _s_ and _t_. We must check every node in _t_ for every node in _s_.  
-- **Space:** O(m). Each recursive call takes up a stack frame, and the worst case scenario occurs when _s_ is skewed. Imagine we we have m-x recursive calls of isSubtree when isSameTree is called. It takes at most x recursive calls to verify that the current node is not _t_.
+- **Space:** O(m). Each recursive call takes up a stack frame, and the worst case scenario occurs when _s_ is skewed. Imagine we have m-x recursive calls of isSubtree when isSameTree is called. It takes at most x recursive calls to verify that the current node is not _t_.
 
 ## Approach 2: Brute Force Optimizations
 
