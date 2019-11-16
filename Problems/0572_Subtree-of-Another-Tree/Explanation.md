@@ -18,10 +18,44 @@ Let n = number of nodes in t
 
 ## Approach 2: Brute Force Optimizations
 
+#### Complexity Analysis
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- **Time:** O(mn)
+- **Space:** O(m)
+
 ## Approach 3: Reduction to Substring Problem (Attempt 1: String, indexOf) ⭐
+Another approach to this problem is to reduce it to the substring problem. The algorithm consists of 3 steps:
+1. Traverse the bigger tree s, and store the order of the traversal in string_s
+2. Traverse the smaller tree t, and store the order of the traversal in string_t
+3. Return whether or not string_t is a substring of string_s
+
+#### Complexity Analysis
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- **Time:** O(mn)
+- **Space:** O(m)
 
 ## Approach 4: Reduction to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
 
+#### Complexity Analysis
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- **Time:** O(mn)
+- **Space:** O(m)
+
 ## Approach 5: Reduction to Substring Problem (Attempt 3: StringBuffer, KMP) ⭐
 
+#### Complexity Analysis
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- **Time:** O(mn)
+- **Space:** O(m)
+
 ## Approach 6: HashSet
+
+#### Complexity Analysis
+Let m = number of nodes in s  
+Let n = number of nodes in t
+- **Time:** O(mn)
+- **Space:** O(m)
