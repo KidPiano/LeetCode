@@ -34,12 +34,17 @@ Another approach to this problem is to reduce it to the substring problem first.
 2. Traverse the smaller tree t, and store the order of the traversal in string_t
 3. Return whether or not string_t is a substring of string_s
 
-Note that in steps 1 and 2, we need to add delimiters in the strings to separate node values. Otherwise, "2" would end up being a substring of "12", which is not necessarily what we want.
+Things to note:
+- When implementing steps 1 and 2, I will use the "#" symbol as a delimiter in the strings to separate node values. If I didn't do this, "2" would end up being a substring of "12", which is not necessarily what we want. 
+- I will also use the letter "N" to represent a null child. asdfasdfasdf
+- Below I have chosen to traverse the trees using a [preorder traversal](). If an [inorder traversal]() or a [postorder traversal]() was used instead, I would have had to differentiate between a left null child and a right null child.
+
+Insert powerpoint presentation asdfsadf.
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m^2+n^2+mn)\)</div>
+- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, traversing the bigger tree s takes \(O(m^2\) time. This is because strings are immutable in Java. Therefore, when we traverse the m nodes, we must create a new string of at most length m at each node. The same reasoning is why traversing the smaller tree t takes \(O(n^2\) time. Lastly, the Java library function indexOf, which finds a substringasdfasdf</div>
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
 ## Approach 4: Reduce to Substring Problem (Attempt 2: StringBuffer, indexOf) ⭐
