@@ -1,4 +1,4 @@
-555
+666
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/safGk6ecM_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -13,7 +13,8 @@
 </p>
 <div>$$123^{3+2}$$</div>
 
-<span>\(m^2 + n^2 + mn\)</span>
+<div>\(m^2 + n^2 + mn\)</div>  
+<span>\(m^2 + n^2 + mn\)</span>  
 <span>\(m^2 +n^2+mn\)</span>
 - <div>$$\binom{n}{2}$$</div>
 
