@@ -47,7 +47,7 @@ Let n = number of nodes in t
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
 ## Approach 3: Reduction to Substring Problem (StringBuilder, indexOf) ⭐
-The primary reason for the bad runtime in the previous approach is because strings are immutable in Java. So to improve upon this approach, asdasd
+The primary reason for the bad runtime in the previous approach is due to the fact that strings are immutable in Java. So let us use StringBuilder or StringBuffer instead.
 
 <iframe src="https://leetcode.com/playground/LcwEF8ZC/shared" frameBorder="0" width="100%" height="425"></iframe>
 
