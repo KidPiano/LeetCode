@@ -57,7 +57,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 4: Reduction to Substring Problem (StringBuffer, KMP) ⭐
+## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -65,7 +65,7 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 5: Reduction to Substring Problem (StringBuffer, KMP, Morris Traversal) ⭐
+## Approach 5: Reduction to Substring Problem (StringBuilder, KMP, Morris Traversal) ⭐
 
 #### Complexity Analysis
 Let m = number of nodes in s  
