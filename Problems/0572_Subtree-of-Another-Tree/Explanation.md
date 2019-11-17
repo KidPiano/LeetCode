@@ -30,8 +30,8 @@ Another approach to this problem is to reduce it to the substring problem first.
 3. Return whether or not `string_t` is a substring of `string_s`
 
 Things to note:
-- When we serialize a tree, we will use the letter "N" to represent a null child.
-- When we serialize a tree, we will use the "#" symbol as a delimiter in the strings to separate node values.
+- When we serialize a tree, we will use "N" to represent a null child.
+- When we serialize a tree, we will use "#" as a delimiter in the strings to separate node values.
 - When we serialize a tree, we will traverse the nodes using a [preorder traversal](). If an [inorder traversal]() or a [postorder traversal]() is used instead, we would need to differentiate between left null children and right null children.
 - When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in `string_s`, and -1 otherwise.
 
