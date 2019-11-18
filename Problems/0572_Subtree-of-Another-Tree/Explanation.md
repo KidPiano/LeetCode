@@ -16,14 +16,14 @@ For every node in the bigger tree s, we want to check if it is the same tree as 
 
 <iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
 
-Note that in the `isSameTree` method, it is possible to replace the first two lines of code with `if (s == null || t == null) return s == t;`
-For more details on the `isSameTree` implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
+Note that in the `isSameTree()` method, it is possible to replace the first two lines of code with `if (s == null || t == null) return s == t;`
+For more details on the `isSameTree()` implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\). In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.</div>
-- <div><b>Space:</b> \(O(m)\). Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls deep into isSubtree when isSameTree is called. It takes at most \(x+1\) recursive calls of isSameTree to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than \(m+1\) stack frames.</div>
+- <div><b>Space:</b> \(O(m)\). Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls deep into `isSubtree()` when `isSameTree()` is called. It takes at most \(x+1\) recursive calls of `isSameTree()` to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than \(m+1\) stack frames.</div>
 
 <!-- Note: using level order traversal (instead of preorder) in isSubtree could increase average runtime -->
 <!-- Note: another idea is to calculate height of t, store the nodes in s with that height, and only run isSameTree on those nodes -->
