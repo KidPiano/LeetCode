@@ -15,7 +15,7 @@ class Solution {
 
         color = new char[numCourses];
         for (int i = 0; i < color.length; i++) color[i] = 'w';
-        
+
         for (int u = 0; u < numCourses; u++)
             if (color[u] == 'w' && visit(u))
                 return false;
