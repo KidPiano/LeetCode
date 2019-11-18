@@ -1,3 +1,6 @@
+<!-- Google Prettify -->
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
 # Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course prerequisite graph does not contain a cycle.  
@@ -13,7 +16,6 @@ Our algorithm consists of two parts:
 
 Below, I have highlighted the changes we need to make to DFS to determine if a graph is acyclic:
 
-<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 <div style="display:inline-block">
 <h4 style="margin-top:0">DFS (original)</h4>
 <pre style="font-size:10.8px; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">void DFS() {
