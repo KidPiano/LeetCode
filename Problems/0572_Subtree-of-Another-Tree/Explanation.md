@@ -54,8 +54,8 @@ In the previous approach we used immutable strings, which were the primary cause
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(mn)\). The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes \(O(mn)\ time. Serializing s and t now take \(O(m)\ and \(O(n)\ time respectively.</div>
-- <div><b>Space:</b> \(O(m+n)\). We need \(O(m)\ space to store one StringBuilder and one String of length m, and we need \(O(n)\ space to store one StringBuilder and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.</div>
+- <div><b>Time:</b> \(O(mn)\). The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes \(O(mn)\) time. Serializing s and t now take \(O(m)\) and \(O(n)\) time respectively.</div>
+- <div><b>Space:</b> \(O(m+n)\). We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.</div>
 
 ## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) ⭐
 We can improve the asymptotic runtime of the previous approach even further by using a [linear time pattern searching algorithm]() instead of the library function `indexOf()`. I have chosen to use [KMP]() as my linear time substring algorithm below:
