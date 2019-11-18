@@ -16,8 +16,8 @@ For every node in the bigger tree s, we want to check if it is the same tree as 
 
 <iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
 
-Note that in the isSameTree method, it is possible to replace the first two lines of code with `if (s == null || t == null) return s == t;`
-For more details on the isSameTree implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
+Note that in the `isSameTree` method, it is possible to replace the first two lines of code with `if (s == null || t == null) return s == t;`
+For more details on the `isSameTree` implementation, check out my explanation for LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 #### Complexity Analysis
 Let m = number of nodes in s  
@@ -32,8 +32,8 @@ Let n = number of nodes in t
 
 ## Approach 2: Reduction to Substring Problem (String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
-1. Serialize s: traverse the bigger tree s and store the order of the traversal in `string_s`
-2. Serialize t: traverse the smaller tree t and store the order of the traversal in `string_t`
+1. Serialize s - traverse the bigger tree s and store the order of the traversal in `string_s`
+2. Serialize t - traverse the smaller tree t and store the order of the traversal in `string_t`
 3. Return whether or not `string_t` is a substring of `string_s`
 
 Things to note:
