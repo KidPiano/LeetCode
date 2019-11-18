@@ -1,10 +1,14 @@
 <!-- Google Prettify -->
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 # Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course prerequisite graph does not contain a cycle.  
 In other words, this problem is equivalent to determining whether or not the course prerequisite graph is acyclic.
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Approach 1: Modify DFS to Detect Back Edges 🌟
 
@@ -96,3 +100,5 @@ Here is the full commented solution:
 #### Complexity Analysis
 - **Time:** O(N)  
 - **Space:** O(N)
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
