@@ -18,14 +18,14 @@ class Solution {
         color = new char[numCourses];
         for (int i = 0; i < color.length; i++) color[i] = 'w';
         
-        answer = new int[numCourses];
         index = 0;
+        answer = new int[numCourses];
         for (int u = 0; u < numCourses; u++)
             if (color[u] == 'w' && visit(u))
                 return new int[0];
         return answer;
     }
-    
+
     private boolean visit(int u) {
         color[u] = 'g';
         for (int v : adjlist[u])
