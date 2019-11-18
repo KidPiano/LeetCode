@@ -1,9 +1,13 @@
 <!-- Google Prettify -->
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 # Course Schedule II 
 
 Observation: this problem is equivalent to finding a reverse topological sort of the course prerequisite graph (if it exists). A valid course order will exist if the course prerequisite graph is acyclic.
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Approach 1: Modify DFS to Find a Reverse Topological Sort 🌟
 Our algorithm consists of two parts:
@@ -67,3 +71,5 @@ Here is the full commented solution:
 #### Complexity Analysis
 - **Time:** O(N)  
 - **Space:** O(N)
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
