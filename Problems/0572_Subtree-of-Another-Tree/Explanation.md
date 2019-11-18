@@ -43,7 +43,7 @@ Below is the full solution:
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing the bigger tree s takes \(O(m^2)\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). This same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time, because it uses a simple brute force substring algorithm.</div>
+- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing the bigger tree s takes \(O(m^2)\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time, because it uses a simple brute force substring algorithm.</div>
 - <div><b>Space:</b> \(O(m^2+n^2)\). Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\). In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space required to store the strings.</div>
 
 ## Approach 3: Reduction to Substring Problem (StringBuilder, indexOf) ⭐
