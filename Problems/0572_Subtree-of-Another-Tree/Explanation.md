@@ -43,7 +43,7 @@ Below is the full solution:
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, traversing the bigger tree s takes \(O(m^2)\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). The same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time.</div>
+- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing the bigger tree s takes \(O(m^2)\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). This same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time, because it uses a simple brute force substring algorithm.</div>
 - <div><b>Space:</b> \(O(m+n)\)</div>
 
 ## Approach 3: Reduction to Substring Problem (StringBuilder, indexOf) ⭐
@@ -58,6 +58,7 @@ Let n = number of nodes in t
 - <div><b>Space:</b> \(O(m)\)</div>
 
 ## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) ⭐
+We can improve the asymptotic runtime of the previous approach even further by using a [linear time pattern searching algorithm]() instead of the library function `indexOf()`. I have chosen to use [KMP]() as my linear time substring algorithm below:
 
 #### Complexity Analysis
 Let m = number of nodes in s  
