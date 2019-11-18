@@ -43,19 +43,19 @@ Below is the full solution:
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing the bigger tree s takes \(O(m^2)\) time. This is because strings are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time, because it uses a simple brute force substring algorithm.</div>
+- <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing the bigger tree s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it uses a simple brute force substring algorithm.</div>
 - <div><b>Space:</b> \(O(m^2+n^2)\). Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\). In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space required to store the strings.</div>
 
 ## Approach 3: Reduction to Substring Problem (StringBuilder, indexOf) ⭐
-The primary reason for the bad runtime in the previous approach is due to the fact that strings are immutable in Java. So let us use StringBuilder or StringBuffer instead.
+In the previous approach we used immutable strings, which were the primary cause of the approach's bad time and space complexity. So let's use something mutable instead, like StringBuilder or StringBuffer.
 
 <iframe src="https://leetcode.com/playground/LcwEF8ZC/shared" frameBorder="0" width="100%" height="290"></iframe>
 
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(mn)\)</div>
-- <div><b>Space:</b> \(O(m)\)</div>
+- <div><b>Time:</b> \(O(mn)\). The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes \(O(mn)\ time. Serializing s and t now take \(O(m)\ and \(O(n)\ time respectively.</div>
+- <div><b>Space:</b> \(O(m+n)\). We need \(O(m)\ space to store one StringBuilder and one String of length m, and we need \(O(n)\ space to store one StringBuilder and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.</div>
 
 ## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) ⭐
 We can improve the asymptotic runtime of the previous approach even further by using a [linear time pattern searching algorithm]() instead of the library function `indexOf()`. I have chosen to use [KMP]() as my linear time substring algorithm below:
