@@ -2,9 +2,14 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 # Subtree of Another Tree 
 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 ## Approach 1: Brute Force ⭐
+
 For every node in the bigger tree s, we want to check if it is the same tree as the smaller tree t. We use recursion to accomplish this:
 - If the current node in s is equal to the smaller tree t, return true
 - Otherwise, recursively check if the current node's left child contains t as a subtree, and then if the current node's right child contains t as a subtree
@@ -22,6 +27,8 @@ Let n = number of nodes in t
 
 <!-- Note: using level order traversal (instead of preorder) in isSubtree could increase average runtime -->
 <!-- Note: another idea is to calculate height of t, store the nodes in s with that height, and only run isSameTree on those nodes -->
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Approach 2: Reduction to Substring Problem (String, indexOf) ⭐
 Another approach to this problem is to reduce it to the substring problem first. The algorithm for this approach consists of 3 steps:
@@ -46,6 +53,8 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing the bigger tree s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why traversing the smaller tree t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it uses a simple brute force substring algorithm.</div>
 - <div><b>Space:</b> \(O(m^2+n^2)\). Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\). In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space required to store the strings.</div>
 
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 ## Approach 3: Reduction to Substring Problem (StringBuilder, indexOf) ⭐
 In the previous approach we used immutable strings, which were the primary cause of the approach's bad time and space complexity. So let's use something mutable instead, like StringBuilder or StringBuffer.
 
@@ -54,8 +63,10 @@ In the previous approach we used immutable strings, which were the primary cause
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(mn)\). The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes \(O(mn)\) time. Serializing s and t now take \(O(m)\) and \(O(n)\) time respectively.</div>
+- <div><b>Time:</b> \(O(mn)\). The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes \(O(mn)\) time. Serializing s and t now only take \(O(m)\) and \(O(n)\) time respectively.</div>
 - <div><b>Space:</b> \(O(m+n)\). We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) 🌟
 We can improve the asymptotic runtime of the previous approach even further by using a [linear time pattern searching algorithm]() instead of the library function `indexOf()`. I have chosen to use [KMP]() as my linear time substring algorithm below:
@@ -66,15 +77,12 @@ Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
 
-## Approach 5: Reduction to Substring Problem (StringBuilder, KMP, Morris Traversal) ⭐
+### Optimization Ideas:
+- asdasd Morris Traversal
 
-#### Complexity Analysis
-Let m = number of nodes in s  
-Let n = number of nodes in t
-- <div><b>Time:</b> \(O(mn)\)</div>
-- <div><b>Space:</b> \(O(m)\)</div>
+<!------------------------------------------------------------------------------------------------------------------------------------->
 
-## Approach 6: HashSet
+## Approach 5: HashSet
 
 
 #### Complexity Analysis
@@ -82,3 +90,5 @@ Let m = number of nodes in s
 Let n = number of nodes in t
 - <div><b>Time:</b> \(O(mn)\)</div>
 - <div><b>Space:</b> \(O(m)\)</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
