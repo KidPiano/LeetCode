@@ -7,7 +7,7 @@
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
-# Course Schedule 
+# 207. Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course prerequisite graph does not contain a cycle.  
 In other words, this problem is equivalent to determining whether or not the course prerequisite graph is acyclic.
