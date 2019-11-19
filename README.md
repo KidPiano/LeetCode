@@ -1,6 +1,7 @@
-22
-# LeetCode<br>
+33
 
+# LeetCode
+<br>  
 |   |  # | Title | Solution | Explanation | Difficulty |
 | - | -: | :---- | :------- | :---------- | :--------- |
 | &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | [Java](Problems/0001_Two-Sum/Solution.md) | [Explanation](Problems/0001_Two-Sum/Explanation.md) | Easy |
