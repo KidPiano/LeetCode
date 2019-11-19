@@ -99,3 +99,8 @@ Let n = number of nodes in t
 - <div><b>Space:</b> \(O(m^2)\)</div>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
+
+## Edge Cases to Consider
+
+- Is a null tree a subtree of another null tree? According to the solutions above, yes. However, this was not tested in the LeetCode test cases. asdasda
+- asdasd
