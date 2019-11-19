@@ -1,8 +1,7 @@
-11
-# LeetCode
+# LeetCode  
 
 |   |  # | Title | Solution | Explanation | Difficulty |
-| - | -: | :---- | :------- | :---------- | :--------- |  
+| - | -: | :---- | :------- | :---------- | :--------- |
 | &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | [Java](Problems/0001_Two-Sum/Solution.md) | [Explanation](Problems/0001_Two-Sum/Explanation.md) | Easy |
 | &#9744; | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/){:target="_blank"} | [Java](Problems/0002_Add-Two-Numbers/Solution.md) | [Explanation](Problems/0002_Add-Two-Numbers/Explanation.md) | Medium |
 | &#9744; | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/){:target="_blank"} | [Java](Problems/0003_Longest-Substring-Without-Repeating-Characters/Solution.md) | [Explanation](Problems/0003_Longest-Substring-Without-Repeating-Characters/Explanation.md) | Medium |
