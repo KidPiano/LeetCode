@@ -74,6 +74,6 @@ Here is the full commented solution:
 
 #### Complexity Analysis
 - <div><b>Time:</b>\(O(N)\)</div>
-- <div><b>Space:</b>\O(N)\)</div>
+- <div><b>Space:</b>\(O(N)\)</div>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
