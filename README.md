@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode<br>
 
 |   |  # | Title | Solution | Explanation | Difficulty |
 | - | -: | :---- | :------- | :---------- | :--------- |
