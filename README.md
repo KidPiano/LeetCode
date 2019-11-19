@@ -1,7 +1,6 @@
 # LeetCode
-- test
-- test  
-| a  |  # | Title | Solution | Explanation | Difficulty |
+ 
+|   |  # | Title | Solution | Explanation | Difficulty |
 | - | -: | :---- | :------- | :---------- | :--------- |
 | &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | [Java](Problems/0001_Two-Sum/Solution.md) | [Explanation](Problems/0001_Two-Sum/Explanation.md) | Easy |
 | &#9744; | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/){:target="_blank"} | [Java](Problems/0002_Add-Two-Numbers/Solution.md) | [Explanation](Problems/0002_Add-Two-Numbers/Explanation.md) | Medium |
