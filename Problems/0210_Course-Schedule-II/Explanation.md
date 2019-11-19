@@ -73,7 +73,7 @@ Here is the full commented solution:
 <iframe src="https://leetcode.com/playground/W8tuhxVr/shared" frameBorder="0" width="100%" height="835"></iframe>
 
 #### Complexity Analysis
-- **Time:** \(O(N)\)  
-- **Space:** \O(N)\)
+- <div><b>Time:</b> \(O(N)\)</div>
+- <div><b>Space:</b> \O(N)\)</div>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
