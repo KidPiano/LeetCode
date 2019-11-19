@@ -1,4 +1,4 @@
-<h1>LeetCode</h1><br>
+# LeetCode <br>
 
 |   |  # | Title | Solution | Explanation | Difficulty |
 | - | -: | :---- | :------- | :---------- | :--------- |
