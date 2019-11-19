@@ -1,5 +1,3 @@
-33
-
 # LeetCode<br>
 
 |   |  # | Title | Solution | Explanation | Difficulty |
