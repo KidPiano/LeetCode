@@ -1,6 +1,6 @@
-1111
+222
 
-<img src="Test.jpg">
+<img style="text-align:center" src="Test.jpg">
 
 ![a](Test.jpg)
 
