@@ -13,7 +13,7 @@ Observation: this problem is equivalent to finding a reverse topological sort of
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
-## Approach 1: Modify DFS to Find a Reverse Topological Sort 🌟
+## Approach 1: Modify DFS to Find a Reverse Topological Sort ⭐⭐
 Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
 2. Use a modified version of [DFS]() to find a reverse [topological sort]() of the graph if it is acyclic.
