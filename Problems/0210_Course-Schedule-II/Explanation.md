@@ -66,6 +66,7 @@ boolean visit(int u) {
     <mark>answer[index++] = u;</mark>
     return false;
 }
+
 </code></pre>
 </div>
 
