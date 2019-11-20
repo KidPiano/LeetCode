@@ -45,6 +45,7 @@ void visit(int u) {
 
 
 
+
 </code></pre>
 </div>
 
@@ -69,6 +70,7 @@ void visit(int u) {
     color[u] = 'b';
     <span style="background-color:orange">return false;</span>
 }
+
 </code></pre>
 </div>
 
@@ -91,6 +93,7 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
+
 
 
 </code></pre>
