@@ -38,7 +38,7 @@ Another approach to this problem is to reduce it to the substring problem first.
 2. Serialize t - traverse the smaller tree t and store the order of the traversal in `string_t`
 3. Return whether or not `string_t` is a substring of `string_s`
 
-<div style="text-align:center"><img src="0572_Approach-2-Example.jpg"></div>
+<div style="text-align:center"><img src="Pictures/0572_Approach-2-Example.jpg"></div>
 
 Things to note:
 - When we serialize a tree, we will use "N" to represent a null child.
