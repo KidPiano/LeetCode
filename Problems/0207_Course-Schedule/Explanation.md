@@ -1,4 +1,3 @@
-1
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -46,6 +45,8 @@ void visit(int u) {
 
 
 
+
+
 </code></pre>
 </div>
 
@@ -69,7 +70,9 @@ void visit(int u) {
         <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
     color[u] = 'b';
     <span style="background-color:orange">return false;</span>
-}</code></pre>
+}
+
+</code></pre>
 </div>
 
 <div style="display:inline-block">
@@ -91,6 +94,8 @@ boolean visit(int u) {
     color[u] = 'b';
     return false;
 }
+
+
 
 
 </code></pre>
