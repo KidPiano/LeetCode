@@ -72,7 +72,7 @@ Let n = number of nodes in t
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
-## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) 🌟
+## Approach 4: Reduction to Substring Problem (StringBuilder, KMP) ⭐⭐
 We can improve the asymptotic runtime of the previous approach even further by using a [linear time pattern searching algorithm]() instead of the library function `indexOf()`. I have chosen to use [KMP]() as my linear time substring algorithm below:
 
 <iframe></iframe>
