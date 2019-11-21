@@ -45,6 +45,7 @@ Things to note:
 - When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in `string_s`, and -1 otherwise.
 
 <div style="text-align:center"><img src="Pictures/0572_Approach-2-Example.jpg"></div>
+<img src="Pictures/0572_Approach-2-Example.jpg">
 
 Insert picture here.asdfasdf
 
