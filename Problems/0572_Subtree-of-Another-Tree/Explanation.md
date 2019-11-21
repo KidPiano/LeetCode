@@ -20,6 +20,7 @@ Note that in the `isSameTree()` method, we can replace the first two lines of co
 For more details or alternate implementations of `isSameTree()`, check out my explanation of LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 ### Complexity Analysis
+{: style="margin:0"}
 <div>Let m = number of nodes in s</div>  
 <div>Let n = number of nodes in t</div>
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
