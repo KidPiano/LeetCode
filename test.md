@@ -1,15 +1,15 @@
-66
+77
 
 ### Complexity Analysis
-<details><summary><b>Time: \(O(N)\)</b></summary>WWWWWWWWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</details>
-<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:17px">ASDASD1122222<br>asdfasdf</p></details>
-<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:18px">
-  ASDASD1122222<br>
-  asdfasdf<br>
-  asdfasdf
+<details><summary><b>Time: \(O(N)\)</b></summary><p style="margin-left:17px">
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 </p></details>
-<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:19px">ASDASD1122222</p></details>
-<br>
+<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:17px">
+  ASDASD1122222
+</p></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:17px">
+  ASDASD1122222
+</p></details>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
