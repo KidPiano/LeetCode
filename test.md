@@ -1,9 +1,9 @@
 333
 
 ![](Length1.JPG)
+![](Length1-5.JPG)
 ![](Length2.JPG)
 ![](Length3.JPG)
-![](Length4.JPG)
 
 ### Complexity Analysis
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
