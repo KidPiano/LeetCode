@@ -1,5 +1,3 @@
-33
-
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -26,7 +24,7 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
   In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
 </p></div></details>
 
@@ -36,24 +34,6 @@ Let n = number of nodes in t
   <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
   \(m+1\) stack frames.
 </p></div></details>
-
-## Approach asdfasdf
-
-### Complexity Analysis
-
-Let m = number of nodes in s  
-Let n = number of nodes in t
-
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
-  In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
-</p></div></details>
-
-<details><summary><b>Space: \(O(m)\)</b></summary><div style="margin-left:17px">
-  Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
-  deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
-  <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
-  \(m+1\) stack frames.
-</div></details>
 
 <!--
 ### Optimization Ideas:
@@ -89,7 +69,7 @@ Below is the full solution:
 Let m = number of nodes in s
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
+<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px"><p>
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
   append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length 
   \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why
@@ -97,12 +77,12 @@ Let n = number of nodes in t
   uses a simple brute force substring algorithm.
 </p></div></details>
 
-<details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:17px"><p>
   Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
   deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
   <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
   \(m+1\) stack frames.
-</div></details>
+</p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
