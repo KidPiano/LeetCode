@@ -28,6 +28,16 @@ asd
 asd
 </div></details>
 
+### Complexity Analysis
+test1  
+test2  
+<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
+asd
+</div></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
+asd
+</div></details>
+
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <p>
