@@ -1,4 +1,4 @@
-11
+55
 
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -23,7 +23,7 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 
 ### Complexity Analysis
 
-Let m = number of nodes in s 
+Let m = number of nodes in s  
 Let n = number of nodes in t
 
 <details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
@@ -39,7 +39,7 @@ Let n = number of nodes in t
 
 ### Complexity Analysis
 
-Let m = number of nodes in s 
+Let m = number of nodes in s  
 Let n = number of nodes in t
 
 <details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px">
