@@ -6,7 +6,10 @@
 ![](Length2.JPG)
 
 ### Complexity Analysis 
-{: style="margin:0; padding:0"}
+{: style="margin:0"}
+
+### Complexity Analysis 
+{: style="padding:0"}
 
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
 asd
