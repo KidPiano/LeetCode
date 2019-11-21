@@ -1,3 +1,5 @@
+11
+
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -25,9 +27,9 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 <div>Let m = number of nodes in s</div>  
 <div style="margin-bottom:8px">Let n = number of nodes in t</div>
 
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
   In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
-</div></details>
+</p></div></details>
 
 <details><summary><b>Space: \(O(m)\)</b></summary><div style="margin-left:17px">
   Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
