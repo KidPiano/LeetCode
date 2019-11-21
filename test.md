@@ -8,12 +8,12 @@
 -->
 
 ### Complexity Analysis 
-{: style="margin: 0.5em 0"}
+{: style="margin: 16px 0"}
 test1  
 test2
 
 ### Complexity Analysis 
-{: style="margin: 0.5em"}
+{: style="margin: 0.5em 0"}
 test1  
 test2
 
