@@ -21,13 +21,17 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 
 ### Complexity Analysis
 {: style="margin-bottom:8px"}
+
 <div>Let m = number of nodes in s</div>  
 <div style="margin-bottom:8px">Let n = number of nodes in t</div>
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
-In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
+  In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
 </div></details>
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
-Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than \(m+1\) stack frames.
+  Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
+  deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
+  <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
+  \(m+1\) stack frames.
 </div></details>
 
 <!--
@@ -64,6 +68,25 @@ Let m = number of nodes in s
 Let n = number of nodes in t
 - <div><b>Time:</b> \(O(m^2+n^2+mn)\). With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it uses a simple brute force substring algorithm.</div>
 - <div><b>Space:</b> \(O(m^2+n^2)\). Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\). In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space required to store the strings.</div>
+
+### Complexity Analysis
+{: style="margin-bottom:8px"}
+
+<div>Let m = number of nodes in s</div>  
+<div style="margin-bottom:8px">Let n = number of nodes in t</div>
+<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
+  With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
+  append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length 
+  (O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why
+  serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it
+  uses a simple brute force substring algorithm.
+</div></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
+  Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
+  deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
+  <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
+  \(m+1\) stack frames.
+</div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
