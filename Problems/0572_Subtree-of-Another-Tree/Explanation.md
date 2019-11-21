@@ -1,4 +1,4 @@
-11
+22
 
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -28,6 +28,23 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 <div style="margin-bottom:8px">Let n = number of nodes in t</div>
 
 <details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
+  In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
+</p></div></details>
+
+<details><summary><b>Space: \(O(m)\)</b></summary><div style="margin-left:17px">
+  Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
+  deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
+  <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
+  \(m+1\) stack frames.
+</div></details>
+
+### Complexity Analysis
+{: style="margin-bottom:8px"}
+
+<div>Let m = number of nodes in s</div>  
+<div style="margin-bottom:8px">Let n = number of nodes in t</div>
+
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
   In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
 </p></div></details>
 
