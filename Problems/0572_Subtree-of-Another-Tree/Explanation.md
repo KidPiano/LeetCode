@@ -52,6 +52,8 @@ Things to note:
 <img src="Pictures/0572_Approach-2-Example.jpg" width="100%">
 <img src="Pictures/0572_Approach-2-Example.jpg">
 <img src="Pictures/0572_Approach-2-Example.jpg" width="50" height="50">
+<img src="Pictures/0572_Approach-2-Example.jpg" width="50" height="50">
+<img src="Pictures/0572_Approach-2-Example.jpg" width="50" height="50">
 
 Below is the full solution:
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
