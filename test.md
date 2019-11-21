@@ -2,9 +2,11 @@
 
 ### Complexity Analysis
 <details><summary><b>Time: \(O(N)\)</b></summary>    ASDASD1</details>
-<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:10px">ASDASD1122222</p></details>
-<details><summary><b>Space: \(O(N)\)</b></summary><p style="white-space:pre">ASDASD1122222</p></details>
-<details><summary><b>Space: \(O(N)\)</b></summary><p style="white-space:pre-wrap">ASDASD1122222</p></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:15px">ASDASD1122222
+  asdfasdf
+  asdfasdf</p></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:15px">ASDASD1122222</p></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><p style="margin-left:20px">ASDASD1122222</p></details>
 <br>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
