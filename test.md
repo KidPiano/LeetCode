@@ -1,4 +1,4 @@
-222
+333
 
 <!--
 ![](Length1.JPG)
@@ -10,6 +10,17 @@
 <h3 style="margin: 8px 0">Complexity Analysis </h3>
 <div>test1</div>
 <div style="margin: 8px 0 0 0">test2</div>
+<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
+asd
+</div></details>
+<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
+asd
+</div></details>
+
+
+<h3 style="margin:0">Complexity Analysis </h3>
+<div>test1</div>
+<div style="margin:0">test2</div>
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
 asd
 </div></details>
