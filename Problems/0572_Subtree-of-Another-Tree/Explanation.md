@@ -20,8 +20,8 @@ Note that in the `isSameTree()` method, we can replace the first two lines of co
 For more details or alternate implementations of `isSameTree()`, check out my explanation of LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 ### Complexity Analysis
-Let m = number of nodes in s  
-Let n = number of nodes in t
+<div>Let m = number of nodes in s</div>  
+<div>Let n = number of nodes in t</div>
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
 In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
 </div></details>
