@@ -27,7 +27,7 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
 </div></details>
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
-Each recursive call takes up a stack frame, and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than \(m+1\) stack frames.
+Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than \(m+1\) stack frames.
 </div></details>
 
 <!--
