@@ -1,4 +1,4 @@
-22
+11
 
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -68,10 +68,9 @@ Below is the full solution:
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
 
 ### Complexity Analysis
-{: style="margin-bottom:8px"}
 
-<div>Let m = number of nodes in s</div>  
-<div style="margin-bottom:8px">Let n = number of nodes in t</div>
+Let m = number of nodes in s
+Let n = number of nodes in t
 
 <details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
