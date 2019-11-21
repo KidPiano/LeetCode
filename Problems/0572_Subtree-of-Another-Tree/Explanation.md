@@ -1,4 +1,4 @@
-55
+11
 
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -42,9 +42,9 @@ Let n = number of nodes in t
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
   In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
-</div></details>
+</p></div></details>
 
 <details><summary><b>Space: \(O(m)\)</b></summary><div style="margin-left:17px">
   Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
