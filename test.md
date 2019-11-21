@@ -1,4 +1,4 @@
-2222
+333
 
 <!--
 ![](Length1.JPG)
@@ -19,21 +19,11 @@ asd
 <br>
 
 ### Complexity Analysis
-<div>test1</div>
-<div style="margin-bottom:8px">test2</div>
-<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
-asd
-</div></details>
-<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
-asd
-</div></details>
-
-### Complexity Analysis
 test1  
 test2  
-<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
 asd
-</div></details>
+</p></div></details>
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:17px">
 asd
 </div></details>
