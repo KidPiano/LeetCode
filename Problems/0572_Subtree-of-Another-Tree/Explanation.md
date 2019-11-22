@@ -58,9 +58,9 @@ Things to note:
 Here is an example of the algorithm:
 <div style="display:inline-block"><img src="Pictures/0572_Approach-2-Example.jpg"></div>
 
-<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note1.jpg"></div>
-<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note2.jpg"></div>
-<br>
+Here is an explanation for some of the bullet points above:
+<div style="display:inline-block; bottom-margin:1rem"><img src="Pictures/0572_Approach-2-Note1.jpg"></div>
+<div style="display:inline-block; bottom-margin:1rem"><img src="Pictures/0572_Approach-2-Note2.jpg"></div>
 
 Below is the full solution:
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
