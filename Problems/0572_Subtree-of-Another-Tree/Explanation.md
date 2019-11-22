@@ -80,7 +80,7 @@ Let n = number of nodes in t
 <details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:17px"><p>
   Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\).
   In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space
-  required to store the strings
+  required to store the strings.
 </p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
