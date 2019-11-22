@@ -28,7 +28,7 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">DFS (original)</h4>
-<pre style="font-size:0.7rem; background-color:#ededed"><code class="prettyprint" style="font-weight:bold">void DFS() {
+<pre style="font-size:0.675rem; background-color:#ededed"><code class="prettyprint" style="font-weight:bold">void DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
             visit(u);
@@ -53,7 +53,7 @@ void visit(int u) {
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">DFS (acyclic)</h4>
-<pre style="font-size:0.7rem; background-color:#ededed"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
+<pre style="font-size:0.675rem; background-color:#ededed"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == 'w')
@@ -78,7 +78,7 @@ void visit(int u) {
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">DFS (acyclic) refactored</h4>
-<pre style="font-size:0.7rem; background-color:#ededed"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
+<pre style="font-size:0.675rem; background-color:#ededed"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
         <mark>if (color[u] == 'w' && visit(u))</mark>
