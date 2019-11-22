@@ -103,7 +103,13 @@ Here is the full commented solution:
 <iframe src="https://leetcode.com/playground/x7ZQiFoi/shared" frameBorder="0" width="100%" height="730"></iframe>
 
 ### Complexity Analysis
-- <div><b>Time:</b> \(O(N)\)</div>
-- <div><b>Space:</b> \(O(N)\)</div>
+
+<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
+  The runtime of DFS is asdasd
+</p></div></details>
+
+<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
+  ooga booga
+</p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
