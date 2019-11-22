@@ -1,3 +1,4 @@
+11
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -93,7 +94,7 @@ Using immutable strings was the primary cause of the previous approach's bad tim
 
 ### Complexity Analysis
 
-Let m = number of nodes in s
+Let m = number of nodes in s  
 Let n = number of nodes in t
 
 <details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
@@ -141,9 +142,9 @@ Let n = number of nodes in t
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m^2)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Time: \(O(m^2)\)</b></summary><div style="margin-left:17px">
   
-</p></div></details>
+</div></details>
 
 <details><summary><b>Space: \(O(m^2)\)</b></summary><div style="margin-left:17px"><p>
   
