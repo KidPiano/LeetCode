@@ -11,7 +11,7 @@
 ## Approach 1: Brute Force ⭐
 
 For every node in the bigger tree s, we want to check if it is the same tree as the smaller tree t. We use recursion to accomplish this:
-- If the current node in s is equal to the smaller tree t, return true
+- If the current node in s is the same tree as t, return true
 - Otherwise, recursively check if the current node's left child contains t as a subtree, and then if the current node's right child contains t as a subtree
 
 <iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
