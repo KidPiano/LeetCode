@@ -57,9 +57,16 @@ Things to note:
 Here is an example of the algorithm:
 <img src="Pictures/0572_Approach-2-Example.jpg">
 
-Here is an explanation for some of the bullet points above:
 <img src="Pictures/0572_Approach-2-Note1.jpg">
 <img src="Pictures/0572_Approach-2-Note2.jpg">
+
+Here is an explanation for some of the bullet points above:
+<img src="Pictures/0572_Approach-2-Note1.jpg" style="display:inline-block">
+<img src="Pictures/0572_Approach-2-Note2.jpg" style="display:inline-block">
+
+Here is an explanation for some of the bullet points above:
+<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note1.jpg"></div>
+<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note2.jpg"></div>
 
 Below is the full solution:
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
