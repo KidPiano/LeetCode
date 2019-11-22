@@ -1,3 +1,5 @@
+# LeetCode
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153081938-1"></script>
 <script>
@@ -8,8 +10,6 @@
   gtag('config', 'UA-153081938-1');
 </script>
 
-# LeetCode
- 
 |   |  # | Title | Solution | Explanation | Difficulty |
 | - | -: | :---- | :------- | :---------- | :--------- |
 | &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | [Java](Problems/0001_Two-Sum/Solution.md) | [Explanation](Problems/0001_Two-Sum/Explanation.md) | Easy |
