@@ -88,7 +88,7 @@ Let n = number of nodes in t
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Approach 3: Reduction to Substring Problem (StringBuilder, indexOf) ⭐
-Using immutable strings was the primary cause of the previous approach's bad time and space complexity. So let us use something mutable  like StringBuilder or StringBuffer instead.
+Using immutable strings was the primary cause of the previous approach's bad time and space complexity. So let us use something mutable  like StringBuilder or StringBuffer instead:
 
 <iframe src="https://leetcode.com/playground/kVgVLyNW/shared" frameBorder="0" width="100%" height="290"></iframe>
 
