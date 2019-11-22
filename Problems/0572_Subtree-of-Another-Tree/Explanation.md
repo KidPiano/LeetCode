@@ -92,26 +92,19 @@ Using immutable strings was the primary cause of the previous approach's bad tim
 <iframe src="https://leetcode.com/playground/kVgVLyNW/shared" frameBorder="0" width="100%" height="290"></iframe>
 
 ### Complexity Analysis
-Let m = number of nodes in s  
+
+Let m = number of nodes in s
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(mn)\). The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes \(O(mn)\) time. Serializing s and t now only take \(O(m)\) and \(O(n)\) time respectively.</div>
-- <div><b>Space:</b> \(O(m+n)\). We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.</div>
 
-### Complexity Analysis
-{: style="margin-bottom:8px"}
-
-<div>Let m = number of nodes in s</div>  
-<div style="margin-bottom:8px">Let n = number of nodes in t</div>
-
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
   The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes
   \(O(mn)\) time. Serializing s and t now only take \(O(m)\) and \(O(n)\) time respectively.
 </p></div></details>
 
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
   We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder
   and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.
-</div></details>
+</p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -123,24 +116,17 @@ We can improve the asymptotic runtime of the previous approach even further by u
 Note that typically KMP finds all occurrences of a substring in a string, but I have modified it to return true as soon as it finds one occurrence.
 
 ### Complexity Analysis
+
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m+n)\)</div>
-- <div><b>Space:</b> \(O(m+n)\)</div>
 
-### Complexity Analysis
-{: style="margin-bottom:8px"}
-
-<div>Let m = number of nodes in s</div>  
-<div style="margin-bottom:8px">Let n = number of nodes in t</div>
-
-<details><summary><b>Time: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p style="margin-bottom:8px">
+<details><summary><b>Time: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
   
 </p></div></details>
 
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
   
-</div></details>
+</p></div></details>
 
 ### Optimization Ideas:
 - asdasd Morris Traversal
@@ -154,7 +140,13 @@ Let n = number of nodes in t
 #### Complexity Analysis
 Let m = number of nodes in s  
 Let n = number of nodes in t
-- <div><b>Time:</b> \(O(m^2)\)</div>
-- <div><b>Space:</b> \(O(m^2)\)</div>
+
+<details><summary><b>Time: \(O(m^2)\)</b></summary><div style="margin-left:17px"><p>
+  
+</p></div></details>
+
+<details><summary><b>Space: \(O(m^2)\)</b></summary><div style="margin-left:17px"><p>
+  
+</p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
