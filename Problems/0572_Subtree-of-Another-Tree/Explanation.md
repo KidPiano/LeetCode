@@ -1,3 +1,4 @@
+11
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -58,11 +59,11 @@ Here is an example of the algorithm:<br>
 <img src="Pictures/0572_Approach-2-Example.jpg">
 
 Here is an example of the algorithm:
-<div style="display:inline-block><img src="Pictures/0572_Approach-2-Example.jpg"></div>
+<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Example.jpg"></div>
 
 Here is an explanation for some of the bullet points above:
 <div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note1.jpg"></div>
-<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note2.jpg"></div><br>
+<div style="display:inline-block"><img src="Pictures/0572_Approach-2-Note2.jpg"></div>
 
 Below is the full solution:
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
