@@ -24,11 +24,11 @@ For more details or alternate implementations of `isSameTree()`, check out my ex
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:1rem"><p>
   In the worst case scenario, there are many duplicate values in s and t and we must check every node in t for every node in s.
 </p></div></details>
 
-<details><summary><b>Space: \(O(m)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Space: \(O(m)\)</b></summary><div style="margin-left:1rem"><p>
   Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
   deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
   <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
@@ -69,7 +69,7 @@ Below is the full solution:
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:1rem"><p>
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
   append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length 
   \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why
@@ -77,7 +77,7 @@ Let n = number of nodes in t
   uses a simple brute force substring algorithm.
 </p></div></details>
 
-<details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:1rem"><p>
   Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\).
   In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space
   required to store the strings.
@@ -95,12 +95,12 @@ Using immutable strings was the primary cause of the previous approach's bad tim
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:1rem"><p>
   The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes
   \(O(mn)\) time. Serializing s and t now only take \(O(m)\) and \(O(n)\) time respectively.
 </p></div></details>
 
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:1rem"><p>
   We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder
   and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.
 </p></div></details>
@@ -119,11 +119,11 @@ Note that typically KMP finds all occurrences of a substring in a string, but I 
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m+n)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Time: \(O(m+n)\)</b></summary><div style="margin-left:1rem">
   
 </div></details>
 
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:1rem">
   
 </div></details>
 
@@ -140,11 +140,11 @@ Let n = number of nodes in t
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m^2)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Time: \(O(m^2)\)</b></summary><div style="margin-left:1rem">
   
 </div></details>
 
-<details><summary><b>Space: \(O(m^2)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Space: \(O(m^2)\)</b></summary><div style="margin-left:1rem">
   
 </div></details>
 
