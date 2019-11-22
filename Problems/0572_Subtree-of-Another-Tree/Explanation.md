@@ -55,6 +55,7 @@ Things to note:
 - When we serialize a tree, we will traverse the nodes using a [preorder traversal](). If an [inorder traversal]() or a [postorder traversal]() is used instead, we would need to differentiate between left null children and right null children.
 - When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in `string_s`, and -1 otherwise.
 
+Here is an example of the algorithm:
 <img src="Pictures/0572_Approach-2-Example.jpg">
 
 Below is the full solution:
@@ -75,8 +76,8 @@ Let n = number of nodes in t
 
 <details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:1rem"><p>
   Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\).
-  In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space
-  required to store the strings.
+  This will require \(O(m^2)\) and \(O(n^2)\) space respectively. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack
+  frames, but this is negligible compared to the space required to store the strings.
 </p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
