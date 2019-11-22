@@ -55,10 +55,11 @@ Things to note:
 - When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in `string_s`, and -1 otherwise.
 
 Here is an example of the algorithm:
-<img src="Pictures/0572_Approach-2-Example.jpg" style="margin-top:1rem">
-
-Here is an example of the algorithm:  
 <img src="Pictures/0572_Approach-2-Example.jpg">
+
+Here is an explanation for some of the bullet points above:
+<img src="Pictures/0572_Approach-2-Note1.jpg">
+<img src="Pictures/0572_Approach-2-Note2.jpg">
 
 Below is the full solution:
 <iframe src="https://leetcode.com/playground/YfqkE2mS/shared" frameBorder="0" width="100%" height="255"></iframe>
