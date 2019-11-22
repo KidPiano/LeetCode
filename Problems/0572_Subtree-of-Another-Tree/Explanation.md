@@ -66,7 +66,7 @@ Below is the full solution:
 
 ### Complexity Analysis
 
-Let m = number of nodes in s
+Let m = number of nodes in s  
 Let n = number of nodes in t
 
 <details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px"><p>
