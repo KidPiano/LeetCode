@@ -79,10 +79,9 @@ Let n = number of nodes in t
 </p></div></details>
 
 <details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:17px"><p>
-  Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
-  deep into <code>isSubtree()</code> when <code>isSameTree()</code> is called. It takes at most \(x+1\) recursive calls of
-  <code>isSameTree()</code> to reach a null child in s and verify that the current node is not t. Therefore, we will never use more than
-  \(m+1\) stack frames.
+  Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\).
+  In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively, but this is negligible compared to the space
+  required to store the strings
 </p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
