@@ -56,7 +56,7 @@ Things to note:
 - When we serialize a tree, we will traverse the nodes using a [preorder traversal](). If an [inorder traversal]() or a [postorder traversal]() is used instead, we would need to differentiate between left null children and right null children.
 - When checking whether `string_t` is a substring of `string_s`, we will use Java's built in library function `indexOf()`, which returns the index of the first occurrence of `string_t` in `string_s`, and -1 otherwise.
 
-Here is an example of the algorithm:
+Here is how the algorithm would work on the following input:
 <div style="margin: 1rem 0 1rem 0"><img src="Pictures/0572_Approach-2-Example.jpg"></div>
 
 Here is an explanation for some of the bullet points above:
