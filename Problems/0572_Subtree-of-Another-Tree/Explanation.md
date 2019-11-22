@@ -70,13 +70,13 @@ Below is the full solution:
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px">
+<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:17px"><p>
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
   append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length 
   \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why
   serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it
   uses a simple brute force substring algorithm.
-</div></details>
+</p></div></details>
 
 <details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:17px"><p>
   Each recursive call takes up a stack frame and the worst case scenario occurs when s is skewed. Imagine we are \(m-x\) recursive calls
@@ -121,13 +121,13 @@ Note that typically KMP finds all occurrences of a substring in a string, but I 
 Let m = number of nodes in s  
 Let n = number of nodes in t
 
-<details><summary><b>Time: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Time: \(O(m+n)\)</b></summary><div style="margin-left:17px">
   
-</p></div></details>
+</div></details>
 
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px">
   
-</p></div></details>
+</div></details>
 
 ### Optimization Ideas:
 - asdasd Morris Traversal
@@ -146,8 +146,8 @@ Let n = number of nodes in t
   
 </div></details>
 
-<details><summary><b>Space: \(O(m^2)\)</b></summary><div style="margin-left:17px"><p>
+<details><summary><b>Space: \(O(m^2)\)</b></summary><div style="margin-left:17px">
   
-</p></div></details>
+</div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
