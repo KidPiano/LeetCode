@@ -1,4 +1,10 @@
-222
+111
+
+<math mathvariant="normal">\(O(m^2\)</math>
+<div>$$\mathrm{O(m^2)}$$</div>
+<div>$$\mathrm{O(m^{2})}$$</div>
+<div>\(\mathrm{O(m^{2})}\)</div>
+<div>\(\mathrm{O(m^2)}\)</div>
 
 ### Complexity Analysis
 
