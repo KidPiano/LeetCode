@@ -1,6 +1,6 @@
-111
+222
 
-<math mathvariant="normal">\(O(m^2\)</math>
+<div><math mathvariant="normal">\(O(m^2\)</math><div>
 <div>$$\mathrm{O(m^2)}$$</div>
 <div>$$\mathrm{O(m^{2})}$$</div>
 <div>\(\mathrm{O(m^{2})}\)</div>
