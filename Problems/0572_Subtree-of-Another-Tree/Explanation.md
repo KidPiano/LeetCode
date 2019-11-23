@@ -87,8 +87,8 @@ Let n = number of nodes in t
 
 ### Complexity Analysis
 
-Let \(m\) = number of nodes in s  
-Let \(n\) = number of nodes in t
+<div>Let \(m\) = number of nodes in s</div>
+Let <b><i>n</i></b> = number of nodes in t
 
 <details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:1rem"><p>
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
