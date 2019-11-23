@@ -1,11 +1,11 @@
-55555
+111
 
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<div>\(\mathrm{O(m^{2})}\)</div>
-<div style="font-weight:normal">\(\mathrm{O(m^2)}\)</div>
+<div>\(\mathrm{O(m^{2})}\) O(m)</div>
+<div style="font-weight:normal">\(\mathrm{O(m^2)}\) )(m)</div>
 
 ### Complexity Analysis
 
