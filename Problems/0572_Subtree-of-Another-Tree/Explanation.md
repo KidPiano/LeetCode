@@ -74,7 +74,26 @@ Let n = number of nodes in t
 <details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:1rem"><p>
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
   append to the string m times, we are actually creating m new strings, each with length \(O(m)\). Initializing a string of length 
-  \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2 )\) time. This same reasoning is why
+  \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2)\) time. This same reasoning is why
+  serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it
+  uses a simple brute force substring algorithm.
+</p></div></details>
+
+<details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:1rem"><p>
+  Again, because strings are immutable in Java, we will end up creating m strings of length \(O(m)\) and n strings of length \(O(n)\).
+  This will require \(O(m^2)\) and \(O(n^2)\) space respectively. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack
+  frames, but this is negligible compared to the space required to store the strings.
+</p></div></details>
+
+### Complexity Analysis
+
+Let \(m\) = number of nodes in s  
+Let \(n\) = number of nodes in t
+
+<details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:1rem"><p>
+  With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
+  append to the string \(m\) times, we are actually creating \(m\) new strings, each with length \(O(m)\). Initializing a string of
+  length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2)\) time. This same reasoning is why
   serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it
   uses a simple brute force substring algorithm.
 </p></div></details>
