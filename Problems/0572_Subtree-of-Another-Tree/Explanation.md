@@ -1,5 +1,3 @@
-22
-
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -74,9 +72,9 @@ Let n = number of nodes in t
 <details><summary><b>Time: \(O(m^2+n^2+mn)\)</b></summary><div style="margin-left:1rem"><p>
   With the code above, serializing s takes \(O(m^2)\) time. This is because String objects are immutable in Java. Therefore, when we
   append to the string \(m\) times, we are actually creating \(m\) new strings, each with length \(O(m)\). Initializing a string of
-  length \(O(m)\) takes \(O(m)\) time, so initializing m strings of length \(O(m)\) takes \(O(m^2)\) time. This same reasoning is why
-  serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is because it
-  uses a simple brute force substring algorithm.
+  length \(O(m)\) takes \(O(m)\) time, so initializing \(m\) strings of length \(O(m)\) takes \(O(m^2)\) time. This same reasoning is
+  why serializing t takes \(O(n^2)\) time. Lastly, the Java library function <code>indexOf()</code> takes \(O(mn)\) time. This is
+  because it uses a simple brute force substring algorithm.
 </p></div></details>
 
 <details><summary><b>Space: \(O(m^2+n^2)\)</b></summary><div style="margin-left:1rem"><p>
