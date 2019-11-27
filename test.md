@@ -1,4 +1,19 @@
-111
+4444
+
+## Approach 3: &#x2b50; :star: ⭐
+
+
+:star:
+⭐
+U+2B50
+U+2606
+U+2605
+&#11088;
+&#x2b50;
+2b50
+11088
+\u2B50
+
 
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
