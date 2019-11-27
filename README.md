@@ -1,19 +1,8 @@
 # LeetCode
 
-<!-- view tracking stuff -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153081938-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153081938-1');
-</script>
-
 |   |  # | Title | Solution | Explanation | Difficulty |
 | - | -: | :---- | :------- | :---------- | :--------- |
-| &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | [Java](Problems/0001_Two-Sum/Solution.md) | [Explanation](Problems/0001_Two-Sum/Explanation.md) | Easy |
+| &#9744; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | [Java](Problems/0001_Two-Sum/Solution.md) | [Explanation](Problems/0001_Two-Sum/Explanation.md) | Easy |
 | &#9744; | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/){:target="_blank"} | [Java](Problems/0002_Add-Two-Numbers/Solution.md) | [Explanation](Problems/0002_Add-Two-Numbers/Explanation.md) | Medium |
 | &#9744; | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/){:target="_blank"} | [Java](Problems/0003_Longest-Substring-Without-Repeating-Characters/Solution.md) | [Explanation](Problems/0003_Longest-Substring-Without-Repeating-Characters/Explanation.md) | Medium |
 | &#9744; | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/){:target="_blank"} | [Java](Problems/0004_Median-of-Two-Sorted-Arrays/Solution.md) | [Explanation](Problems/0004_Median-of-Two-Sorted-Arrays/Explanation.md) | Hard |
@@ -112,7 +101,7 @@
 | &#9744; | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/){:target="_blank"} | [Java](Problems/0097_Interleaving-String/Solution.md) | [Explanation](Problems/0097_Interleaving-String/Explanation.md) | Hard |
 | &#9744; | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/){:target="_blank"} | [Java](Problems/0098_Validate-Binary-Search-Tree/Solution.md) | [Explanation](Problems/0098_Validate-Binary-Search-Tree/Explanation.md) | Medium |
 | &#9744; | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/){:target="_blank"} | [Java](Problems/0099_Recover-Binary-Search-Tree/Solution.md) | [Explanation](Problems/0099_Recover-Binary-Search-Tree/Explanation.md) | Hard |
-| &#9744; | 100 | [Same Tree](https://leetcode.com/problems/same-tree/){:target="_blank"} | [Java](Problems/0100_Same-Tree/Solution.md) | [Explanation](Problems/0100_Same-Tree/Explanation.md) | Easy |
+| &#9745; | 100 | [Same Tree](https://leetcode.com/problems/same-tree/){:target="_blank"} | [Java](Problems/0100_Same-Tree/Solution.md) | [Explanation](Problems/0100_Same-Tree/Explanation.md) | Easy |
 | &#9744; | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/){:target="_blank"} | [Java](Problems/0101_Symmetric-Tree/Solution.md) | [Explanation](Problems/0101_Symmetric-Tree/Explanation.md) | Easy |
 | &#9744; | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/){:target="_blank"} | [Java](Problems/0102_Binary-Tree-Level-Order-Traversal/Solution.md) | [Explanation](Problems/0102_Binary-Tree-Level-Order-Traversal/Explanation.md) | Medium |
 | &#9744; | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/){:target="_blank"} | [Java](Problems/0103_Binary-Tree-Zigzag-Level-Order-Traversal/Solution.md) | [Explanation](Problems/0103_Binary-Tree-Zigzag-Level-Order-Traversal/Explanation.md) | Medium |
@@ -560,7 +549,7 @@
 | &#9744; | 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/){:target="_blank"} | [Java](Problems/0566_Reshape-the-Matrix/Solution.md) | [Explanation](Problems/0566_Reshape-the-Matrix/Explanation.md) | Easy |
 | &#9744; | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/){:target="_blank"} | [Java](Problems/0567_Permutation-in-String/Solution.md) | [Explanation](Problems/0567_Permutation-in-String/Explanation.md) | Medium |
 | &#9744; | 568 | [Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/){:target="_blank"} | [Java](Problems/0568_Maximum-Vacation-Days/Solution.md) | [Explanation](Problems/0568_Maximum-Vacation-Days/Explanation.md) | Hard |
-| &#9744; | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/){:target="_blank"} | [Java](Problems/0572_Subtree-of-Another-Tree/Solution.md) | [Explanation](Problems/0572_Subtree-of-Another-Tree/Explanation.md) | Easy |
+| &#9745; | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/){:target="_blank"} | [Java](Problems/0572_Subtree-of-Another-Tree/Solution.md) | [Explanation](Problems/0572_Subtree-of-Another-Tree/Explanation.md) | Easy |
 | &#9744; | 573 | [Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/){:target="_blank"} | [Java](Problems/0573_Squirrel-Simulation/Solution.md) | [Explanation](Problems/0573_Squirrel-Simulation/Explanation.md) | Medium |
 | &#9744; | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/){:target="_blank"} | [Java](Problems/0575_Distribute-Candies/Solution.md) | [Explanation](Problems/0575_Distribute-Candies/Explanation.md) | Easy |
 | &#9744; | 576 | [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/){:target="_blank"} | [Java](Problems/0576_Out-of-Boundary-Paths/Solution.md) | [Explanation](Problems/0576_Out-of-Boundary-Paths/Explanation.md) | Medium |
