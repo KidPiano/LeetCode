@@ -118,8 +118,8 @@ Here is the full commented solution:
         return false;
     }
 }
+
 </code></pre>
-</div>
 
 ### Complexity Analysis
 
