@@ -72,14 +72,10 @@ boolean visit(int u) {
 
 Here is the full commented solution:
 <pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">class Solution {
-    test
-    asdf
-  asdf
-  
-  asdf{ 
-  }
-  asda
-      asd
+    char[] color;
+    List<Integer>[] adjlist;
+    int[] answer;
+    int index; // index of answer array
 </code></pre>
 
 ### Complexity Analysis
