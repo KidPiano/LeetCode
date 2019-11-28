@@ -71,8 +71,7 @@ boolean visit(int u) {
 </div>
 
 Here is the full commented solution:
-~~~java
-class Solution {
+<pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">class Solution {
     char[] color;
     List<Integer>[] adjlist;
     int[] answer;
@@ -118,7 +117,7 @@ class Solution {
         return false;
     }
 }
-~~~
+</code></pre>
 
 ### Complexity Analysis
 
