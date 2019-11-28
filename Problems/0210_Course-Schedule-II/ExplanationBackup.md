@@ -72,6 +72,7 @@ boolean visit(int u) {
 
 Here is the full commented solution:
 <pre style="background-color:beige"><code class="prettyprint" style="font-weight:bold">class Solution {
+1123123123
     char[] color;
     List\<Integer\>[] adjlist;
     int[] answer;
