@@ -71,13 +71,7 @@ boolean visit(int u) {
 </div>
 
 Here is the full commented solution:
-<pre style="background-color:beige"><code class="prettyprint" style="font-weight:bold">class Solution {
-1123123123
-    char[] color;
-    List\<Integer\>[] adjlist;
-    int[] answer;
-    int index;
-</code></pre>
+<script src="https://gist.github.com/KidPiano/a7c805bc6a0452ca9b6bdfa41ba13058.js"></script>
 
 ### Complexity Analysis
 
