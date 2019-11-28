@@ -75,7 +75,7 @@ Here is the full commented solution:
     char[] color;
     List<Integer>[] adjlist;
     int[] answer;
-    int index; // index of answer array
+    int index;
 </code></pre>
 
 ### Complexity Analysis
