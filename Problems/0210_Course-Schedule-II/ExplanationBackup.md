@@ -72,7 +72,52 @@ boolean visit(int u) {
 
 Here is the full commented solution:
 <pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">
-test
+class Solution {
+    char[] color;
+    List<Integer>[] adjlist;
+    int[] answer;
+    int index; // index of answer array
+    
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+        // declare adjacency list
+        adjlist = new ArrayList[numCourses];
+        for (int i = 0; i < numCourses; i++)
+            adjlist[i] = new ArrayList<>();
+        
+        // initialize adjacency list
+        for (int[] edge : prerequisites) {
+            int u = edge[0];
+            int v = edge[1];
+            adjlist[u].add(v);
+        }
+
+        // initialize colors to white
+        color = new char[numCourses];
+        for (int i = 0; i < color.length; i++) color[i] = 'w';
+        
+        // modified DFS
+        // stores a reverse topological sort in the answer array
+        index = 0;
+        answer = new int[numCourses];
+        for (int u = 0; u < numCourses; u++)
+            if (color[u] == 'w' && visit(u))
+                return new int[0];
+        return answer;
+    }
+    
+    // modified DFS helper function (visit)
+    // returns true if a cycle is found, false otherwise
+    private boolean visit(int u) {
+        color[u] = 'g';
+        for (int v : adjlist[u])
+            if (color[v] == 'w' && visit(v) || color[v] == 'g')
+                return true;
+        color[u] = 'b';
+        // as vertices finish, store them in the answer array
+        answer[index++] = u;
+        return false;
+    }
+}
 </code></pre>
 
 ### Complexity Analysis
