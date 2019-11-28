@@ -71,6 +71,7 @@ boolean visit(int u) {
 </div>
 
 Here is the full commented solution:
+<div>
 <pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">class Solution {
     char[] color;
     List<Integer>[] adjlist;
@@ -118,8 +119,7 @@ Here is the full commented solution:
     }
 }
 </code></pre>
-</code></pre>
-</code></pre>
+</div>
 
 ### Complexity Analysis
 
