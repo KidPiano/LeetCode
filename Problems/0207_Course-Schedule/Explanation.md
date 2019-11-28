@@ -105,7 +105,7 @@ Here is the full commented solution:
 ### Complexity Analysis
 
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
-  The [runtime of DFS](../0210_Course-Schedule-II/Explanation.md#complexity-analysis) is \(O(|V|+|E|)\). In this case, the number of vertices is at most 2N (worst case happens when every prerequisite pair is two unique courses) and the number of edges is N. Therefore, the total runtime is \(O(2N)+N=O(N)\), where N is the size of the input (size of the prerequisites array).
+  The [runtime of DFS](../0210_Course-Schedule-II/Explanation.md) is \(O(|V|+|E|)\). In this case, the number of vertices is at most 2N (worst case happens when every prerequisite pair is two unique courses) and the number of edges is N. Therefore, the total runtime is \(O(2N)+N=O(N)\), where N is the size of the input (size of the prerequisites array).
 </p></div></details>
 
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
