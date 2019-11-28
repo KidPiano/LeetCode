@@ -71,68 +71,18 @@ boolean visit(int u) {
 </div>
 
 Here is the full commented solution:
-<div>
-<pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">class Solution {
-    char[] color;
-    List<Integer>[] adjlist;
-    int[] answer;
-    int index; // index of answer array
-    
-    public int[] findOrder(int numCourses, int[][] prerequisites) {
-        // declare adjacency list
-        adjlist = new ArrayList[numCourses];
-        for (int i = 0; i < numCourses; i++)
-            adjlist[i] = new ArrayList<>();
-        
-        // initialize adjacency list
-        for (int[] edge : prerequisites) {
-            int u = edge[0];
-            int v = edge[1];
-            adjlist[u].add(v);
-        }
-
-        // initialize colors to white
-        color = new char[numCourses];
-        for (int i = 0; i < color.length; i++) color[i] = 'w';
-        
-        // modified DFS
-        // stores a reverse topological sort in the answer array
-        index = 0;
-        answer = new int[numCourses];
-        for (int u = 0; u < numCourses; u++)
-            if (color[u] == 'w' && visit(u))
-                return new int[0];
-        return answer;
-    }
-    
-    // modified DFS helper function (visit)
-    // returns true if a cycle is found, false otherwise
-    private boolean visit(int u) {
-        color[u] = 'g';
-        for (int v : adjlist[u])
-            if (color[v] == 'w' && visit(v) || color[v] == 'g')
-                return true;
-        color[u] = 'b';
-        // as vertices finish, store them in the answer array
-        answer[index++] = u;
-        return false;
-    }
-}
-
+<pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">
+test
 </code></pre>
 
 ### Complexity Analysis
 
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
-  The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most 
-  \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of
-  prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
+The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
 </p></div></details>
 
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
-  The <a href="" target="_blank">space required by an adjacency list</a> is \(O(|V|+|E|)\). As stated above, the number of vertices is
-  at most \(2N\) and the number of edges is \(N\). In addition, the color and answer arrays have length \(N\) and recursive calls take 
-  \(O(N)\) stack frames. Therefore, the total space required is \(O(N)\).
+The <a href="" target="_blank">space required by an adjacency list</a> is \(O(|V|+|E|)\). As stated above, the number of vertices is at most \(2N\) and the number of edges is \(N\). In addition, the color and answer arrays have length \(N\) and recursive calls take \(O(N)\) stack frames. Therefore, the total space required is \(O(N)\).
 </p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
