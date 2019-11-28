@@ -17,8 +17,8 @@ In other words, this problem is equivalent to determining whether or not the cou
 ## Approach 1: Modify DFS to Detect Back Edges ⭐⭐
 
 Our algorithm consists of two parts:
-1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
-2. Use a modified version of [DFS]() to determine if the graph is acyclic.
+1. Store the graph as an [adjacency list](){:target="_blank"} (each prerequisite pair is a directed edge). This will improve runtime.
+2. Use a modified version of [DFS](){:target="_blank"} to determine if the graph is acyclic.
   - If we encounter a gray vertex during DFS, we have found a back edge and the graph contains a cycle (return false)
   - If we do not encounter a gray vertex during DFS, the graph has no cycles (return true)
 
@@ -105,13 +105,14 @@ Here is the full commented solution:
 ### Complexity Analysis
 
 <details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
-  The <a href="">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
+  The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most 
+  \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of
+  prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
 </p></div></details>
 
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
-  An <a href="">adjacency list</a> requires \(O(|V|+|E|)\) space. As stated above, the number of vertices is at most 2N and the number of edges is N. Therefore, the space complexity of this algorithm is \(O(2N+N)=O(N)\).
+  The <a href="" target="_blank">space required by an adjacency list</a> is \(O(|V|+|E|)\). As stated above, the number of vertices is
+  at most 2N and the number of edges is N. Therefore, the space complexity of this algorithm is \(O(2N+N)=O(N)\).
 </p></div></details>
-
-[runtime of DFS](https://kidpiano.github.io/LeetCode/Problems/0210_Course-Schedule-II/Explanation.html#complexity-analysis)
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
