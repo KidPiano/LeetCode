@@ -109,7 +109,7 @@ Here is the full commented solution:
 </p></div></details>
 
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
-  An <a href="">adjacency list</a> requires \(O(|V|+|E|)\) space. In this case, the number of vertices is at most 2N (worst case happens when every prerequisite pair is two unique courses) and the number of edges is N. Therefore, the space complexity of this algorithm is \(O(2N+N)=O(N)\).
+  An <a href="">adjacency list</a> requires \(O(|V|+|E|)\) space. As stated above, the number of vertices is at most 2N and the number of edges is N. Therefore, the space complexity of this algorithm is \(O(2N+N)=O(N)\).
 </p></div></details>
 
 [runtime of DFS](https://kidpiano.github.io/LeetCode/Problems/0210_Course-Schedule-II/Explanation.html#complexity-analysis)
