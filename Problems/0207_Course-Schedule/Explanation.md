@@ -112,4 +112,6 @@ Here is the full commented solution:
   An [adjacency list]() requires \(O(|V|+|E|)\) space. In this case, the number of vertices is at most 2N (worst case happens when every prerequisite pair is two unique courses) and the number of edges is N. Therefore, the space complexity of this algorithm is \(O(2N)+N=O(N)\), where N is the size of the input (size of the prerequisites array).
 </p></div></details>
 
+[runtime of DFS](../0210_Course-Schedule-II/Explanation#complexity-analysis.md)
+
 <!------------------------------------------------------------------------------------------------------------------------------------->
