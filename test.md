@@ -1,4 +1,4 @@
-111
+222
 
 ## HEADER
 {:options auto_ids="false" /}
@@ -27,64 +27,11 @@
 <span style="background-color:beige">foo</span>
 <span style="background-color:gainsboro">foo</span>
 <span style="background-color:whitesmoke">foo</span>
-<pre><code>foo</code></pre>
+`foo`
 
 <!--------------------------------------------------------------------->
 
-## Center text
-{: style="text-align: center"}
-
-This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. This is a very long sentence. 
-This is a very long sentence.  
-This is a very long sentence.  
-This is a very long sentence.  
-This is a very long sentence.  
-
-<!--------------------------------------------------------------------->
-
-<!-- Two Column -->
-<div style="display:inline-block; text-align:left">
-<h2>ASDLAKSJDLAKSJDLAKJSDLADSASDASD</h2>
-<pre><code class="language-c">int foo (void)
-{
-    int i;
-}
-</code></pre>
-</div>
-
-<div style="display:inline-block; text-align:left">
-<h2>Bad</h2>
-<pre><code class="language-c">int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-</div>
-
-  
-<div style="text-align:center">
-
-<div style="display:inline-block; text-align:left">
-<h2 style="text-align:center">Good</h2>
-<pre><code>int foo (void)
-{
-    int i;
-}
-</code></pre>
-</div>
-
-<div style="display:inline-block; text-align:left">
-<h2 style="text-align:center">Bad</h2>
-<pre><code>int foo (void) {
-    int i;
-}  
-<span style="background-color:cyan">test</span>
-</code></pre>
-</div>
-
-</div>
-
-<!--------------------------------------------------------------------->
+<!-- SLIDES -->
 
 <div style="text-align:center"><iframe src="//www.slideshare.net/slideshow/embed_code/key/CY961pehH54F3n" width="785" height="483" allowfullscreen> </iframe></div>
 
@@ -124,15 +71,6 @@ This is a very long sentence.
         <li>23ref</li>
     </ul>
 </details>
-
-<!--------------------------------------------------------------------->
-  
-| Unchecked | Checked |
-| --------- | ------- |
-| &#9744;   | &#9745; |
-
-[:smile:](http://github.com)  
-[&#9745;](http://github.com)
 
 <!--------------------------------------------------------------------->
 
