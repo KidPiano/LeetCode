@@ -106,14 +106,19 @@ asdf
 <!--------------------------------------------------------------------->
 
 <!-- COLORS -->
-<span style="background-color:crimson">foo</span>  
-<span style="background-color:red">foo</span>  
-<span style="background-color:tomato">foo</span>  
-<span style="background-color:orange">foo</span>   
-<span style="background-color:yellow">foo</span>  
-<span style="background-color:limegreen">foo</span>  
-<span style="background-color:lime">foo</span>  
-<span style="background-color:cyan">foo</span>  
+<span style="background-color:crimson">foo</span>
+<span style="background-color:red">foo</span>
+<span style="background-color:tomato">foo</span>
+<span style="background-color:orange">foo</span>
+<span style="background-color:yellow">foo</span>
+<span style="background-color:limegreen">foo</span>
+<span style="background-color:lime">foo</span>
+<span style="background-color:cyan">foo</span>
+
+<span style="background-color:beige">foo</span>
+<span style="background-color:gainsboro">foo</span>
+<span style="background-color:whitesmoke">foo</span>
+<pre><code>foo</code></pre>
 
 <!--------------------------------------------------------------------->
 
@@ -231,28 +236,5 @@ This is a very long sentence.
 
 <span style="color:cyan">`test`</span>
 <span style="background-color:cyan">`test`</span>
-
-<!--------------------------------------------------------------------->
-
-LaTeX test
-https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github  
-![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)  
-![boobies](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
-  
-- test1
-- test2  
-  
-- [ ] test1  
-- [x] test2  
-
-<!--------------------------------------------------------------------->
-
-LC code test
-<div><iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300"></iframe></div>
-<div><iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300"></iframe></div>
-
-<iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300"></iframe>
-<iframe src="https://leetcode.com/playground/rWuvY2hN/shared" frameBorder="0" width="400" height="300"></iframe>
-
 
 <!--------------------------------------------------------------------->
