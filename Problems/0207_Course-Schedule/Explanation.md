@@ -112,7 +112,8 @@ Here is the full commented solution:
 
 <details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
   The <a href="" target="_blank">space required by an adjacency list</a> is \(O(|V|+|E|)\). As stated above, the number of vertices is
-  at most 2N and the number of edges is N. Therefore, the space complexity of this algorithm is \(O(2N+N)=O(N)\).
+  at most \(2N\) and the number of edges is \(N\). In addition, the color array has length \(N\) and recursive calls take \(O(N)\) stack
+  frames. Therefore, the total space required is \(O(N)\).
 </p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
