@@ -15,10 +15,10 @@ Observation: this problem is equivalent to finding a reverse topological sort of
 
 ## Approach 1: Modify DFS to Find a Reverse Topological Sort ⭐⭐
 Our algorithm consists of two parts:
-1. Store the graph as an [adjacency list]() (each prerequisite pair is a directed edge). This will improve runtime.
-2. Use a modified version of [DFS]() to find a reverse [topological sort]() of the graph if it is acyclic.
+1. Store the graph as an [adjacency list](){:target="_blank"} (each prerequisite pair is a directed edge). This will improve runtime.
+2. Use a modified version of [DFS](){:target="_blank"} to find a reverse [topological sort](){:target="_blank"} of the graph if it is acyclic.
 
-In [Approach 1 for Course Schedule](../0207_Course-Schedule/Explanation.md), we saw how to modify DFS to determine if a graph is acyclic. Using this as a starting point, we only need to make a minor change to our code to store the reverse topological sort in our answer array: simply append vertices to the  answer array as they finish during DFS. I have highlighted these changes below:
+In [Approach 1 for Course Schedule](../0207_Course-Schedule/Explanation.md){:target="_blank"}, we saw how to modify DFS to determine if a graph is acyclic. Using this as a starting point, we only need to make a minor change to our code to store the reverse topological sort in our answer array: simply append vertices to the  answer array as they finish during DFS. I have highlighted these changes below:
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">Modified DFS (determines if a graph is acyclic)</h4>
@@ -74,7 +74,17 @@ Here is the full commented solution:
 <iframe src="https://leetcode.com/playground/2y32BPAW/shared" frameBorder="0" width="100%" height="835"></iframe>
 
 ### Complexity Analysis
-- <div><b>Time:</b> \(O(N)\)</div>
-- <div><b>Space:</b> \(O(N)\)</div>
+
+<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
+  The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most 
+  \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of
+  prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
+</p></div></details>
+
+<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
+  The <a href="" target="_blank">space required by an adjacency list</a> is \(O(|V|+|E|)\). As stated above, the number of vertices is
+  at most \(2N\) and the number of edges is \(N\). In addition, the color and answer arrays have length \(N\) and recursive calls take 
+  \(O(N)\) stack frames. Therefore, the total space required is \(O(N)\).
+</p></div></details>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
