@@ -1,49 +1,5 @@
 111
 
-~~~java
-test1
-test2
-<mark>test3</mark>
-~~~
-
-
-<!-- MathJax -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<div>\(\mathrm{O(m^{2})}\) O(m)</div>
-<div style="font-weight:normal">\(\mathrm{O(m^2)}\) )(m)</div>
-
-### Complexity Analysis
-
-Let m = number of nodes in s  
-Let n = number of nodes in t
-
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:17px"><p>
-  The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes
-  \(O(mn)\) time. Serializing s and t now only take \(O(m)\) and \(O(n)\) time respectively.
-</p></div></details>
-
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:17px"><p>
-  We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder
-  and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.
-</p></div></details>
-
-### Complexity Analysis
-
-Let m = number of nodes in s  
-Let n = number of nodes in t
-
-<details><summary><b>Time: \(O(mn)\)</b></summary><div style="margin-left:1rem"><p>
-  The limiting factor of the runtime for this algorithm comes from the Java library function <code>indexOf()</code>, which takes
-  \(O(mn)\) time. Serializing s and t now only take \(O(m)\) and \(O(n)\) time respectively.
-</p></div></details>
-
-<details><summary><b>Space: \(O(m+n)\)</b></summary><div style="margin-left:1rem"><p>
-  We need \(O(m)\) space to store one StringBuilder and one String of length m, and we need \(O(n)\) space to store one StringBuilder
-  and one String of length n. In addition, serializing s and t require \(O(m)\) and \(O(n)\) stack frames respectively.
-</p></div></details>
-
 <script src="https://gist.github.com/KidPiano/cc593e1953d21e2ec5c73e08a5003a32.js"></script>
 
 
