@@ -1,7 +1,7 @@
 222
 
 ## HEADER
-{:options auto_ids="false" /}
+{::options auto_ids="false"}
 
 
 <!-- Divider Line -->
