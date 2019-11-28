@@ -75,11 +75,15 @@ Here is the full commented solution:
 
 ### Complexity Analysis
 
-<details><summary><b>Time: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
+<details><summary><b>
+Time: \(O(N)\)
+</b></summary><div style="margin-left:1rem"><p>
 The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
 </p></div></details>
 
-<details><summary><b>Space: \(O(N)\)</b></summary><div style="margin-left:1rem"><p>
+<details><summary><b>
+Space: \(O(N)\)
+</b></summary><div style="margin-left:1rem"><p>
 The <a href="" target="_blank">space required by an adjacency list</a> is \(O(|V|+|E|)\). As stated above, the number of vertices is at most \(2N\) and the number of edges is \(N\). In addition, the color and answer arrays have length \(N\) and recursive calls take \(O(N)\) stack frames. Therefore, the total space required is \(O(N)\).
 </p></div></details>
 
