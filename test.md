@@ -1,18 +1,10 @@
-4444
+111
 
-## Approach 3: &#x2b50; :star: ⭐
-
-
-:star:
-⭐
-U+2B50
-U+2606
-U+2605
-&#11088;
-&#x2b50;
-2b50
-11088
-\u2B50
+~~~java
+test1
+test2
+<mark>test3</mark>
+~~~
 
 
 <!-- MathJax -->
