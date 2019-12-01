@@ -1,3 +1,8 @@
+# Course Schedule 
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
+11
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -6,8 +11,6 @@
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
-
-# Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course prerequisite graph does not contain a cycle.  
 In other words, this problem is equivalent to determining whether or not the course prerequisite graph is acyclic.
