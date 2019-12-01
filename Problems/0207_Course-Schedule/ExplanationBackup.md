@@ -1,3 +1,7 @@
+# Course Schedule
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -6,8 +10,6 @@
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
-
-# Course Schedule 
 
 Observation: it is possible to finish all courses if and only if the course prerequisite graph does not contain a cycle.  
 In other words, this problem is equivalent to determining whether or not the course prerequisite graph is acyclic.
@@ -109,7 +111,7 @@ Here is the full commented solution:
 <details><summary><b>
 Time: \(O(N)\)
 </b></summary><div style="margin-left:1rem"><p>
-The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total runtime is \(O(2N+N)=O(N)\).
+The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total runtime is \(O(O(2N)+N)=O(N)\).
 </p></div></details>
 
 <details><summary><b>
