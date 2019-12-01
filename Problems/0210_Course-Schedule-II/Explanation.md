@@ -1,14 +1,13 @@
+# Course Schedule II
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
 <!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- Google Prettify -->
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-
-<!------------------------------------------------------------------------------------------------------------------------------------->
-
-# Course Schedule II
-
 Observation: this problem is equivalent to finding a reverse topological sort of the course prerequisite graph (if it exists). A valid course order will exist if the course prerequisite graph is acyclic.
 
 <!------------------------------------------------------------------------------------------------------------------------------------->
