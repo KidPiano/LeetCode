@@ -77,7 +77,7 @@ Here is the full commented solution:
 <details><summary><b>
 Time: \(O(N)\)
 </b></summary><div style="margin-left:1rem"><p>
-The <a href="" target="_blank">runtime of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total runtime is \(O(N)\).
+The <a href="" target="_blank">running time of DFS</a> is \(O(|V|+|E|)\). In this case, the number of vertices (numCourses) is at most \(2N\) (the worst case happens when every prerequisite pair contains two unique courses) and the number of edges (number of prerequisites) is \(N\). Therefore, the total running time is \(O(N)\).
 </p></div></details>
 
 <details><summary><b>
