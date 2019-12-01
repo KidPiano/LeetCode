@@ -1,4 +1,4 @@
-# Course Schedule II 
+# Course Schedule II
 
 ~~~java
 class Solution {
