@@ -15,7 +15,7 @@ Observation: this problem is equivalent to finding a reverse topological sort of
 ## Approach 1: Modify DFS to Find a Reverse Topological Sort ⭐⭐
 Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list](){:target="_blank"} (each prerequisite pair is a directed edge). This will improve runtime.
-2. Use a modified version of [DFS](){:target="_blank"} to find a reverse [topological sort](){:target="_blank"} of the graph if it is acyclic.
+2. Use a modified version of [DFS](https://kidpiano.github.io/Algorithms/Graph/DFS.html){:target="_blank"} to find a reverse [topological sort](){:target="_blank"} of the graph if it is acyclic.
 
 In [Approach 1 for Course Schedule](../0207_Course-Schedule/Explanation.md){:target="_blank"}, we saw how to modify DFS to determine if a graph is acyclic. Using this as a starting point, we only need to make a minor change to our code to store the reverse topological sort in our answer array: simply append vertices to the answer array as they finish during DFS. I have highlighted these changes below:
 
