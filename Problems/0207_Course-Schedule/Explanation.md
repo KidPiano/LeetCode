@@ -20,7 +20,7 @@ In other words, this problem is equivalent to determining whether or not the cou
 
 Our algorithm consists of two parts:
 1. Store the graph as an [adjacency list](){:target="_blank"} (each prerequisite pair is a directed edge). This will improve runtime.
-2. Use a modified version of [DFS](){:target="_blank"} to determine if the graph is acyclic.
+2. Use a modified version of [DFS](https://kidpiano.github.io/Algorithms/Graph/DFS.html){:target="_blank"} to determine if the graph is acyclic.
   - If we encounter a gray vertex during DFS, we have found a back edge and the graph contains a cycle (return false)
   - If we do not encounter any gray vertices during DFS, the graph has no cycles (return true)
 
