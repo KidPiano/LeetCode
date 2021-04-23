@@ -30,16 +30,16 @@ Below, I have highlighted the changes we need to make to DFS to determine if a g
 <h4 style="margin-top:0">DFS (original)</h4>
 <pre style="font-size:0.68rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">void DFS() {
     for (int u = 0; u < numVertices; u++)
-        if (color[u] == 'w')
+        if (color[u] == WHITE)
             visit(u);
 }
 
 void visit(int u) {
-    color[u] = 'g';
+    color[u] = GRAY;
     for (int v : adjlist[u])
-        if (color[v] == 'w')
+        if (color[v] == WHITE)
             visit(v);
-    color[u] = 'b';
+    color[u] = BLACK;
 }
 
 
@@ -56,20 +56,20 @@ void visit(int u) {
 <pre style="font-size:0.68rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 <span style="background-color:orange">boolean</span> DFS() {
     for (int u = 0; u < numVertices; u++)
-        if (color[u] == 'w')
+        if (color[u] == WHITE)
             <span style="background-color:orange">if (visit(u)) return false;</span>
     <span style="background-color:orange">return true;</span>
 }
 
 // returns true if a cycle is found
 <span style="background-color:orange">boolean</span> visit(int u) {
-    color[u] = 'g';
+    color[u] = GRAY;
     for (int v : adjlist[u])
-        if (color[v] == 'w') {
+        if (color[v] == WHITE) {
             <span style="background-color:orange">if (visit(v)) return true;</span> }
         // found back edge
-        <span style="background-color:orange">else if (color[v] == 'g') return true;</span>
-    color[u] = 'b';
+        <span style="background-color:orange">else if (color[v] == GRAY) return true;</span>
+    color[u] = BLACK;
     <span style="background-color:orange">return false;</span>
 }
 
@@ -81,18 +81,18 @@ void visit(int u) {
 <pre style="font-size:0.68rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
-        <mark>if (color[u] == 'w' && visit(u))</mark>
+        <mark>if (color[u] == WHITE && visit(u))</mark>
             <mark>return false;</mark>
     return true;
 }
 
 // returns true if a cycle is found
 boolean visit(int u) {
-    color[u] = 'g';
+    color[u] = GRAY;
     for (int v : adjlist[u])
-        <mark>if (color[v] == 'w' && visit(v) || color[v] == 'g')</mark>
+        <mark>if (color[v] == WHITE && visit(v) || color[v] == GRAY)</mark>
             <mark>return true;</mark>
-    color[u] = 'b';
+    color[u] = BLACK;
     return false;
 }
 
