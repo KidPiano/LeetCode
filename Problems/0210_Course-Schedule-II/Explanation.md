@@ -21,7 +21,7 @@ In [Approach 1 for Course Schedule](../0207_Course-Schedule/Explanation.md){:tar
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">Modified DFS (determines if a graph is acyclic)</h4>
-<pre style="font-size:0.9rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
+<pre style="font-size:0.85rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == WHITE && visit(u))
@@ -46,7 +46,7 @@ boolean visit(int u) {
 
 <div style="display:inline-block">
 <h4 style="margin-top:0">Modified DFS (returns a reverse topological sort)</h4>
-<pre style="font-size:0.9rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
+<pre style="font-size:0.85rem; background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
 <mark>int[]</mark> DFS() {
     for (int u = 0; u < numVertices; u++)
         if (color[u] == WHITE && visit(u))
