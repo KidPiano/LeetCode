@@ -24,18 +24,18 @@ In [Approach 1 for Course Schedule](../0207_Course-Schedule/Explanation.md){:tar
 <pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns true if the graph is acyclic
 boolean DFS() {
     for (int u = 0; u < numVertices; u++)
-        if (color[u] == 'w' && visit(u))
+        if (color[u] == WHITE && visit(u))
             return false;
     return true;
 }
 
 // returns true if a cycle is found
 boolean visit(int u) {
-    color[u] = 'g';
+    color[u] = GRAY;
     for (int v : adjlist[u])
-        if (color[v] == 'w' && visit(v) || color[v] == 'g')
+        if (color[v] == WHITE && visit(v) || color[v] == GRAY)
             return true;
-    color[u] = 'b';
+    color[u] = BLACK;
     return false;
 }
 
@@ -49,18 +49,18 @@ boolean visit(int u) {
 <pre style="background-color:whitesmoke"><code class="prettyprint" style="font-weight:bold">// returns a reverse topological sort
 <mark>int[]</mark> DFS() {
     for (int u = 0; u < numVertices; u++)
-        if (color[u] == 'w' && visit(u))
+        if (color[u] == WHITE && visit(u))
             <mark>return new int[0];</mark>
     <mark>return answer;</mark>
 }
 
 // returns true if a cycle is found
 boolean visit(int u) {
-    color[u] = 'g';
+    color[u] = GRAY;
     for (int v : adjlist[u])
-        if (color[v] == 'w' && visit(v) || color[v] == 'g')
+        if (color[v] == WHITE && visit(v) || color[v] == GRAY)
             return true;
-    color[u] = 'b';
+    color[u] = BLACK;
     // as vertices finish, store them in the answer array
     <mark>answer[index++] = u;</mark>
     return false;
