@@ -16,8 +16,6 @@ For every node in the bigger tree s, we want to check if it is the same tree as 
 
 <iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="100%" height="255"></iframe>
 
-<iframe src="https://leetcode.com/playground/YxKD2YGD/shared" frameBorder="0" width="400" height="300"></iframe>
-
 For more details or alternate implementations of `isSameTree()`, check out my explanation of LeetCode problem [Same Tree](../0100_Same-Tree/Explanation.md).
 
 ### Complexity Analysis
